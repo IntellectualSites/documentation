@@ -101,10 +101,7 @@ Informational, debug and help commands
 ---
 
 ### *Utility Commands*
-
-____
 Various utility commands
-____
 
 ---
 
@@ -240,11 +237,7 @@ Flags: +
 ---
 
 ### *Region Commands*
-
-____
 Commands that operate on regions
-____
-
 ---
 
 #### //replace [from-mask] <to-pattern> [-f]
@@ -410,11 +403,7 @@ to fetch. See also tinyurl.com/wesyntax.
 ---
 
 ### *Selection Commands*
-
-____
 Change your selection points, mode or view info about your selection
-____
-
 ---
 
 #### //count <block> [-d]
@@ -514,11 +503,7 @@ The -d flag separates blocks by data
 ---
 
 ### *History Commands*
-
-____
 Commands to undo, redo, and clear history
-____
-
 ---
 
 #### //clearhistory
@@ -550,11 +535,7 @@ ____
 ---
 
 ### *Schematic Commands*
-
-____
 Commands that work with schematic files
-____
-
 ---
 
 #### /schematic clear
@@ -614,11 +595,7 @@ The -r flag will apply random rotation
 ---
 
 ### *Clipboard Commands*
-
-____
 Related commands to copy and pasting blocks
-____
-
 ---
 
 #### //copy  [-e] [-m]
@@ -710,11 +687,7 @@ Flags: +
 ---
 
 ### *Generation Commands*
-
-____
 Create structures and features
-____
-
 ---
 
 #### //image <imgur> [randomize=true] [complexity=100] [dimensions]
@@ -820,11 +793,7 @@ See also tinyurl.com/wesyntax.
 ---
 
 ### *Biome Commands*
-
-____
 Change, list and inspect biomes
-____
-
 ---
 
 #### //setbiome <biome> [-p]
@@ -850,11 +819,7 @@ By default use all the blocks contained in your selection. +
 ---
 
 ### *Super Pickaxe Commands*
-
-____
 Super-pickaxe commands
-____
-
 ---
 
 #### /sp recur <radius>
@@ -875,11 +840,7 @@ ____
 ---
 
 ### *Navigation Commands*
-
-____
 Commands for moving the player around
-____
-
 ---
 
 #### /unstuck
@@ -920,11 +881,7 @@ ____
 ---
 
 ### *Snapshot Commands*
-
-____
 List, load and view information related to snapshots
-____
-
 ---
 
 #### /snapshot list [num]
@@ -966,19 +923,15 @@ ____
 ---
 
 ### *Scripting Commands*
-
-____
 Run craftscripts
-____
-
 ---
 
-==== +/cs <filename> [args...]+
+#### +/cs <filename> [args...]+
 
 *Perm*: `worldedit.scripting.execute`  +
 *Desc*: Execute a CraftScript
 
-==== +/.s [args...]+
+#### +/.s [args...]+
 
 *Perm*: `worldedit.scripting.execute`  +
 *Desc*: Execute last CraftScript
@@ -986,10 +939,7 @@ ____
 ---
 
 ### *Chunk Commands*
-
-____
 Inspect chunks
-____
 
 ---
 
@@ -1010,10 +960,7 @@ ____
 ---
 
 ### *Options Commands*
-
-____
 Player toggles, settings and item info
-____
 
 ---
 
@@ -1057,10 +1004,7 @@ Flags: +
 ---
 
 ### *Brush Options Commands*
-
-____
 Tool commands
-____
 
 ---
 
@@ -1164,10 +1108,7 @@ use the -g flag to save globally
 ---
 
 ### *Tool Commands*
-
-____
 Bind functions to held items
-____
 
 ---
 
@@ -1219,10 +1160,7 @@ ____
 ---
 
 ### *Brush Commands*
-
-____
 Commands to build and draw from far away
-____
 
 ---
 
@@ -1236,7 +1174,7 @@ The -a flag Will apply auto view based rotation on paste +
 Note: Works well with the clipboard scroll action +
 Video: https://www.youtube.com/watch?v=RPZIaTbqoZw
 
-==== +/brush command <radius> [cmd1;cmd2...]+
+#### +/brush command <radius> [cmd1;cmd2...]+
 
 *Perm*: `worldedit.brush.command`  +
 *Desc*: Run the commands at the clicked position. +
@@ -1249,7 +1187,7 @@ Video: https://www.youtube.com/watch?v=RPZIaTbqoZw
 *Desc*: Chooses the scatter schematic brush. +
 The -r flag will apply random rotation
 
-==== +/brush scmd <scatter-radius> <points> <cmd-radius=1> <cmd1;cmd2...>+
+#### +/brush scmd <scatter-radius> <points> <cmd-radius=1> <cmd1;cmd2...>+
 
 *Perm*: `worldedit.brush.scattercommand`  +
 *Desc*: Run commands at random points on a surface +
@@ -1454,7 +1392,7 @@ Video: https://youtu.be/RPZIaTbqoZw?t=34s
 
 ---
 
-=== */Masks*
+### */Masks*
 
 Masks determine if a block can be placed
 
@@ -1465,55 +1403,55 @@ e.g. >[stone,dirt],#light[0][5],$jungle
 
 ---
 
-==== #offset <dx> <dy> <dz> <mask>
+### #offset <dx> <dy> <dz> <mask>
 
 *Desc*: Offset a mask
 
-==== % <chance>
+#### % <chance>
 
 *Desc*: percentage chance
 
-==== #id
+### #id
 
 *Desc*: Restrict to initial id
 
-==== #existing
+### #existing
 
 *Desc*: If there is a non-air block
 
-==== #data
+### #data
 
 *Desc*: Restrict to initial data
 
-==== { <min> <max>
+### { <min> <max>
 
 *Desc*: Restricts blocks to within a specific radius range of the initial block
 
-==== #surface
+### #surface
 
 *Desc*: Restrict to surfaces (any solid block touching air)
 
-==== = <expression>
+### = <expression>
 
 *Desc*: expression mask
 
-==== ! <mask>
+### ! <mask>
 
 *Desc*: Negate another mask
 
-==== $ <biome>
+### $ <biome>
 
 *Desc*: in a specific biome. For a list of biomes use //biomelist
 
-==== #region
+### #region
 
 *Desc*: inside the provided selection
 
-==== ~ <mask> [min=1] [max=8]
+### ~ <mask> [min=1] [max=8]
 
 *Desc*: Adjacent to a specific number of other blocks
 
-==== \ <min> <max>
+### \ <min> <max>
 
 *Desc*: Restrict to specific terrain angle +
 The -o flag will only overlayExample: /[0d][45d] +
@@ -1521,35 +1459,35 @@ Explanation: Allows any block where the adjacent block is between 0 and 45 degre
 Example: /[3][20] +
 Explanation: Allows any block where the adjacent block is between 3 and 20 blocks below
 
-==== #dregion
+### #dregion
 
 *Desc*: inside the player's selection
 
-==== #xaxis
+### #xaxis
 
 *Desc*: Restrict to initial x axis
 
-==== #skylight <min> <max>
+### #skylight <min> <max>
 
 *Desc*: Restrict to specific sky light levels
 
-==== #blocklight <min> <max>
+### #blocklight <min> <max>
 
 *Desc*: Restrict to specific block light levels
 
-==== #opacity <min> <max>
+### #opacity <min> <max>
 
 *Desc*: Restrict to specific opacity levels
 
-==== #haslight
+### #haslight
 
 *Desc*: Restricts to blocks with light (sky or emitted)
 
-==== #brightness <min> <max>
+### #brightness <min> <max>
 
 *Desc*: Restrict to specific block brightness
 
-==== #liquid
+### #liquid
 
 *Desc*: If there is a solid block
 
@@ -1557,7 +1495,7 @@ Explanation: Allows any block where the adjacent block is between 3 and 20 block
 
 *Desc*: Always true
 
-==== #nolight
+### #nolight
 
 *Desc*: Restrict to blocks without light (sky or emitted)
 
@@ -1565,43 +1503,43 @@ Explanation: Allows any block where the adjacent block is between 3 and 20 block
 
 *Desc*: Always false
 
-==== #iddata
+### #iddata
 
 *Desc*: Restrict to initial block id and data
 
-==== > <mask>
+### > <mask>
 
 *Desc*: above a specific block
 
-==== | <mask> <min> <max>
+### | <mask> <min> <max>
 
 *Desc*: sides with a specific number of other blocks
 
-==== #wall
+### #wall
 
 *Desc*: Restrict to walls (any block n,e,s,w of air)
 
-==== #zaxis
+### #zaxis
 
 *Desc*: Restrict to initial z-axis
 
-==== #yaxis
+### #yaxis
 
 *Desc*: Restrict to initial y-axis
 
-==== < <mask>
+### < <mask>
 
 *Desc*: below a specific block
 
-==== #simplex <scale=10> <min=0> <max=100>
+### #simplex <scale=10> <min=0> <max=100>
 
 *Desc*: Use simplex noise as the mask
 
-==== #light <min> <max>
+### #light <min> <max>
 
 *Desc*: Restrict to specific light levels
 
-==== #solid
+### #solid
 
 *Desc*: If there is a solid block
 
@@ -1609,7 +1547,7 @@ Also see: https://worldedit.enginehub.org/en/latest/usage/general/masks/#availab
 
 ---
 
-=== */Patterns*
+### */Patterns*
 
 Patterns determine what blocks are placed
 
@@ -1619,113 +1557,113 @@ e.g. #surfacespread[10][#existing],andesite
 
 ---
 
-==== #offset <dx> <dy> <dz> <pattern>
+### #offset <dx> <dy> <dz> <pattern>
 
 *Desc*: Offset a pattern
 
-==== #mask <mask> <pattern-true> <pattern-false>
+### #mask <mask> <pattern-true> <pattern-false>
 
 *Desc*: Apply a pattern depending on a mask
 
-==== #spread <dx> <dy> <dz> <pattern>
+### #spread <dx> <dy> <dz> <pattern>
 
 *Desc*: Randomly spread blocks
 
-==== #buffer <pattern>
+### #buffer <pattern>
 
 *Desc*: Only place a block once while a pattern is in use +
 Use with a brush when you don't want to apply to the same spot twice
 
-==== #color <r> <g> <b>
+### #color <r> <g> <b>
 
 *Desc*: Use the block closest to a specific color
 
-==== #clipboard
+### #clipboard
 
 *Desc*: Use the blocks in your clipboard as the pattern
 
-==== #existing
+### #existing
 
 *Desc*: Use the block that is already there
 
-==== #biome <biome>
+### #biome <biome>
 
 *Desc*: Set the biome
 
-==== = <expression>
+### = <expression>
 
 *Desc*: Expression pattern
 
-==== #relative <pattern>
+### #relative <pattern>
 
 *Desc*: Offset the pattern to where you click
 
-==== #saturate <r> <g> <b> <a>
+### #saturate <r> <g> <b> <a>
 
 *Desc*: Saturate the existing block with a color
 
-==== #darken
+### #darken
 
 *Desc*: Darken the existing block
 
-==== #anglecolor <distance>
+### #anglecolor <distance>
 
 *Desc*: A darker block based on the existing terrain angle
 
-==== #desaturate <percent>
+### #desaturate <percent>
 
 *Desc*: Desaturated color of the existing block
 
-==== #averagecolor <r> <g> <b> <a>
+### #averagecolor <r> <g> <b> <a>
 
 *Desc*: Average between the existing block and a color
 
-==== #fullcopy [schem|folder|url=#copy] [rotate=false] [flip=false]
+### #fullcopy [schem|folder|url=#copy] [rotate=false] [flip=false]
 
 *Desc*: Places your full clipboard at each block
 
-==== #buffer2d <pattern>
+### #buffer2d <pattern>
 
 *Desc*: Only place a block once in a column while a pattern is in use
 
-==== #lighten
+### #lighten
 
 *Desc*: Lighten the existing block
 
-==== #!x <pattern>
+### #!x <pattern>
 
 *Desc*: The pattern will not be provided the z axis info. +
 Example: #!x[#!z[#~[#l3d[pattern]]]]
 
-==== #surfacespread <distance> <pattern>
+### #surfacespread <distance> <pattern>
 
 *Desc*: Applies to only blocks on a surface. Selects a block from provided pattern with a given randomized offset [0, +++<distance>+++). e.g. Use `#existing` to randomly offset blocks in the world, or `#copy` to offset blocks in your clipboard+++</distance>+++
 
-==== #solidspread <dx> <dy> <dz> <pattern>
+### #solidspread <dx> <dy> <dz> <pattern>
 
 *Desc*: Randomly spread solid blocks
 
-==== #linear2d <pattern> [xscale=1] [zscale=1]
+### #linear2d <pattern> [xscale=1] [zscale=1]
 
 *Desc*: Use the x,z coordinate to pick a block from the list
 
-==== #!y <pattern>
+### #!y <pattern>
 
 *Desc*: The pattern will not be provided the y axis info
 
-==== #linear3d <pattern> [xscale=1] [yscale=1] [zscale=1]
+### #linear3d <pattern> [xscale=1] [yscale=1] [zscale=1]
 
 *Desc*: Use the x,y,z coordinate to pick a block from the list
 
-==== #linear <pattern>
+### #linear <pattern>
 
 *Desc*: Sequentially set blocks from a list of patterns
 
-==== #!z <pattern>
+### #!z <pattern>
 
 *Desc*: The pattern will not be provided the z axis info
 
-==== #simplex <scale=10> <pattern>
+### #simplex <scale=10> <pattern>
 
 *Desc*: Use simplex noise to randomize blocks
 
@@ -1733,7 +1671,7 @@ Also see: https://worldedit.enginehub.org/en/latest/usage/general/patterns/#avai
 
 ---
 
-=== */Transforms*
+### */Transforms*
 
 * Use [brackets] for arguments
 * Use , to OR multiple
@@ -1741,37 +1679,37 @@ Also see: https://worldedit.enginehub.org/en/latest/usage/general/patterns/#avai
 
 ---
 
-==== #offset <dx> <dy> <dz> [transform]
+### #offset <dx> <dy> <dz> [transform]
 
 *Desc*: Offset transform
 
-==== #rotate <rotateX> <rotateY> <rotateZ> [transform]
+### #rotate <rotateX> <rotateY> <rotateZ> [transform]
 
 *Desc*: All changes will be rotated around the initial position
 
-==== #scale <dx> <dy> <dz> [transform]
+### #scale <dx> <dy> <dz> [transform]
 
 *Desc*: All changes will be scaled
 
-==== #pattern <pattern> [transform]
+### #pattern <pattern> [transform]
 
 *Desc*: Always use a specific pattern
 
-==== #linear3d <transform>
+### #linear3d <transform>
 
 *Desc*: Use the x,y,z coordinate to pick a transform from the list
 
-==== #linear <transform>
+### #linear <transform>
 
 *Desc*: Sequentially pick from a list of transform
 
-==== #spread <dx> <dy> <dz> [transform]
+### #spread <dx> <dy> <dz> [transform]
 
 *Desc*: Random offset transform
 
 ---
 
-=== *Create From Image (Currently not implemented)*
+### *Create From Image (Currently not implemented)*
 
 ____
 Create a world from images
