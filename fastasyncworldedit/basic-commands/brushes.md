@@ -61,8 +61,8 @@ With FAWE you can visualize how the brush will change blocks:
 * 1 = Single point
 * 2 = All block changes are visualized
 
-[Video](https://www.youtube.com/watch?v=xX-MTSLoNXw)+
-[image](https://i.imgur.com/J2g6Qfn.jpeg)
+![Video](https://www.youtube.com/watch?v=xX-MTSLoNXw)+
+![image](https://i.imgur.com/J2g6Qfn.jpeg)
 
 ### Brushes:
 
