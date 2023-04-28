@@ -26,7 +26,7 @@ See also:
 * [Masks](../masks/masks.md)
 * [Patterns](../patterns/patterns.md)
 * [Transforms](../transforms/transforms.md)
-
+<!--
 ## Content
 
 Click on a category to go to the list of commands, or `More Info` for detailed descriptions
@@ -52,7 +52,7 @@ Click on a category to go to the list of commands, or `More Info` for detailed d
 * <<_masks,`/Masks`>> (Help for the various masks. )
 * <<_patterns_,`/Patterns`>> (Help for the various patterns.)
 * <<_transforms_,`/Transforms`>> (Help for the various transforms.)
-* <<_create_from_image_currently_not_implemented,`Create From Image`>> (Create a world from images, currently not implemented)
+* <<_create_from_image_currently_not_implemented,`Create From Image`>> (Create a world from images, currently not implemented) -->
 
 ### Uncategorized
 
