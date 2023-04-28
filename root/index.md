@@ -1,10 +1,10 @@
-# Welcome to the documentation home of IntellectualSites!
+# Documentation
 
 From here, you can navigate to the documentation of:
 
-- [FastAsyncWorldEdit](fastasyncworldedit)
-- [FastAsyncVoxelSniper](fastasyncvoxelsniper)
-- [PlotSquared](plotsquared)
+- [FastAsyncWorldEdit](https://intellectualsites.gitbook.io/fastasyncworldedit/)
+- [FastAsyncVoxelSniper](https://intellectualsites.gitbook.io/fastasyncvoxelsniper/)
+- [PlotSquared](https://intellectualsites.gitbook.io/plotsquared/)
 
 ## Contributing
 
