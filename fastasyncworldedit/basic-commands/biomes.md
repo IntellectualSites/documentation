@@ -15,7 +15,7 @@ Get a list of all available biomes in Bukkit.
 
 ### Visual Example
 
-[biomelist.png](https://i.imgur.com/mvdiNnQ.png)
+![biomelist.png](https://i.imgur.com/mvdiNnQ.png)
 
 ## Biomeinfo
 
@@ -37,11 +37,11 @@ Biomes are independent of the Y-Axis in version *prior* to 1.16. From 1.16 and o
 
 ### Visual Examples
 
-[biomeinfo.png](https://i.imgur.com/PxB1JOG.png)
+![biomeinfo.png](https://i.imgur.com/PxB1JOG.png)
 
-[biomeinfo-p.png](https://i.imgur.com/I2hD28o.png)
+![biomeinfo-p.png](https://i.imgur.com/I2hD28o.png)
 
-[biomeinfo-t.png](https://i.imgur.com/R5G8XP9.png)
+![biomeinfo-t.png](https://i.imgur.com/R5G8XP9.png)
 
 ## Setbiome
 
@@ -62,6 +62,6 @@ Biomes are independent of the Y-Axis in version *prior* to 1.16. From 1.16 and o
 
 ### Visual Examples
 
-[setbiome.png](https://i.imgur.com/ut2Im7O.png)
+![setbiome.png](https://i.imgur.com/ut2Im7O.png)
 
-[setbiome-p.png](https://i.imgur.com/MxdpUFK.png)
+![setbiome-p.png](https://i.imgur.com/MxdpUFK.png)
