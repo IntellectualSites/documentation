@@ -56,13 +56,12 @@ Click on a category to go to the list of commands, or `More Info` for detailed d
 
 ### Uncategorized
 
-|===
-|Aliases |Permission |Flags |Usage
+|--------|-----------|------|-----|
+|Aliases |Permission |Flags |Usage|
 
-|//cancel |fawe.cancel | None | Cancels your current operations
-|/plot replaceall |plots.replaceall | None | Replace all blocks in the plot world
-|Column 4, row 1
-|===
+|//cancel |fawe.cancel | None | Cancels your current operations|
+|/plot replaceall |plots.replaceall | None | Replace all blocks in the plot world|
+
 
 ### *World Edit Commands*
 Informational, debug and help commands
@@ -99,7 +98,7 @@ Informational, debug and help commands
 
 *Desc*: Set your timezone for snapshots
 
-'''
+---
 
 ### *Utility Commands*
 
@@ -107,7 +106,7 @@ ____
 Various utility commands
 ____
 
-'''
+---
 
 #### /remove <type> <radius>
 
@@ -238,7 +237,7 @@ Flags: +
 *Perm*: `fawe.admin` +
 *Desct*: Generates the heightmap interface
 
-'''
+---
 
 ### *Region Commands*
 
@@ -246,7 +245,7 @@ ____
 Commands that operate on regions
 ____
 
-'''
+---
 
 #### //replace [from-mask] <to-pattern> [-f]
 
@@ -408,7 +407,7 @@ to fetch. See also tinyurl.com/wesyntax.
 *Perm*: `fawe.worldeditregion`  +
 *Desc*: Select your current allowed region
 
-'''
+---
 
 ### *Selection Commands*
 
@@ -416,7 +415,7 @@ ____
 Change your selection points, mode or view info about your selection
 ____
 
-'''
+---
 
 #### //count <block> [-d]
 
@@ -512,7 +511,7 @@ Flags: +
 The -c flag gets the distribution of your clipboard. +
 The -d flag separates blocks by data
 
-'''
+---
 
 ### *History Commands*
 
@@ -520,7 +519,7 @@ ____
 Commands to undo, redo, and clear history
 ____
 
-'''
+---
 
 #### //clearhistory
 
@@ -548,7 +547,7 @@ ____
 *Desc*: Undo a specific edit.  - The time uses s, m, h, d, y. +
 - Import from disk: /frb #import
 
-'''
+---
 
 ### *Schematic Commands*
 
@@ -556,7 +555,7 @@ ____
 Commands that work with schematic files
 ____
 
-'''
+---
 
 #### /schematic clear
 
@@ -612,7 +611,7 @@ The -r flag will apply random rotation
 *Desc*: List all schematics in the schematics directory +
 -f +++<format>+++restricts by format+++</format>+++
 
-'''
+---
 
 ### *Clipboard Commands*
 
@@ -620,7 +619,7 @@ ____
 Related commands to copy and pasting blocks
 ____
 
-'''
+---
 
 #### //copy  [-e] [-m]
 
@@ -708,7 +707,7 @@ Flags: +
 *Perm*: `worldedit.clipboard.clear`  +
 *Desc*: Clear your clipboard
 
-'''
+---
 
 ### *Generation Commands*
 
@@ -716,7 +715,7 @@ ____
 Create structures and features
 ____
 
-'''
+---
 
 #### //image <imgur> [randomize=true] [complexity=100] [dimensions]
 
@@ -818,7 +817,7 @@ Flags: +
 If neither -r nor -o is given, the selection is mapped to -1..1 +
 See also tinyurl.com/wesyntax.
 
-'''
+---
 
 ### *Biome Commands*
 
@@ -826,7 +825,7 @@ ____
 Change, list and inspect biomes
 ____
 
-'''
+---
 
 #### //setbiome <biome> [-p]
 
@@ -848,7 +847,7 @@ By default use all the blocks contained in your selection. +
 -t use the block you are looking at. +
 -p use the block you are currently in
 
-'''
+---
 
 ### *Super Pickaxe Commands*
 
@@ -856,7 +855,7 @@ ____
 Super-pickaxe commands
 ____
 
-'''
+---
 
 #### /sp recur <radius>
 
@@ -873,7 +872,7 @@ ____
 *Perm*: `worldedit.superpickaxe`  +
 *Desc*: Enable the single block super pickaxe mode
 
-'''
+---
 
 ### *Navigation Commands*
 
@@ -881,7 +880,7 @@ ____
 Commands for moving the player around
 ____
 
-'''
+---
 
 #### /unstuck
 
@@ -918,7 +917,7 @@ ____
 *Perm*: `worldedit.navigation.descend`  +
 *Desc*: Go down a floor
 
-'''
+---
 
 ### *Snapshot Commands*
 
@@ -926,7 +925,7 @@ ____
 List, load and view information related to snapshots
 ____
 
-'''
+---
 
 #### /snapshot list [num]
 
@@ -953,18 +952,18 @@ ____
 *Perm*: `worldedit.snapshots.restore`  +
 *Desc*: Choose the snapshot based on the list id
 
-'''
+---
 
 ### *Snapshot Util Commands*
 
-'''
+---
 
 #### /restore [snapshot]
 
 *Perm*: `worldedit.snapshots.restore`  +
 *Desc*: Restore the selection from a snapshot
 
-'''
+---
 
 ### *Scripting Commands*
 
@@ -972,7 +971,7 @@ ____
 Run craftscripts
 ____
 
-'''
+---
 
 ==== +/cs <filename> [args...]+
 
@@ -984,7 +983,7 @@ ____
 *Perm*: `worldedit.scripting.execute`  +
 *Desc*: Execute last CraftScript
 
-'''
+---
 
 ### *Chunk Commands*
 
@@ -992,7 +991,7 @@ ____
 Inspect chunks
 ____
 
-'''
+---
 
 #### /chunkinfo
 
@@ -1008,7 +1007,7 @@ ____
 *Perm*: `worldedit.listchunks`  +
 *Desc*: List chunks that your selection includes
 
-'''
+---
 
 ### *Options Commands*
 
@@ -1016,7 +1015,7 @@ ____
 Player toggles, settings and item info
 ____
 
-'''
+---
 
 #### //fast [on|off]
 
@@ -1055,7 +1054,7 @@ Flags: +
 *Perm*: `fawe.tips`  +
 *Desc*: Toggle FAWE tips
 
-'''
+---
 
 ### *Brush Options Commands*
 
@@ -1063,7 +1062,7 @@ ____
 Tool commands
 ____
 
-'''
+---
 
 #### /target [1 - 4]
 
@@ -1162,7 +1161,7 @@ use the -g flag to save globally
 *Perm*: `worldedit.brush.scroll`  +
 *Desc*: Toggle between different target modes
 
-'''
+---
 
 ### *Tool Commands*
 
@@ -1170,7 +1169,7 @@ ____
 Bind functions to held items
 ____
 
-'''
+---
 
 #### /tool tree [type]
 
@@ -1217,7 +1216,7 @@ ____
 *Perm*: `worldedit.tool.deltree`  +
 *Desc*: Floating tree remover tool
 
-'''
+---
 
 ### *Brush Commands*
 
@@ -1225,7 +1224,7 @@ ____
 Commands to build and draw from far away
 ____
 
-'''
+---
 
 #### /brush copypaste [depth=5]
 
@@ -1453,7 +1452,7 @@ The -n flag makes it only consider naturally occurring blocks.
 The -o flag will overlay the block +
 Video: https://youtu.be/RPZIaTbqoZw?t=34s
 
-'''
+---
 
 === */Masks*
 
@@ -1464,7 +1463,7 @@ Masks determine if a block can be placed
 * Use & to AND multiple
 e.g. >[stone,dirt],#light[0][5],$jungle
 
-'''
+---
 
 ==== #offset <dx> <dy> <dz> <mask>
 
@@ -1608,7 +1607,7 @@ Explanation: Allows any block where the adjacent block is between 3 and 20 block
 
 Also see: https://worldedit.enginehub.org/en/latest/usage/general/masks/#available-masks
 
-'''
+---
 
 === */Patterns*
 
@@ -1618,7 +1617,7 @@ Patterns determine what blocks are placed
 * Use , to OR multiple
 e.g. #surfacespread[10][#existing],andesite
 
-'''
+---
 
 ==== #offset <dx> <dy> <dz> <pattern>
 
@@ -1732,7 +1731,7 @@ Example: #!x[#!z[#~[#l3d[pattern]]]]
 
 Also see: https://worldedit.enginehub.org/en/latest/usage/general/patterns/#available-patterns
 
-'''
+---
 
 === */Transforms*
 
@@ -1740,7 +1739,7 @@ Also see: https://worldedit.enginehub.org/en/latest/usage/general/patterns/#avai
 * Use , to OR multiple
 * Use & to AND multiple
 
-'''
+---
 
 ==== #offset <dx> <dy> <dz> [transform]
 
@@ -1770,7 +1769,7 @@ Also see: https://worldedit.enginehub.org/en/latest/usage/general/patterns/#avai
 
 *Desc*: Random offset transform
 
-'''
+---
 
 === *Create From Image (Currently not implemented)*
 
@@ -1778,7 +1777,7 @@ ____
 Create a world from images
 ____
 
-'''
+---
 
 #### /cfi update
 
@@ -2005,4 +2004,4 @@ e.g. Bedrock
 *Perm*: `worldedit.anvil.cfi`  +
 *Desc*: Start CFI with a height map as a base
 
-'''
+---
