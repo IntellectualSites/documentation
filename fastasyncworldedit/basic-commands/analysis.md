@@ -18,7 +18,7 @@ More information regarding the NBT format can be found https://minecraft.gameped
 
 *Visual Example:*
 
-[nbtinfo.png](https://i.imgur.com/dNAu8xR.png)
+![nbtinfo.png](https://i.imgur.com/dNAu8xR.png)
 
 ## Chunkinfo
 
@@ -41,7 +41,7 @@ With kbd:[F3 + G] you see the chunk border.
 
 ### Visual Example
 
-[chunkinfo.png](https://i.imgur.com/tzRoWmB.png)
+![chunkinfo.png](https://i.imgur.com/tzRoWmB.png)
 
 ### Distr
 
@@ -68,10 +68,10 @@ Secondary:
 ### Visual Examples
 
 ( 1 )
-[distr.png](https://i.imgur.com/MA3YAnj.png)
+![distr.png](https://i.imgur.com/MA3YAnj.png)
 
 ( 2 )
-[distr-d.png](https://i.imgur.com/rd5Dkz4.png)
+![distr-d.png](https://i.imgur.com/rd5Dkz4.png)
 
 ## Count
 
@@ -87,7 +87,7 @@ With this command you get the count of a certain type of block in your selection
 
 ### Visual Example
 
-[count.png](https://i.imgur.com/v5d7qps.png)
+![count.png](https://i.imgur.com/v5d7qps.png)
 
 ## Size
 
@@ -105,28 +105,28 @@ With this command you get different measurements and other info about your selec
 
 [size_chatoutput.png](https://i.imgur.com/O0HHzyW.png)
 
-. selection-type
-. type specific selection-infos
-. max. size of length, height and width
-. diagonal distance in block-length
-. amount of blocks (with AIR)
+1. selection-type
+2. type specific selection-infos
+3. max. size of length, height and width
+4. diagonal distance in block-length
+5. amount of blocks (with AIR)
 
 ### Analyzing a clipboard
 
-[size-d_chatoutput_selection.png](https://i.imgur.com/JffswW6.png)
+![size-d_chatoutput_selection.png](https://i.imgur.com/JffswW6.png)
 
-. clipboard-list number
-. cuboid size of length, height and width
-. position of your copy (important for the schematic offset)
-. amount of blocks (with AIR)
+1. clipboard-list number
+2. cuboid size of length, height and width
+3. position of your copy (important for the schematic offset)
+4. amount of blocks (with AIR)
 
 ### Analyzing a schematic
 
-[size-d_chatoutput_schematic.png](https://i.imgur.com/NqfkzeB.png)
+![size-d_chatoutput_schematic.png](https://i.imgur.com/NqfkzeB.png)
 
-. schematic name
-. cuboid size of length, height and width
-. schematic offset (distance between one of the corner and your save-position)
-. amount of blocks (with AIR)
+1. schematic name
+2. cuboid size of length, height and width
+3. schematic offset (distance between one of the corner and your save-position)
+4. amount of blocks (with AIR)
 
 (Note, that a schematic always has a cuboid form.)
