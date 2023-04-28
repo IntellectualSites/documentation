@@ -41,8 +41,8 @@ Changing the `//brush range` can also be useful.  +
 Use the mouse wheel to change brush behavior
 
 * `/br scroll clipboard <file|folder|asset url>`
-* `+/br scroll mask <mask1> <mask2...>+`
-* `+/br scroll pattern <mat1> <mat2...>+`
+* `/br scroll mask <mask1> <mask2...>`
+* `/br scroll pattern <mat1> <mat2...>`
 * `/br scroll range`
 * `/br scroll size`
 * `/br scroll target`
@@ -61,7 +61,7 @@ With FAWE you can visualize how the brush will change blocks:
 * 1 = Single point
 * 2 = All block changes are visualized
 
-![Video](https://www.youtube.com/watch?v=xX-MTSLoNXw)+
+![Video](https://www.youtube.com/watch?v=xX-MTSLoNXw)
 ![image](https://i.imgur.com/J2g6Qfn.jpeg)
 
 ### Brushes:
