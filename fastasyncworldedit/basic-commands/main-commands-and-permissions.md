@@ -17,15 +17,15 @@ To view this information ingame use `//help [category|command]`
 
 See also:
 
-* xref:biomes.adoc[Biomes]
-* xref:brushes.adoc[Brushes]
-* xref:geometry.adoc[Geometry]
-* xref:nature.adoc[Nature]
-* xref:navigation.adoc[Navigation]
-* xref:selection.adoc[Selection]
-* xref:../masks/masks.adoc[Masks]
-* xref:../patterns/patterns.adoc[Patterns]
-* xref:../transforms/transforms.adoc[Transforms]
+* [Biomes](biomes.md)
+* [Brushes](brushes.md)
+* [Geometry](geometry.md)
+* [Nature](nature.md)
+* [Navigation](navigation.md)
+* [Selection](selection.md)
+* [Masks](../masks/masks.md)
+* [Patterns](../patterns/patterns.md)
+* [Transforms](../transforms/transforms.md)
 
 ## Content
 
