@@ -30,7 +30,7 @@ If a command or permission contains the `Secondary` description, it means that a
 {% endhint %}
 
 {% hint style="info" %}
-You can check out our xref:permission/permission-packs.adoc[permission-packs] to avoid redundant permission assignments.
+You can check out our [permission-packs](/permission-pack) to avoid redundant permission assignments.
 {% endhint %}
 
 ## Basics
