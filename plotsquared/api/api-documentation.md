@@ -17,39 +17,36 @@ If you are looking for snapshots, add the repository of S01 OSS Sonatype (`https
 
 If you need to access the Bukkit module of PlotSquared, copy the example below.
 
-[source, kotlin, subs="attributes"]
-----
+```kotlin
 repositories {
     mavenCentral()
     maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-1.18.x:{bomVersion}"))
+    implementation(platform("com.intellectualsites.bom:bom-1.18.x:1.32"))
     compileOnly("com.plotsquared:PlotSquared-Core")
 }
-----
+```
 
 ### Gradle - PlotSquared Core and Bukkit
 
-[source, kotlin, subs="attributes"]
-----
+```kotlin
 repositories {
     mavenCentral()
     maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-1.18.x:{bomVersion}"))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.32"))
     compileOnly("com.plotsquared:PlotSquared-Core")
     compileOnly("com.plotsquared:PlotSquared-Bukkit") { isTransitive = false }
 }
-----
+```
 
 ### Maven - PlotSquared Core
 
-[source, xml, subs="attributes, verbatim"]
-----
+```xml
 <repositories>
     <repository>
         <id>papermc</id>
@@ -60,8 +57,8 @@ dependencies {
     <dependencies>
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
-            <artifactId>bom-1.18.x</artifactId>
-            <version>{bomVersion}</version>
+            <artifactId>bom-newest</artifactId>
+            <version>1.32</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -74,12 +71,11 @@ dependencies {
         <scope>provided</scope>
     </dependency>
 </dependencies>
-----
+```
 
 ### Maven - PlotSquared Core and Bukkit
 
-[source, xml, subs="attributes, verbatim"]
-----
+```xml
 <repositories>
     <repository>
         <id>papermc</id>
@@ -87,45 +83,45 @@ dependencies {
     </repository>
 </repositories>
 <dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>com.intellectualsites.bom</groupId>
-            <artifactId>bom-1.18.x</artifactId>
-            <version>{bomVersion}</version>
-            <scope>import</scope>
-            <type>pom</type>
-        </dependency>
-    </dependencies>
-</dependencyManagement>
 <dependencies>
     <dependency>
-        <groupId>com.plotsquared</groupId>
-        <artifactId>PlotSquared-Core</artifactId>
-        <scope>provided</scope>
-    </dependency>
-
-    <dependency>
-        <groupId>com.plotsquared</groupId>
-        <artifactId>PlotSquared-Bukkit</artifactId>
-        <scope>provided</scope>
-        <exclusions>
-            <exclusion>
-                <artifactId>PlotSquared-Core</artifactId>
-                <groupId>*</groupId>
-            </exclusion>
-        </exclusions>
+        <groupId>com.intellectualsites.bom</groupId>
+        <artifactId>bom-1.18.x</artifactId>
+        <version>1.32</version>
+        <scope>import</scope>
+        <type>pom</type>
     </dependency>
 </dependencies>
-----
+</dependencyManagement>
+<dependencies>
+<dependency>
+    <groupId>com.plotsquared</groupId>
+    <artifactId>PlotSquared-Core</artifactId>
+    <scope>provided</scope>
+</dependency>
+
+<dependency>
+    <groupId>com.plotsquared</groupId>
+    <artifactId>PlotSquared-Bukkit</artifactId>
+    <scope>provided</scope>
+    <exclusions>
+        <exclusion>
+            <artifactId>PlotSquared-Core</artifactId>
+            <groupId>*</groupId>
+        </exclusion>
+    </exclusions>
+</dependency>
+</dependencies>
+```
 
 ### Useful classes for PlotSquared
 
-* https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/PlotAPI.java[PlotAPI]
-* https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/player/PlotPlayer.java[PlotPlayer]
-* https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/flag/FlagContainer.java[FlagContainer]
-* https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/util/SchematicHandler.java[SchematicHandler]
-* https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/util/ChunkManager.java[ChunkManager]
-* https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/uuid/UUIDPipeline.java[UUIDPipeline]
+* [PlotAPI](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/PlotAPI.java)
+* [PlotPlayer](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/player/PlotPlayer.java)
+* [FlagContainer](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/flag/FlagContainer.java)
+* [SchematicHandler](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/util/SchematicHandler.java)
+* [ChunkManager](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/util/ChunkManager.java)
+* [UUIDPipeline](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/uuid/UUIDPipeline.java)
 
 ## Tutorials
 
@@ -143,23 +139,23 @@ If you have made a tutorial, or an addon for PlotSquared, and want us to link it
 
 A plot area is any area that PlotSquared will manage/handle. If this is an infinite plot world, the entire world is considered to be a plot area. If you use plot clusters, then only part of the world will be a plot area, and anything outside this area will not be handled by PlotSquared.
 
-See: https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/world/PlotAreaManager.java[PlotAreaManager.java]#getPlotAreaByString(...)
+See: [PlotAreaManager.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/world/PlotAreaManager.java)`#getPlotAreaByString(...)`
 
 ### Clusters
 
 Clusters can be created within existing plot areas, or they can be created in a previously non-plot world, which will in turn create it's own plot area.
 
-See: https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/PlotCluster.java[PlotCluster.java]
-See: https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/PlotSquared.java[PlotSquared.java]
+See: [PlotCluster.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/PlotCluster.java)
+See: [PlotSquared.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/PlotSquared.java)
 
 ### Road
 
 A road is what separates each plot, and includes the wall around each plot. Attempting to get a plot at this location will return null.
 
-See: https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/location/Location.java[Location.java]#isPlotRoad(...)
+See: [Location.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/location/Location.java)`#isPlotRoad(...)`
 
 ### Plot
 
 A plot can be claimed or unclaimed. Getting a plot at a location where one isn't claimed will return a new unowned plot object.
 
-See: https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/PlotArea.java[PlotArea.java]#getPlots(...)
+See: [PlotArea.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/PlotArea.java)`#getPlots(...)`

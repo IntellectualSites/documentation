@@ -2,16 +2,15 @@
 
 ## Introduction
 
-PlotSquared uses the link:https://github.com/google/guava/wiki/EventBusExplained[Guava EventBus] to register listeners and dispatch events.
+PlotSquared uses the [Guava EventBus](https://github.com/google/guava/wiki/EventBusExplained) to register listeners and dispatch events.
 
 ## Event List
 
-Events can be found link:https://intellectualsites.github.io/plotsquared-javadocs/core/com/plotsquared/core/events/package-summary.html[here].
+Events can be found [here](https://intellectualsites.github.io/plotsquared-javadocs/core/com/plotsquared/core/events/package-summary.html).
 
 ## Getting an instance
 
-[source]
-----
+```java
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -26,14 +25,13 @@ public class MyPlotPlugin extends JavaPlugin {
        }
     }
 }
-----
+```
 
 ## Registering a Listener
 
 Registering a listener is super easy. Add the `@Subscribe` (from the `com.google.common.eventbus` package) annotation to any methods that are listening to events, register the class with the EventBus through `PlotAPI#registerListener(Class)` and you're done! One example:
 
-[source]
-----
+```java
 public class P2Listener {
 
   // if you like the dependency-injection-like approach:
@@ -53,5 +51,4 @@ public class P2Listener {
     //do stuff
   }
 }
-----
-
+```

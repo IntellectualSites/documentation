@@ -4,9 +4,13 @@
 
 ## About the plugin
 
-PlotSquared is a land and world management plugin. It includes several highly configurable world generators. You can create plots of land in existing worlds using plot clusters, or you can have a full world of plots.​
+PlotSquared is a land and world management plugin. It includes several highly configurable world generators. You can create plots of land in existing worlds using plot clusters, or you can have a full world of plots.
 
 **Supported versions:** 1.13 - 1.20
+
+{% hint style="tip" %}
+[Here](why-plotsquared.md) you can learn more about the advantages of Plotsquared.
+{% endhint %}
 
 ## Other Links
 
