@@ -2,11 +2,11 @@
 
 ## Maven & Gradle Examples
 
-* Javadocs: https://intellectualsites.github.io/plotsquared-javadocs/
-* Major upgrade diff: https://intellectualsites.github.io/plotsquared-api-diff/
+* Javadocs: [here](https://intellectualsites.github.io/plotsquared-javadocs)
+* Major upgrade diff: [here](https://intellectualsites.github.io/plotsquared-api-diff)
 
 {% hint style="tip" %}
-Gradle is the recommended when working with the PlotSquared API. Ensure the https://docs.gradle.org/current/userguide/toolchains.html[toolchain] points to Java 17 or higher.
+Gradle is the recommended when working with the PlotSquared API. Ensure the [toolchain](https://docs.gradle.org/current/userguide/toolchains.html) points to Java 17 or higher.
 {% endhint %}
 
 {% hint style="info" %}

@@ -1,4 +1,4 @@
-# Bock Buckets
+# Block Buckets
 
 ## Introduction
 
