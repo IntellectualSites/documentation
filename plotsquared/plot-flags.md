@@ -29,7 +29,7 @@ worlds:
 
 _`<world>` indicates the name of that plotworld._
 
-You can use [Vanilla block tags](/plotsquared/vanilla-tags.md) too.
+You can use [Vanilla block tags](vanilla-tags.md) too.
 
 The same works for road flags.
 
@@ -59,7 +59,7 @@ A list of blocks, supporting both legacy numerical IDs and new string IDs e.g.
 * `7,3` for bedrock and dirt
 * `35:14,35:15` for red and black wool
 
-These flags also support [vanilla-tags](/plotsquared/vanilla-tags), like:
+These flags also support [vanilla-tags](vanilla-tags.md), like:
 
 * `#signs` for all sign types
 * `#buttons` for all button types
@@ -112,7 +112,7 @@ To give a player access to a flag, you need to assign the following permissions,
 * `plots.flag.remove`
 
 {% hint style="info" %}
-Also, you can assign [`plots.permpack.basicflags`](/plotsquared/permission/permission-packs#_plots_permpack_basicflags) to cover the following permissions and lots of the basic flags.
+Also, you can assign [`plots.permpack.basicflags`](permission/permission-packs.md#plotspermpackbasicflags) to cover the following permissions and lots of the basic flags.
 {% endhint %}
 
 ### Flag specific permission
@@ -125,7 +125,7 @@ The asterisk covers the values of the flag, if it's a boolean flag you cover `tr
 The following tables contain phrases covering certain stances of plot member inheritance and flag states. We will explain the phrases used below.
 
 * Player: The player, as in user of the server.
-* Guest: Person who is not added to the plot [tiers](/plotsquared/plot-membership-tiers).
+* Guest: Person who is not added to the plot [tiers](plot-membership-tiers.md).
 * False: The flag intended behavior is not enabled by default.
 * True: The flag intended behavior is enabled by default.
 * None: The flag intended behavior is not set by default.

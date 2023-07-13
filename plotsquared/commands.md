@@ -13,24 +13,24 @@ PlotSquared have an amount of commands for different uses. At here you find the 
 
 command-categories:
 
-* [Basics](/plotsquared/commands#basics)
-* [Info](/plotsquared/commands#info)
-* [Teleport](/plotsquared/commands#teleport)
-* [Chat](/plotsquared/commands#chat)
-* [Claiming](/plotsquared/commands#claiming)
-* [Settings](/plotsquared/commands#settings)
-* [Schematic](/plotsquared/commands#schematic)
-* [Rating](/plotsquared/commands#rating)
-* [Administration](/plotsquared/commands#administration)
-* [Debug](/plotsquared/commands#debug)
-* [Other_permissions](/plotsquared/commands#other_permissions)
+* [Basics](#basics)
+* [Info](#info)
+* [Teleport](#teleport)
+* [Chat](#chat)
+* [Claiming](#claiming)
+* [Settings](#settings)
+* [Schematic](#schematic)
+* [Rating](#rating)
+* [Administration](#administration)
+* [Debug](#debug)
+* [Other_permissions](#other-permissions)
 
 {% hint style="info" %}
 If a command or permission contains the `Secondary` description, it means that a command supports several sub-commands or has several purposes. Furthermore, permissions with `.admin` contain administrative overrides.
 {% endhint %}
 
 {% hint style="info" %}
-You can check out our [permission-packs](/permission-pack) to avoid redundant permission assignments.
+You can check out our [permission-packs](permission/permission-packs.md) to avoid redundant permission assignments.
 {% endhint %}
 
 ## Basics
@@ -48,7 +48,7 @@ Get this help menu
 *Permissions:*
 `plots.use` - Access to the command `/plot help`
 
-*Source Code:* https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Help.java)
+*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Help.java)
 
 ### CONFIRM
 

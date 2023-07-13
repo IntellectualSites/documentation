@@ -37,6 +37,6 @@ That's it. The conversion is done.
 
 1. Get the latest PlotSquared v5 from [here](https://www.spigotmc.org/resources/plotsquared-v6.77506/download?version=402158). Replace your current version with v5 and launch the server. Ensure there are no errors or warnings and shut it down again. If you encounter errors or warnings read them carefully and do what they tell you to do. Ignoring them can lead to further issues down the line.
 2. Get the latest PlotSquared v6 from [here](https://www.spigotmc.org/resources/77506). Replace PlotSquared v5 with v6 and launch the server. Same procedure here, check your log and ensure no warnings or errors occur.
-Read over the [Changelog for v6](../old/changelog-old.dm) carefully to make sure you don't forgot manual updates down the line.
+Read over the [Changelog for v6](../old/changelog-old.md) carefully to make sure you don't forgot manual updates down the line.
 
 That's it. The conversion is done.

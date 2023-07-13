@@ -125,7 +125,7 @@ dependencies {
 
 ## Tutorials
 
-* [Getting an instance of PlotSquared](event-api.md#_getting_an_instance)
+* [Getting an instance of PlotSquared](event-api.md#getting-an-instance)
 * [Flag API](flag-api.md)
 * [Event API](event-api.md)
 

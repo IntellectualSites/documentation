@@ -28,7 +28,7 @@
 * Add amazing roads schematics and plot schematics to existing worlds
 * Easily change the message color scheme
 * Titles (entry notifications)
-* Per plot time / weather / music via [plot flags](/plotsqured/plot-flags)
+* Per plot time / weather / music via [plot flags](plot-flags)
 
 ## Support
 

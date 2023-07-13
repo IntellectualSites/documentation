@@ -6,7 +6,7 @@ With the following features you limit and reduce the size of your plotworld to s
 
 To prevent continued exploration, the world border can be enabled in each plotworld. The option can be found in the `worlds.yml` at `worlds.<world>.world.border`. The world border is based on the furthest plot from the origin `(0;0)` and will prevent chunks from being loaded outside this region.
 
-If you already have plots which are far away from the origin, the world border will not be very effective. For this situation you can use the [Plot condensation](world-reduction.md#_plot_condensation_intensive).
+If you already have plots which are far away from the origin, the world border will not be very effective. For this situation you can use the [Plot condensation](world-reduction.md#plot-condensation-intensive).
 
 ### Plot expiry
 
