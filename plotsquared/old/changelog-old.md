@@ -207,11 +207,11 @@ _Due to changes to plot components in this version, it is highly recommended usi
 
 ### Single Plot Area
 
-This version makes it a lot easier to create single plots in a non-plot world, making use of the WorldEdit selection want. You can now create plots anywhere you like and leverage the power of PlotSquared in all your worlds. Read more [here](/plotsquared/installation/single-plot-area).
+This version makes it a lot easier to create single plots in a non-plot world, making use of the WorldEdit selection want. You can now create plots anywhere you like and leverage the power of PlotSquared in all your worlds. Read more [here](../customization/single-plot-area.md).
 
 ### Plot Component GUI
 
-PlotSquared now allows you create component presets that can be used through a GUI. Read more [here](/plotsquared/installation/plot-components).
+PlotSquared now allows you create component presets that can be used through a GUI. Read more [here](../customization/plot-components.md).
 
 ### UUID System Remake
 
