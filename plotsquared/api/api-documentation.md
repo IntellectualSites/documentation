@@ -24,8 +24,8 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-1.18.x:1.32"))
-    compileOnly("com.plotsquared:PlotSquared-Core")
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.32"))
+    compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
 }
 ```
 
@@ -39,8 +39,8 @@ repositories {
 
 dependencies {
     implementation(platform("com.intellectualsites.bom:bom-newest:1.32"))
-    compileOnly("com.plotsquared:PlotSquared-Core")
-    compileOnly("com.plotsquared:PlotSquared-Bukkit") { isTransitive = false }
+    compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
+    compileOnly("com.intellectualsites.plotsquared:plotsquared-bukkit") { isTransitive = false }
 }
 ```
 
@@ -66,8 +66,8 @@ dependencies {
 </dependencyManagement>
 <dependencies>
     <dependency>
-        <groupId>com.plotsquared</groupId>
-        <artifactId>PlotSquared-Core</artifactId>
+        <groupId>com.intellectualsites.plotsquared</groupId>
+        <artifactId>plotsquared-core</artifactId>
         <scope>provided</scope>
     </dependency>
 </dependencies>
@@ -83,30 +83,30 @@ dependencies {
     </repository>
 </repositories>
 <dependencyManagement>
-<dependencies>
-    <dependency>
-        <groupId>com.intellectualsites.bom</groupId>
-        <artifactId>bom-1.18.x</artifactId>
-        <version>1.32</version>
-        <scope>import</scope>
-        <type>pom</type>
-    </dependency>
-</dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>com.intellectualsites.bom</groupId>
+            <artifactId>bom-newest</artifactId>
+            <version>1.32</version>
+            <scope>import</scope>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
 </dependencyManagement>
 <dependencies>
 <dependency>
-    <groupId>com.plotsquared</groupId>
-    <artifactId>PlotSquared-Core</artifactId>
+    <groupId>com.intellectualsites.plotsquared</groupId>
+    <artifactId>plotsquared-core</artifactId>
     <scope>provided</scope>
 </dependency>
 
 <dependency>
-    <groupId>com.plotsquared</groupId>
-    <artifactId>PlotSquared-Bukkit</artifactId>
+    <groupId>com.intellectualsites.plotsquared</groupId>
+    <artifactId>plotsquared-bukkit</artifactId>
     <scope>provided</scope>
     <exclusions>
         <exclusion>
-            <artifactId>PlotSquared-Core</artifactId>
+            <artifactId>plotsquared-core</artifactId>
             <groupId>*</groupId>
         </exclusion>
     </exclusions>
