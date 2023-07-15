@@ -156,6 +156,6 @@ See: [Location.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Co
 
 ### Plot
 
-A plot can be claimed or unclaimed. Getting a plot at a location where one isn't claimed will returnn a new unowned plot object.
+A plot can be claimed or unclaimed. Getting a plot at a location where one isn't claimed will return a new unowned plot object.
 
 See: [PlotArea.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/PlotArea.java)`#getPlots(...)`
