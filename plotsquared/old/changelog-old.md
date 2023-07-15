@@ -81,7 +81,7 @@ Other:
 * Fix retrieval of offline player profiles in 1.15
 * Add option to have road regeneration persistent across restarts
 * Add option to have /plot purge also clear the purged plots
-* Make PlotSqaured events platform agnostic
+* Make PlotSquared events platform agnostic
 * Make the PlotSquared events tidier
 * Fix issue where /plot swap didn't correctly update owners
 * Fix issue where /plot move didn't clear the plots
@@ -99,7 +99,7 @@ Other:
 * Add PAPI placeholders to PlotSquared (moved from the expansion)
 * Fix issue where Bukkit world API was interacted with asynchronously, which caused PlotSquared augmented generation to fail when using recent Paper builds
 * Better organisation of the code base
-* Completely restructed package names
+* Completely restructured package names
 * Added option to force plot chat
 * Lots of other minor changes..
 
@@ -182,7 +182,7 @@ This update focuses a lot on the chunk processor and I have therefore updated it
 
 *Changes*:
 
-* (Currently WE only - Not FAWE compatible) Updated the WE listener to correctly limit tile entitites, and make the limit apply per chunk rather than per edit
+* (Currently WE only - Not FAWE compatible) Updated the WE listener to correctly limit tile entities, and make the limit apply per chunk rather than per edit
 * Made `/plot set <component>` respect the tile entity limit
 * Updated the chunk manager code
 * Allow `/plot auto` from non-plot areas if the server only has one plot area
@@ -230,7 +230,7 @@ When you run the usernames automatically from different sources (in the given or
 
 The first time you run PlotSquared v5.12.0 it might have to run for an extended amount of time, depending on the amount of missing UUIDs on your server. The reason it's particularly slow in this case is because Mojang enforces a very restrictive rate limit on the amount of requests we can make. When this entire process has been completed once, PlotSquared will be able to index thousands of UUIDs in a matter of seconds.
 
-_If you run an offline-mode server without BungeeCord, your old UUID cache may no longer be functional, which means that everyone will be listed as "Unknown" until they join the server for the first time. If this happens, please contact us on Discord so we can evaulate your particular setup and hopefully remedy the issue._
+_If you run an offline-mode server without BungeeCord, your old UUID cache may no longer be functional, which means that everyone will be listed as "Unknown" until they join the server for the first time. If this happens, please contact us on Discord so we can evaluate your particular setup and hopefully remedy the issue._
 
 This also means that you can add people to plots, make them owners etc, even if they have never been on the server before.
 
@@ -301,7 +301,7 @@ https://www.spigotmc.org/resources/plotsquared-v5.77506/update?update=346686
 * `/plot visit` and `/plot home` where split up in two different commands. (You can now teleport to your 12384th plot without any issues)
 * `/plot visit` and `/plot home` now have separate permission nodes: `plots.visit` and `plots.home`.
 
-**TIP:** Check the new syntax: [/p home](https://wiki.intellectualsites.com/en/plotsquared/commands-and-permissions#home) and [/p visit](https://wiki.intellectualsites.com/en/plotsquared/commands-and-permissions#visit). The new placeholders are descriped at [here](https://wiki.intellectualsites.com/en/plotsquared/placeholders).
+**TIP:** Check the new syntax: [/p home](https://wiki.intellectualsites.com/en/plotsquared/commands-and-permissions#home) and [/p visit](https://wiki.intellectualsites.com/en/plotsquared/commands-and-permissions#visit). The new placeholders are described at [here](https://wiki.intellectualsites.com/en/plotsquared/placeholders).
 
 *Fixes*:
 
@@ -415,7 +415,7 @@ If you are using FAWE, update your FAWE build from here: https://ci.athion.net/j
 *Additions*:
 
 * Added an option to opt-out of MvDWPlaceholderAPI to skip the placeholder injection. This setting is enabled by default, however, you can simply disable it if you don't use PlotSquared placeholder with FeatherBoard or don't want to use FeatherBoard's build in placeholders and simply use it with PlaceholderAPI, that works as well.
-* Added a debug (`/plot toggle debug`) onto `onBlockIgnite` event notifying players to set the `block-ingition` flag when using flint and steel before cancelling the event.
+* Added a debug (`/plot toggle debug`) onto `onBlockIgnite` event notifying players to set the `block-ignition` flag when using flint and steel before cancelling the event.
 * Added a debug (`/plot toggle debug`) onto `onEntityBlockForm` event notifying players if the `ice-form` flag is not set before cancelling the event.
 * Don't send `notify-enter/leave` messages if vanished players visit a plot. [[PS-103](https://issues.intellectualsites.com/issue/PS-103)]
 
@@ -495,7 +495,7 @@ The following entries have been removed or altered and can be deleted safely fro
 
 * The option `web.assets` has been removed due the asset interface no longer existing within v4 and v5.
 * The option `chat.console_color` has been removed. PlotSquared now respects legacy and adventure components properly and will always send the correct colors.
-* The options `uuid.use-sqluuidhandler`, `enabled_components.per-world-visit`, `chunk.block-cache`, `enabled_components.permisison-cache`, `chat.interactive` have been removed due to serving no purpose anymore.
+* The options `uuid.use-sqluuidhandler`, `enabled_components.per-world-visit`, `chunk.block-cache`, `enabled_components.permission-cache`, `chat.interactive` have been removed due to serving no purpose anymore.
 * The category `chat` has been removed.
 * The standalone option `titles` has been moved into its own configuration block alongside its new options.
 
@@ -637,7 +637,7 @@ Note: If you didn't use the old PlotMe permissions before, you can ignore the fo
 ### Additions:
 
 * The flag `leaf-decay` has been added determining whether leaves should decay or not. The flag is set to true by default, you need to set it via `/plot flag set leaf-decay false` to stop leaves from decaying.
-* The flag `fall-damage` has been added determining whether an entity or a player should take fall damange.
+* The flag `fall-damage` has been added determining whether an entity or a player should take fall damage.
 * The flag `crop-grow` has been added determining whether an crops can grow or not.
 * The flags `deny-portals` and `deny-portal-travel` have been added determining whether portals can be created or not and can be used.
 * The flag `deny-portal-travel` has been added determining whether players can travel thru portals across dimensions.
@@ -654,7 +654,7 @@ Note: If you didn't use the old PlotMe permissions before, you can ignore the fo
 * Fixed an issue where kicking/denying a player from a plot did not kick them from the server if no spawn location has been set up [3057](https://github.com/IntellectualSites/PlotSquared/issues/3057)
 * Fixed a couple of issues related to the handling of dragon eggs [3074](https://github.com/IntellectualSites/PlotSquared/issues/3074), [3076](https://github.com/IntellectualSites/PlotSquared/issues/3076).
 * Fixed an issue where `/plot rate` would not render empty item stacks [3063](https://github.com/IntellectualSites/PlotSquared/issues/3063)
-* Compatibility and targetting Java 16
+* Compatibility and targeting Java 16
 * Fixed a couple of issues with `/plot inbox`: [3021](https://github.com/IntellectualSites/PlotSquared/issues/3021), [3020](https://github.com/IntellectualSites/PlotSquared/issues/3021)
 
 ## Other changes

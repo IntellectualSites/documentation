@@ -79,8 +79,8 @@ Primary:
 
 Secondary:
 
-* `/plot [[world;]X;Z] info [-f] <categorie: members, alias, biome, seen, denied, flags, id, size, trusted, owner, rating>`
-* `/plot info [[world;]X;Z] [-f] <categorie: members, alias, biome, seen, denied, flags, id, size, trusted, owner, rating>`
+* `/plot [[world;]X;Z] info [-f] <category: members, alias, biome, seen, denied, flags, id, size, trusted, owner, rating>`
+* `/plot info [[world;]X;Z] [-f] <category: members, alias, biome, seen, denied, flags, id, size, trusted, owner, rating>`
 
 *Aliases:*
 `[ i ]`
@@ -414,7 +414,7 @@ Primary:
 
 ### ADD
 
-Whith this command you "add him" to the whitelist of the plot. Allow a user to build in a plot while the plot owner is online.
+With this command you "add him" to the whitelist of the plot. Allow a user to build in a plot while the plot owner is online.
 
 *Usage:*
 `/plot [[world;]X;Z] add <player | *>`
@@ -435,7 +435,7 @@ Secondary:
 
 ### TRUST
 
-Whith this command you "add him" to the whitelist of the plot. It gives the added user more permissions as the normal ADD command: it allow a user to build in a plot every time and use WorldEdit while the plot owner is offline.
+With this command you "add him" to the whitelist of the plot. It gives the added user more permissions as the normal ADD command: it allow a user to build in a plot every time and use WorldEdit while the plot owner is offline.
 
 *Usage:*
 `/plot [[world;]X;Z] trust <player | *>`
@@ -873,7 +873,7 @@ Secondary:
 
 ### CLEAR
 
-Clear the plot you stand on. It doesn't reset any plot settigns or flag (with exception of the biome setting).
+Clear the plot you stand on. It doesn't reset any plot settings or flag (with exception of the biome setting).
 
 *Usage:*
 `/plot [[world;]X;Z] clear`
