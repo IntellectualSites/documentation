@@ -6,7 +6,7 @@ PlotSquared uses the [Guava EventBus](https://github.com/google/guava/wiki/Event
 
 ## Event List
 
-Events can be found [here](https://intellectualsites.github.io/plotsquared-javadocs/core/com/plotsquared/core/events/package-summary.html).
+Check the Javadoc of [PlotSquared events](https://intellectualsites.github.io/plotsquared-javadocs/core/com/plotsquared/core/events/package-summary.html).
 
 ## Getting an instance
 

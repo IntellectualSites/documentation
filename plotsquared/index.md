@@ -9,7 +9,7 @@ PlotSquared is a land and world management plugin. It includes several highly co
 **Supported versions:** 1.13 - 1.20
 
 {% hint style="tip" %}
-[Here](why-plotsquared.md) you can learn more about the advantages of PlotSquared.
+Learn more about the [advantages of PlotSquared](why-plotsquared.md).
 {% endhint %}
 
 ## Other Links

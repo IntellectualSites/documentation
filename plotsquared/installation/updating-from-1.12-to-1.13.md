@@ -11,7 +11,7 @@ Please note that PlotSquared for 1.13 only supports Bukkit at the moment.
 ### Schematics
 
 PlotSquared will not update your schematics, so you might have to do that manually.
-The new version of PlotSquared introduced a format for configuring blocks for the different plot components. You can read more about that [here](../block-bucket.md). This
+The new version of PlotSquared introduced a format for configuring blocks for the different plot components: the [block buckets](../block-bucket.md). This
 change allows you to use multiple block types in every plot component.
 
 ### Dependencies

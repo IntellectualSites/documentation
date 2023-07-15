@@ -207,11 +207,11 @@ _Due to changes to plot components in this version, it is highly recommended usi
 
 ### Single Plot Area
 
-This version makes it a lot easier to create single plots in a non-plot world, making use of the WorldEdit selection want. You can now create plots anywhere you like and leverage the power of PlotSquared in all your worlds. Read more [here](../customization/single-plot-area.md).
+This version makes it a lot easier to create [Single Plots](../customization/single-plot-area.md). in a non-plot world, making use of the WorldEdit selection want. You can now create plots anywhere you like and leverage the power of PlotSquared in all your worlds.
 
 ### Plot Component GUI
 
-PlotSquared now allows you create component presets that can be used through a GUI. Read more [here](../customization/plot-components.md).
+PlotSquared now allows you to create [Component Presets](../customization/plot-components.md) that can be used through a GUI.
 
 ### UUID System Remake
 
@@ -520,8 +520,8 @@ The following entries have been added. This process is done automatically on the
 
 ## Translation Changes:
 
-* PlotSquared uses Adventure as of v6 to handle translations and support hex color codes, gradients, etc. Click [here](https://docs.adventure.kyori.net/minimessage.html#color) for an explanation how to apply it.
-* We are now available on Crowdin Enterprise to manage our translations. Click [here](https://intellectualsites.crowdin.com/plotsquared) to help us translating PlotSquared into your language.
+* PlotSquared uses Adventure as of v6 to handle translations and support hex color codes, gradients, etc. Get an [explanation](https://docs.adventure.kyori.net/minimessage.html#color) how to apply it.
+* We are now available on Crowdin Enterprise to manage our translations. Help us [translate PlotSquared](https://intellectualsites.crowdin.com/plotsquared) into your language.
 * You can change the language of PlotSquared in the settings.yml, with the key `<key>`. You don't need to rename any files anylonger.
 * Translations are located in the `lang` folder. You can safely delete the old `translations` folder, it's no longer needed.
 

@@ -16,7 +16,7 @@ Version 6.0.0 and higher require Java 17 to run.
 
 This section explains how to configure PlotSquared database access.
 
-PlotSquared allows the database types "MYSQL" and "SQLite". If you don't know the difference of both systems you find a short compare at https://dzone.com/articles/sqlite-vs-mysql[here].
+PlotSquared allows the database types "MYSQL" and "SQLite". If you don't know the difference of both systems you find a short compare [in this article](https://dzone.com/articles/sqlite-vs-mysql).
 
 {% hint style="tip" %}
 You can convert to MySQL/SQLite at any time using the `/plot database` command.
@@ -38,7 +38,7 @@ If you don't have a MySQL database, storage will be automatically set to "SQLite
 
 ## Plot Setup
 
-You can now create the plotworld or setup single plots in an existing world. To do the latter, head over [here](../customization/single-plot-area.md).
+You can now create the plotworld or setup [single plots](../customization/single-plot-area.md) in an existing world.
 
 ### Setup for a default world
 
@@ -143,10 +143,10 @@ The height option, if specified, changes the amount of air to paste above the sc
 
 Allow to generate a plotworld with a custom schematic in all plots.
 
-**Instruction:** [here](../schematics/schematic-generation.md)
+**Instruction:** [Schematic generation](../schematics/schematic-generation.md)
 
 ### Plot Schematic on Claim
 
 The player get a custom plot schematic with a claim. If you wish, the player can define a plot-schematic with the claim-command.
 
-**Instruction:** [here](../schematics/schematic-on-claim.md)
+**Instruction:** [Schematic on claim](../schematics/schematic-on-claim.md)
