@@ -1,0 +1,13 @@
+[files]
+extend-exclude = [
+    # Exclude until wikis have been updated
+    "fastasyncworldedit/**/*",
+    "fastasyncvoxelsniper/**/*",
+]
+
+[default]
+check-filename = false
+
+[default.extend-identifiers]
+# .schem extension
+"schem" = "schem"

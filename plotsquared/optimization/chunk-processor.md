@@ -23,7 +23,7 @@ The usual **causes of dangerous chunks** are:
 
 * People abusing WorldEdit
 * People abusing VoxelSniper
-* Any other server-tool you have that can be used to spam entites / blocks
+* Any other server-tool you have that can be used to spam entities / blocks
 
 ## Configuration
 
