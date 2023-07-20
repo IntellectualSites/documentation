@@ -12,43 +12,43 @@ Direct links to versions:
 
 ## V5:
 
-* [v5.0.0 to 5.9.0](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v500-to-590)
-* [v5.10.0](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5100)
-* [v5.10.1](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5101)
-* [v5.10.2](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5102)
+* [v5.0.0 to 5.9.0](#v500-to-590)
+* [v5.10.0](#v5100)
+* [v5.10.1](#v5101)
+* [v5.10.2](#v5102)
 * [v5.10.3]Internal changes, no public version released.
-* [v5.10.4](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5104)
-* [v5.10.5](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5105)
-* [v5.11.0](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5110)
-* [v5.11.1](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5111)
-* [v5.12.0](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5120)
-* [v5.12.1](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5121)
-* [v5.12.2](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5122)
-* [v5.12.3](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5123)
-* [v5.12.4](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5124)
-* [v5.13.0](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5130)
-* [v5.13.1](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5131)
-* [v5.13.2](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5132)
-* [v5.13.3](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5133)
-* [v5.13.4](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5134)
-* [v5.13.5](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5135)
-* [v5.13.6](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5136)
+* [v5.10.4](#v5104)
+* [v5.10.5](#v5105)
+* [v5.11.0](#v5110)
+* [v5.11.1](#v5111)
+* [v5.12.0](#v5120)
+* [v5.12.1](#v5121)
+* [v5.12.2](#v5122)
+* [v5.12.3](#v5123)
+* [v5.12.4](#v5124)
+* [v5.13.0](#v5130)
+* [v5.13.1](#v5131)
+* [v5.13.2](#v5132)
+* [v5.13.3](#v5133)
+* [v5.13.4](#v5134)
+* [v5.13.5](#v5135)
+* [v5.13.6](#v5136)
 * [v5.13.7]Internal changes, no public version released.
-* [v5.13.8](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5138)
-* [v5.13.9](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v5139)
-* [v5.13.10](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v51310)
-* [v5.13.11](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#v51311)
+* [v5.13.8](#v5138)
+* [v5.13.9](#v5139)
+* [v5.13.10](#v51310)
+* [v5.13.11](#v51311)
 
 ## V6:
 
-* [v6.0.0](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#plotsquared-600)
-* [v6.0.1](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#plotsquared-601)
-* [v6.0.2](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#plotsquared-602)
-* [v6.0.3](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#plotsquared-603)
-* [v6.0.4](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#plotsquared-604)
-* [v6.0.5](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#plotsquared-605)
-* [v6.0.6](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#plotsquared-606)
-* [v6.0.7](https://github.com/IntellectualSites/PlotSquared-Documentation/wiki/Changelog#plotsquared-607)
+* [v6.0.0](#v600)
+* [v6.0.1](#v601)
+* [v6.0.2](#v602)
+* [v6.0.3](#v603)
+* [v6.0.4](#v604)
+* [v6.0.5](#v605)
+* [v6.0.6](#v606)
+* [v6.0.7](#v607)
 
 ## v5.0.0 to 5.9.0
 
@@ -485,7 +485,7 @@ You can get the latest WorldEdit build here: https://builds.enginehub.org/job/wo
 * Fixed `java.lang.NoSuchFieldException: mustSave` on startup when server version >= 1.13.2
 * Fixed `teleport.per-world-visit` from settings.yml
 
-## PlotSquared 6.0.0
+## v6.0.0
 
 ## Settings.yml Changes:
 
@@ -663,7 +663,7 @@ Note: If you didn't use the old PlotMe permissions before, you can ignore the fo
 * Full 1.17 support
 * Requiring Java 16 or higher.
 
-## PlotSquared 6.0.1
+## v6.0.1
 
 *Changes*:
 
@@ -676,7 +676,7 @@ Note: If you didn't use the old PlotMe permissions before, you can ignore the fo
 * Fixed not teleporting all players out of the plot on clear and delete if configured [#3102](https://github.com/IntellectualSites/PlotSquared/issues/3102)
 * Fixed issues with Citizens using fake uuids [#3105](https://github.com/IntellectualSites/PlotSquared/issues/3105)
 
-## PlotSquared 6.0.2
+## v6.0.2
 
 *Changes*:
 
@@ -687,19 +687,19 @@ Note: If you didn't use the old PlotMe permissions before, you can ignore the fo
 * Fix typo in expression parsing for plot pricing
 * Do not allow moss spread on [#3100](https://github.com/IntellectualSites/PlotSquared/issues/3100)
 
-## PlotSquared 6.0.3
+## v6.0.3
 
 *Fixes*:
 
 * Don't attempt to load 1.17 listeners on earlier versions
 
-## PlotSquared 6.0.4
+## v6.0.4
 
 **Fixes:
 
 * Fix the regions found for merged plots (fixes some cases of issues with plot visit/home)
 
-## PlotSquared v6.0.5
+## v6.0.5
 
 *Changes:*
 
@@ -711,7 +711,7 @@ Note: If you didn't use the old PlotMe permissions before, you can ignore the fo
 * Fixed update notification message, update your translations file by deleting it, pulling from crowdin or deleting all `update.` strings from the file located in the `/lang/` folder.
 * Fixed plot.added/trusted/deny.+++<amount>+++permissions+++</amount>+++
 
-## PlotSquared v6.0.6
+## v6.0.6
 
 *Additions:*
 
@@ -728,7 +728,7 @@ Note: If you didn't use the old PlotMe permissions before, you can ignore the fo
 * Fix off-by-one error in schematic pasting
 * Check plot ownership/event before handling Direction.ALL
 
-## PlotSquared v6.0.7
+## v6.0.7
 
 *Additions:*
 
