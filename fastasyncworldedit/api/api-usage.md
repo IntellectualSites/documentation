@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-1.18.x:{bomVersion}"))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.35")) // Ref: https://github.com/IntellectualSites/bom 
     compileOnly("com.fastasyncworldedit:FastAsyncWorldEdit-Core")
 }
 ```
@@ -38,7 +38,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-1.18.x:{bomVersion}"))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.35")) // Ref: https://github.com/IntellectualSites/bom 
     compileOnly("com.fastasyncworldedit:FastAsyncWorldEdit-Core")
     compileOnly("com.fastasyncworldedit:FastAsyncWorldEdit-Bukkit") { isTransitive = false }
 }
@@ -57,8 +57,8 @@ dependencies {
     <dependencies>
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
-            <artifactId>bom-1.18.x</artifactId>
-            <version>{bomVersion}</version>
+            <artifactId>bom-newest</artifactId> <!--  Ref: https://github.com/IntellectualSites/bom -->
+            <version>1.35</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -85,8 +85,8 @@ dependencies {
     <dependencies>
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
-            <artifactId>bom-1.18.x</artifactId>
-            <version>{bomVersion}</version>
+            <artifactId>bom-newest</artifactId> <!--  Ref: https://github.com/IntellectualSites/bom -->
+            <version>1.35</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
