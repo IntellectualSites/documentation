@@ -1,5 +1,3 @@
-# [🏠 Return to the index](#../README.adoc)
-
 **Info:** For command related permissions: [see
 here](#../basic-commands/main-commands-and-permissions.adoc)
 

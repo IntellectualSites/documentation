@@ -1,5 +1,3 @@
-# [🏠 Return to the index](#../README.adoc)
-
 # Fill
 
 This command generates a half circle with the defined `radius`.

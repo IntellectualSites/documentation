@@ -1,5 +1,3 @@
-# [🏠 Return to the index](#../README.adoc)
-
 # Initial Setup
 
 -   [Download the plugin](https://www.spigotmc.org/resources/13932/)

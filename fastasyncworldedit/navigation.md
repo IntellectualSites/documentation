@@ -1,5 +1,3 @@
-# [🏠 Return to the index](#../README.adoc)
-
 # Jumpto
 
 With this command you teleport you to a specific position.

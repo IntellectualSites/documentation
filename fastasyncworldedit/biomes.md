@@ -1,5 +1,3 @@
-# [🏠 Return to the index](#../README.adoc)
-
 # Biomelist
 
 Read more about biomes [here](https://minecraft.gamepedia.com/Biome).

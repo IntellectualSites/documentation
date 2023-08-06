@@ -1,5 +1,3 @@
-# [🏠 Return to the index](#../README.adoc)
-
 # Drain
 
 This command removes water from a spherical region (picture 1).

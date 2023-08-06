@@ -1,5 +1,3 @@
-# [🏠 Return to the index](#../README.adoc)
-
 # Introduction
 
 This page is currently being revised.

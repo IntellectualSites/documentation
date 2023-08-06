@@ -1,5 +1,3 @@
-# [🏠 Return to the index](#../README.adoc)
-
 # Introduction
 
 Some FAWE commands require a region selection to work. This command

@@ -1,5 +1,3 @@
-# [🏠 Return to the index](#../README.adoc)
-
 # Nbtinfo
 
 Displays the NBT info for the target block in your
