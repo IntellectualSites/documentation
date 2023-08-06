@@ -1,5 +1,20 @@
-# Placeholder
+# Home
 
-This is a placeholder for the page you are looking for. It has not been created yet.
+![image](images/PS-Logo_120px.png)
 
-You can help migrating https://github.com/IntellectualSites/plotsquared-documentation to https://github.com/IntellectualSites/documentation by creating a pull request.
+## About the plugin
+
+PlotSquared is a land and world management plugin. It includes several highly configurable world generators. You can create plots of land in existing worlds using plot clusters, or you can have a full world of plots.
+
+**Supported versions:** 1.13 - 1.20
+
+{% hint style="tip" %}
+Learn more about the [advantages of PlotSquared](why-plotsquared.md).
+{% endhint %}
+
+## Other Links
+
+* [Download PlotSquared](https://www.spigotmc.org/resources/77506/)
+* [Discord](https://discord.gg/intellectualsites)
+* [Issues & Feature](https://github.com/IntellectualSites/PlotSquared/issues)
+* [Translations](https://intellectualsites.crowdin.com/plotsquared/)
