@@ -70,8 +70,8 @@ The value we are going to edit does not exist in the file yet, so we need to add
 
 ```yaml
 worlds:
-plotworld:
-  generator: PlotSquared
+  plotworld:
+    generator: PlotSquared
 ```
 
 4. Then you can follow the next steps.
