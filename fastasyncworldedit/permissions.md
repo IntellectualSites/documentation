@@ -5,9 +5,9 @@ here](#../basic-commands/main-commands-and-permissions.adoc)
 
 -   `fawe.admin` (allow bypassing through `/wea` command)
 
--   `fawe.bypass` (automatically bypass worldedit restrictions)
+-   `fawe.bypass` (automatically bypass WorldEdit restrictions and limits)
 
--   `worldedit.anyblock` (bypass worldedit’s `disallowed-blocks`)
+-   `worldedit.anyblock` (bypass `disallowed-blocks` in the `worldedit-config.yml`)
 
 -   `worldedit.inventory.unrestricted` (bypass inventory restrictions if
     those are enabled)
@@ -15,7 +15,7 @@ here](#../basic-commands/main-commands-and-permissions.adoc)
 # User permissions:
 
 -   `fawe.limit.<limitgroup>` (Grants the user the specific group of
-    limits.)
+    limits. With the limitgroup `unlimited` all limits are infinite.)
 
 -   [`fawe.permpack.basic`](https://github.com/IntellectualSites/FastAsyncWorldEdit/blob/main/worldedit-bukkit/src/main/resources/plugin.yml#L31)
     (A bunch of worldedit perms which are okay to use on a creative
