@@ -1,13 +1,16 @@
 # These are the Voxel Sniper commands
 ## VoxelSniper Default Commands
 
+---
 ### **d**
 
 Resets your Vox
 
+![img.png](images/brushReset.png)
+
 **Usage:** `/d`
 
-**Aliases:** `[]`
+**Aliases:** none
 
 **Permissions:**
 
@@ -16,14 +19,17 @@ Primary:
 {% hint style="info" %}
 When you are new to VoxelSniper, be in the habit of using this after every job, especially if you are doing heavy terraforming where one click can cause a big mess to clean up.{% endhint %}
 
+---
 
 ### **vs**
 
-VoxelSniper Settings. This command will give you a  printout of all of VoxelSniper's current settings, letting you check  them over before you pull the trigger.
+VoxelSniper Settings. This command will give you a printout of all of VoxelSniper's current settings, letting you check them over before you pull the trigger.
+
+![img.png](images/vs.png)
 
 **Usage:** `/vs`
 
-**Aliases:** `[]`
+**Aliases:** `[voxelsniper,favs,fastasyncvoxelsniper]`
 
 **Permissions:**
 
@@ -33,60 +39,90 @@ Primary:
 Replace and Ink information is only displayed on applicable brushes. If you're not seeing them, make sure you are using the proper brush!  /vs brushes Brush List. This command returns all of VoxelSniper's brush options.
 {% endhint %}
 
+---
+
 ### **vs brusheslong**
 
 Brush Long-name List. This command will give you the long-name versions of the brushes.
 
+![img.png](images/brushesLong.png)
+
 **Usage:** `/vs brusheslong`
 
-**Aliases:** `[]`
+**Aliases:** `[voxelsniper brusheslong, fastasyncvoxelsniper brusheslong]`
 
 **Permissions:**
 
 Primary:
+
+---
+
+### **vs brushes**
+
+Brush short-name List. This command will give you the short-name versions of the brushes.
+
+![img.png](images/brushesAbbreviated.png)
+
+**Usage:** `/vs brushes`
+
+**Aliases:** `[voxelsniper brushes, fastasyncvoxelsniper brushes]`
+
+**Permissions:**
+
+Primary:
+
+---
 
 ### **vs perf**
 
-Performer List. This command returns all of VoxelSniper's Performer options.
+Performer List. This command returns all of VoxelSniper's Performer options in short names.
+
+![img.png](images/perfAbbreviated.png)
 
 **Usage:** `/vs perf`
 
-**Aliases:** `[]`
+**Aliases:** `[voxelsniper perf, fastasyncvoxelsniper perf]`
 
 **Permissions:**
 
 Primary:
 
+---
 
 ### **vs perflong**
 
 Performer Long-name List. This command will give you the long-name versions of the performers.
 
+![img.png](images/perfLong.png)
+
 **Usage:** `/vs perflong`
 
-**Aliases:** `[]`
+**Aliases:** `[voxelsniper perflong, fastasyncvoxelsniper perflong]`
 
 **Permissions:**
 
 Primary:
 
-
 ## Brush
+
+---
 
 ### **/b [instructions]**
 
-The brush command is the gateway to the  VoxelSniper box of world-editing wonders. This command can be as simple  as changing the active brush type, its size, or to issue a string of instructions (such as the Erosion Brush's settings). Many brushes behave wildly differently depending on the settings you've loaded into your Sniper's Brush, so make sure you know what variables you are working with before pulling the trigger!
+The brush command is the gateway to the VoxelSniper box of world-editing wonders. This command can be as simple  as changing the active brush type, its size, or to issue a string of instructions (such as the Erosion Brush's settings). Many brushes behave wildly differently depending on the settings you've loaded into your Sniper's Brush, so make sure you know what variables you are working with before pulling the trigger!
 
-**Usage:** `/vs [instructions]`
+![img.png](images/brush.png)
 
-**Aliases:** `[]`
+**Usage:** `/b [instructions]`
+
+**Aliases:** None
 
 **Permissions:**
 
 Primary:
 
 {% hint style="info" %}
-Each brush has it's own in-game manual! To access this, we just ask VoxelSniper for "info" on that particular brush
+Each brush has its own in-game manual! To access this, we just ask VoxelSniper for "info" on that particular brush
 {% endhint %}
 
 {% hint style="success" %}
@@ -97,9 +133,18 @@ Each brush has it's own in-game manual! To access this, we just ask VoxelSniper 
 The name of your favorite brushes may have changed from VS4 to VS5, make sure to read the section on Performers below.
 {% endhint %}
 
+---
+
 ## Performer
 
-g the Performer name (short or long) after the brush name in the **/b** command.
+You use **/v m** to set the performer for a brush. The m is a placeholder for your blocks or patterns you want to use on a brush.
+Example below:
+
+![img.png](images/performerExample.png)
+
+{% hint style="warning" %}
+This part of documentation might be outdated or won't work like explained right now!
+{% endhint %}
 
 {% hint style="info" %}
 A "plain" ball brush is **/b b m** (the m stands for material)
@@ -133,6 +178,8 @@ Always start small with recursions, and work your way up if needed! Re-sniping i
 The ideal sizes for erosion brushes tended to run between 8-20. Larger brushes are far more clumsy and often yield unwanted results.  
 {% endhint %}
 
+---
+
 ## Anatomy of an Instruction Set
 Let's take a look at how these variables get the desired effect from  the Erosion Brush's "melt" preset. The preset's instructions look like this:
 
@@ -146,45 +193,59 @@ Let's take a look at how these variables get the desired effect from  the Erosio
 {% hint style="info" %}
 Note how powerful the melt brush is with just *one* recursion!
 {% endhint %}
-{% hint style="info" %}
-There's a video example of the erosion brushes below, but there's no teacher like experience. Just don't use these brushes near inhabited areas!
-{% endhint %}
+
+---
 
 ## The Random-Erode Brush
-**b re**: The downside to the normal erosion brush is that, with  repeated usage, an area can become too perfectly smooth. The landscape,  for example, can look more like melted wax than dirt and stone. This  randomized variant produces similar results without generating these  inorganic features. On each click, the four erosion parameters are  randomized. The **arrow tool* variant of the brush favors erosion while the **gunpowder tool** version favors fill. This brush is also easier to use, as it uses the regular brush size variable. 
+**b re**: The downside to the normal erosion brush is that, with repeated usage, an area can become too perfectly smooth. The landscape,  for example, can look more like melted wax than dirt and stone. This  randomized variant produces similar results without generating these  inorganic features.
+On each click, the four erosion parameters are randomized. This brush is also easier to use, as it uses the regular brush size variable. 
+
+{% hint style="info" %}
+The **arrow tool* variant of the brush favors erosion while the **gunpowder tool** version favors fill.
+{% endhint %}
+
+Example with arrow:
+![img.png](images/randomErodeArrow.png)
+
+Example with gunpowder:
+![img.png](images/randomErodeGunpowder.png)
+---
 
 ## The Overlay / Topsoil Brush
 
-The overlay brush paints over existing landscape. 
+The overlay brush paints over existing landscape.
+
+![img.png](images/bOverlay.png)
 
 **/b over d[#]:** The Overlay Brush will "spray-paint" the top  most blocks in its area to the blocktype set by your "/v" command. This  can be used to easily clean up any exposed materials once you are done  with the erosion brush, or to create new fill material two link two pieces of landscape together.
 
 {% hint style="info" %}
-The area to the covered bit by the Overlay Brush is defined by the brush size variable.
-{% endhint %}
-{% hint style="info" %}
-When using this brush, The arrow tool will "spray down" onto the topmost blocks of the spray zone.
-{% endhint %}
-{% hint style="info" %}
 By default, this brush will only paint over "natural" materials (stone, dirt, gravel, grass, trees, ores, etc)
 {% endhint %}
-{% hint style="info" %}
+
+The area to the covered bit by the Overlay Brush is defined by the brush size variable.
+When using this brush, The arrow tool will "spray down" onto the topmost blocks of the spray zone.
+
 **/b over all** will set the brush to paint over all material types.
-{% endhint %}
-{% hint style="info" %}
 You can return to "natural" mode with **/b over some**. overlay brush is sprayed near them.
-{% endhint %}
+
 {% hint style="success" %}
 **/b over d5 + /v 12 + /b 20 + /b over all** will be a substantial "desert maker" brush that will demolish any structures in its wake using the arrow tool.
 {% endhint %}
+
+---
 
 ## Splatter Overlay Brush
 
 ** /b sover s[#] g[#] r[#]**: This brush combines the functions of the Splatter and Overlay Brushes. The **/v** Voxel Select value is used to paint in, as an overlay brush would, using the seed (s), growth (g) and recursion (r) of the splatter. 
 
+---
+
 ## Underlay Brush
 
 **/b under d[#]**: The Underlay is essentially the opposite of the Overlay Brush and will paint the ceilings of caves and buildings by your **/v** command. The (d) variable determines the depth of the brush. This will be how high you want the brush to penetrate
+
+---
 
 ## Blend Brushes
 
@@ -205,6 +266,8 @@ Blend brushes use standard brush size and several available sized shapes:
 * **/b bvd**: Blend Voxel Disc
 * **/b bv**: Blend Voxel
 * **/b bb water**: Blend Ball, toggles water exclusion
+
+---
 
 ## The Drain Brush
 
