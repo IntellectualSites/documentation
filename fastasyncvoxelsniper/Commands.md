@@ -142,6 +142,10 @@ Example below:
 
 ![img.png](images/Commands/performerExample.png)
 
+**Aliases:**
+
+**Permissions:**
+
 {% hint style="warning" %}
 This part of documentation might be outdated or won't work like explained right now!
 {% endhint %}
@@ -185,6 +189,10 @@ Let's take a look at how these variables get the desired effect from  the Erosio
 
 `/b e e2 f5 re1 rf1 b10.`
 
+**Aliases:** none
+
+**Permissions:**
+
 * **e2** - Our brush will be eroding blocks with 2 or more exposed faces. This means that only blocks that are well-embedded within the landscape will be eroded, giving us that "wither" to the landscape we want.
 * **f5** - New blocks will only be created if what has been eroded has created a block space with 5 covered faces. This is just to keep things a bit smoother as we melt our landscape away.
 * **re1** - This is our brush strength parameter for erosion. The melt brush repeats its erode function in the assigned area once.
@@ -201,6 +209,10 @@ The downside to the normal erosion brush is that, with repeated usage, an area c
 On each click, the four erosion parameters are randomized. This brush is also easier to use, as it uses the regular brush size variable. 
 
 Usage: `/b re`
+
+**Aliases:**
+
+**Permissions:**
 
 {% hint style="info" %}
 The **arrow tool* variant of the brush favors erosion while the **gunpowder tool** version favors fill.
@@ -226,6 +238,10 @@ Usage: `/b over info:`
 
 ![img.png](images/Commands/overlayInfo.png)
 
+**Aliases:** 
+
+**Permissions:**
+
 {% hint style="info" %}
 By default, this brush will only paint over "natural" materials (stone, dirt, gravel, grass, trees, ores, etc)
 {% endhint %}
@@ -250,6 +266,10 @@ This brush combines the functions of the Splatter and Overlay Brushes.
 
 Usage:  `/b sover s[#] g[#] r[#]`
 
+**Aliases:**
+
+**Permissions:**
+
 {% hint style="info" %} What you see through /b sover info: {% endhint %}
 
 ![img.png](images/Commands/splatterOverlayInfo.png)
@@ -264,6 +284,10 @@ The Underlay is essentially the opposite of the Overlay Brush and will paint the
 ![img.png](images/Commands/underlayInfo.png)
 
 Usage:  `/b under d[#]`
+
+**Aliases:** 
+
+**Permissions:**
 
 ---
 
@@ -286,11 +310,16 @@ Blend brushes use standard brush size and several available sized shapes:
 
 ![img.png](images/Commands/blendBall.png)
 
+**Usage:**
 * `/b bd`: Blend Disc
 * `/b bb`: Blend Ball
 * `/b bvd`: Blend Voxel Disc
 * `/b bv`: Blend Voxel
 * `/b bb water`: Blend Ball, toggles water exclusion
+
+**Aliases:**
+
+**Permissions:**
 
 ---
 
@@ -304,3 +333,7 @@ Usage: `/b drain`:
 
 * */b drain d*: Toggles the shape of the brush to be a disc.
 * */b drain true|false*: Uses either the true sphere algorithm or the normal one.
+
+**Aliases:**
+
+**Permissions:**
