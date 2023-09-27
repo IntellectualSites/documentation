@@ -53,8 +53,6 @@ Brush long-name List. This command will give you the long-name versions of the b
 
 **Permissions:**
 
-Primary:
-
 ---
 
 ### **vs brushes**
@@ -218,10 +216,10 @@ Usage: `/b re`
 The **arrow tool* variant of the brush favors erosion while the **gunpowder tool** version favors fill.
 {% endhint %}
 
-Example with arrow:
+**Example with arrow:**
 ![img.png](images/Commands/randomErodeArrow.png)
 
-Example with gunpowder:
+**Example with gunpowder:**
 ![img.png](images/Commands/randomErodeGunpowder.png)
 ---
 
