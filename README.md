@@ -5,6 +5,10 @@ A collection of documentation sources for our plugins hosted on [gitbook](https:
 
 If you want to contribute to this repository, please fork it and create a pull request. We accept contributions!
 
+The documentation is written in markdown and is hosted on [gitbook](https://intellectualsites.gitbook.io/), which renders your pull requests too.
+
+You can use GitHub's markdown preview to review your changes before submitting.
+
 This repository is separated in three folders representing the three plugins:
 - [FastAsyncWorldEdit](fastasyncworldedit)
 - [FastAsyncVoxelSniper](fastasyncvoxelsniper)
