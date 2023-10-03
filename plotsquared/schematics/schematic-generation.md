@@ -1,8 +1,12 @@
-# Schematic generation
+# Plot Schematic on Generation
 
 ## Introduction
 
-PlotSquared allow to generate a plotworld with a custom schematic in all plots.
+PlotSquared allows to place a predefined schematic **in each plot** when generating the world.
+
+{% hint style="tip" %}
+The plot-schematics only affect the plot itself. For instructions on how to set up road-schematics for the plotworld, see the article [Plotworld Road Schematic](../schematics/road-schematic.md).
+{% endhint %}
 
 **Example:**
 
