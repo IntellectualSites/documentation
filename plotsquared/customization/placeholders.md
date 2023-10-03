@@ -67,6 +67,7 @@ _Available placeholders in 6.0.0 onwards:_
 | `%plotsquared_currentplot_y%`                    | Displays the Y ID of a plot                                                                                         |
 | `%plotsquared_currentplot_rating%`               | Displays the average rating of a plot                                                                               |
 | `%plotsquared_currentplot_biome%`                | Displays the biome of a plot                                                                                        |
+| `%plotsquared_currentplot_size%`                 | Displays the size of a merged plot                                                                                  |
 | `%plotsquared_currentplot_localflag_<flag>%`     | Display the value of the flag set on current plot                                                                   |
 | `%plotsquared_currentplot_flag_<flag>%`          | Display the value of the flag set on current plot or if it's not set: display the inherited flag value (worlds.yml) |
 | `%plotsquared_currentplot_creationdate%`         | Display the creation date of the plot                                                                               |
