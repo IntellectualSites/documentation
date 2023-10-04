@@ -162,70 +162,71 @@ snowball spectral_arrow shulker_bullet potion trident
 
 ### Boolean
 
-| Name                  | Description                                                                                                             | Default Value |
-|-----------------------|-------------------------------------------------------------------------------------------------------------------------|---------------|
-| animal-attack         | Set to `true` to allow animals to be attacked in the plot.                                                              | False         |
-| animal-interact       | Set to `true` to allow animals to be interacted with in the plot.                                                       | False         |
-| beacon-effects        | Set to `false` to disable beacon effects on the plot.                                                                   | True          |
-| block-burn            | Set to `true` to allow blocks to burn within the plot.                                                                  | False         |
-| block-ignition        | Set to `false` to disallow blocks to ignite within the plot.                                                            | True          |
-| chat                  | Set to `false` to prevent plot chat on the plot.                                                                        | False         |
-| concrete_harden       | Set to `false` to disable concrete powder forming to concrete with water.                                               | True          |
-| coral-dry             | Set to `true` to allow corals to dry within the plot.                                                                   | False         |
-| crop-grow             | Set to `false` to disable crop growing on the plot.                                                                     | True          |
-| copper-oxide          | Set to `true` to allow copper to oxide within the plot.                                                                 | False         |
-| deny-exit             | Set to `true` to disallow players from exiting the plot.                                                                | False         |
-| deny-portal-travel    | Prevents players from travelling across dimensions by using portals.                                                    | False         |
-| deny-portals          | Prevents players from creating portals of any kind.                                                                     | False         |
-| device-interact       | Set to `true` to allow devices to be interacted with in the plot.                                                       | False         |
-| disable-physics       | Set to `true` to disable block physics in the plot.                                                                     | False         |
-| drop-protection       | Set to `true` to prevent dropped items from being picked up by non-members of the plot.                                 | False         |
-| entity-change-block   | Set to `true` to allow entities to change blocks within the plot, if not covered by other flags.                        | False         |
-| explosion             | Set to `true` to allow explosions inside a plot.                                                                        | False         |
-| fly                   | Set to `true` to enable flight within the plot.                                                                         | False         |
-| forcefield            | Set to `true` to enable member forcefield in the plot.                                                                  | False         |
-| grass-grow            | Set to `false` to disable grass to grow within the plot.                                                                | True          |
-| hanging-break         | Set to `true` to allow guests to break hanging objects in the plot. Applies to the following entity categories: hanging | False         |
-| hanging-place         | Set to `true` to allow guests to hang objects in the plot.                                                              | False         |
-| hide-info             | Set to `true` to hide plot information.                                                                                 | False         |
-| hostile-attack        | Set to `true` to enable players to attack hostile mobs in the plot.                                                     | False         |
-| hostile-interact      | Set to `true` to allow players to interact with hostile mobs in the plot.                                               | False         |
-| ice-form              | Set to `true` to allow ice to form in the plot.                                                                         | False         |
-| ice-melt              | Set to `true` to allow ice to melt in the plot.                                                                         | False         |
-| instabreak            | Set to `true` to allow blocks to be instantaneously broken in survival mode.                                            | False         |
-| invincible            | Set to `true` to prevent players from taking damage inside the plot.                                                    | False         |
-| item-drop             | Set to `false` to prevent items from being dropped inside the plot.                                                     | True          |
-| keep-inventory        | Prevents players from dropping their items when they die inside the plot.                                               | False         |
-| kelp-grow             | Set to `false` to disable kelp to grow in the plot.                                                                     | True          |
-| leaf-decay            | Set to `false` to prevent leaves from decaying.                                                                         | True          |
-| lectern-read-book     | Prevent players taking books from lecterns.                                                                             | False         |
-| misc-break            | Set to `true` to allow guests to break miscellaneous items. Applies to the following entity categories: armorstands     | False         |
-| misc-place            | Set to `true` to allow guests to place miscellaneous items.                                                             | False         |
-| misc-interact         | Set to `true` to allow guests to interact with miscellaneous items. Applies to the following entities                   |               |
-| mob-break             | Set to `true` to allow mobs to break blocks within the plot.                                                            | False         |
-| mob-place             | Set to `true` to allow mobs to place blocks within the plot.                                                            | False         |
-| mycel-grow            | Set to `false` to disable mycelium to grow in the plot.                                                                 | True          |
-| no-worldedit          | Set to `true` to disable (FastAsync)WorldEdit usage within the plot.                                                    | False         |
-| notify-enter          | Set to `true` to notify the plot owners when someone enters the plot.                                                   | False         |
-| notify-leave          | Set to `true` to notify the plot owners when someone leaves the plot.                                                   | False         |
-| player-interact       | Set to `true` to allow guests to interact with players in the plot.                                                     | False         |
-| pve                   | Set to `true` to enable PVE inside the plot.                                                                            | False         |
-| pvp                   | Set to `true` to enable PVP inside the plot.                                                                            | False         |
-| prevent-creative-copy | Prevents people from copying item NBT data in the plot unless they're added as members.                                 | False         |
-| projectiles           | Prevents guests from shooting projectiles on the plot when set to false.                                                | False         |
-| redstone              | Set to `false` to disable redstone in the plot.                                                                         | True          |
-| server-plot           | Set to `true` to turn the plot into a server plot. This is equivalent to setting the server as the plot owner.          | False         |
-| snow-form             | Set to `false` to disallow snow to form within the plot.                                                                | False         |
-| snow-melt             | Set to `true` to allow snow to melt within the plot.                                                                    | True          |
-| soil-dry              | Set to `true` to allow soil to dry within the plot.                                                                     | False         |
-| tamed-attack          | Set to `true` to allow guests to attack tamed animals in the plot.                                                      | False         |
-| tamed-interact        | Set to `true` to allow guests to interact with tamed animals in the plot.                                               | False         |
-| untrusted-visit       | Set to `false` to disallow untrusted players from visiting the plot.                                                    | True          |
-| vehicle-break         | Set to `true` to allow guests to break vehicles in the plot.                                                            | False         |
-| vehicle-place         | Set to `true` to allow guests to place vehicles in the plot.                                                            | False         |
-| vehicle-use           | Set to `true` to allow guests to use vehicles in the plot. Applies to the following entity categories: vehicle          | False         |
-| villager-interact     | Set to `true` to allow guests to interact with villagers in the plot.                                                   | False         |
-| vine-grow             | Set to `false` to disable vines to grow within the plot.                                                                | True          |
+| Name                    | Description                                                                                                             | Default Value |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------|---------------|
+| animal-attack           | Set to `true` to allow animals to be attacked in the plot.                                                              | False         |
+| animal-interact         | Set to `true` to allow animals to be interacted with in the plot.                                                       | False         |
+| beacon-effects          | Set to `false` to disable beacon effects on the plot.                                                                   | True          |
+| block-burn              | Set to `true` to allow blocks to burn within the plot.                                                                  | False         |
+| block-ignition          | Set to `false` to disallow blocks to ignite within the plot.                                                            | True          |
+| chat                    | Set to `false` to prevent plot chat on the plot.                                                                        | False         |
+| concrete-harden         | Set to `false` to disable concrete powder forming to concrete with water.                                               | True          |
+| coral-dry               | Set to `true` to allow corals to dry within the plot.                                                                   | False         |
+| crop-grow               | Set to `false` to disable crop growing on the plot.                                                                     | True          |
+| copper-oxide            | Set to `true` to allow copper to oxide within the plot.                                                                 | False         |
+| deny-exit               | Set to `true` to disallow players from exiting the plot.                                                                | False         |
+| deny-portal-travel      | Prevents players from travelling across dimensions by using portals.                                                    | False         |
+| deny-portals            | Prevents players from creating portals of any kind.                                                                     | False         |
+| device-interact         | Set to `true` to allow devices to be interacted with in the plot.                                                       | False         |
+| disable-physics         | Set to `true` to disable block physics in the plot.                                                                     | False         |
+| drop-protection         | Set to `true` to prevent dropped items from being picked up by non-members of the plot.                                 | False         |
+| entity-change-block     | Set to `true` to allow entities to change blocks within the plot, if not covered by other flags.                        | False         |
+| explosion               | Set to `true` to allow explosions inside a plot.                                                                        | False         |
+| fly                     | Set to `true` to enable flight within the plot.                                                                         | False         |
+| forcefield              | Set to `true` to enable member forcefield in the plot.                                                                  | False         |
+| grass-grow              | Set to `false` to disable grass to grow within the plot.                                                                | True          |
+| hanging-break           | Set to `true` to allow guests to break hanging objects in the plot. Applies to the following entity categories: hanging | False         |
+| hanging-place           | Set to `true` to allow guests to hang objects in the plot.                                                              | False         |
+| hide-info               | Set to `true` to hide plot information.                                                                                 | False         |
+| hostile-attack          | Set to `true` to enable players to attack hostile mobs in the plot.                                                     | False         |
+| hostile-interact        | Set to `true` to allow players to interact with hostile mobs in the plot.                                               | False         |
+| ice-form                | Set to `true` to allow ice to form in the plot.                                                                         | False         |
+| ice-melt                | Set to `true` to allow ice to melt in the plot.                                                                         | False         |
+| instabreak              | Set to `true` to allow blocks to be instantaneously broken in survival mode.                                            | False         |
+| invincible              | Set to `true` to prevent players from taking damage inside the plot.                                                    | False         |
+| item-drop               | Set to `false` to prevent items from being dropped inside the plot.                                                     | True          |
+| keep-inventory          | Prevents players from dropping their items when they die inside the plot.                                               | False         |
+| kelp-grow               | Set to `false` to disable kelp to grow in the plot.                                                                     | True          |
+| leaf-decay              | Set to `false` to prevent leaves from decaying.                                                                         | True          |
+| lectern-read-book       | Prevent players taking books from lecterns.                                                                             | False         |
+| misc-break              | Set to `true` to allow guests to break miscellaneous items. Applies to the following entity categories: armorstands     | False         |
+| misc-place              | Set to `true` to allow guests to place miscellaneous items.                                                             | False         |
+| misc-interact           | Set to `true` to allow guests to interact with miscellaneous items. Applies to the following entities                   |               |
+| mob-break               | Set to `true` to allow mobs to break blocks within the plot.                                                            | False         |
+| mob-place               | Set to `true` to allow mobs to place blocks within the plot.                                                            | False         |
+| mycel-grow              | Set to `false` to disable mycelium to grow in the plot.                                                                 | True          |
+| no-worldedit            | Set to `true` to disable (FastAsync)WorldEdit usage within the plot.                                                    | False         |
+| notify-enter            | Set to `true` to notify the plot owners when someone enters the plot.                                                   | False         |
+| notify-leave            | Set to `true` to notify the plot owners when someone leaves the plot.                                                   | False         |
+| player-interact         | Set to `true` to allow guests to interact with players in the plot.                                                     | False         |
+| pve                     | Set to `true` to enable PVE inside the plot.                                                                            | False         |
+| pvp                     | Set to `true` to enable PVP inside the plot.                                                                            | False         |
+| prevent-creative-copy   | Prevents people from copying item NBT data in the plot unless they're added as members.                                 | False         |
+| projectiles             | Prevents guests from shooting projectiles on the plot when set to false.                                                | False         |
+| projectile-change-block | Set to `true` to allow projectiles to change blocks (tnt, etc.) on the plot.                                            | False         |
+| redstone                | Set to `false` to disable redstone in the plot.                                                                         | True          |
+| server-plot             | Set to `true` to turn the plot into a server plot. This is equivalent to setting the server as the plot owner.          | False         |
+| snow-form               | Set to `false` to disallow snow to form within the plot.                                                                | False         |
+| snow-melt               | Set to `true` to allow snow to melt within the plot.                                                                    | True          |
+| soil-dry                | Set to `true` to allow soil to dry within the plot.                                                                     | False         |
+| tamed-attack            | Set to `true` to allow guests to attack tamed animals in the plot.                                                      | False         |
+| tamed-interact          | Set to `true` to allow guests to interact with tamed animals in the plot.                                               | False         |
+| untrusted-visit         | Set to `false` to disallow untrusted players from visiting the plot.                                                    | True          |
+| vehicle-break           | Set to `true` to allow guests to break vehicles in the plot.                                                            | False         |
+| vehicle-place           | Set to `true` to allow guests to place vehicles in the plot.                                                            | False         |
+| vehicle-use             | Set to `true` to allow guests to use vehicles in the plot. Applies to the following entity categories: vehicle          | False         |
+| villager-interact       | Set to `true` to allow guests to interact with villagers in the plot.                                                   | False         |
+| vine-grow               | Set to `false` to disable vines to grow within the plot.                                                                | True          |
 
 ### Double
 
