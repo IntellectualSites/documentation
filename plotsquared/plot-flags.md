@@ -170,6 +170,7 @@ snowball spectral_arrow shulker_bullet potion trident
 | block-burn              | Set to `true` to allow blocks to burn within the plot.                                                                  | False         |
 | block-ignition          | Set to `false` to disallow blocks to ignite within the plot.                                                            | True          |
 | chat                    | Set to `false` to prevent plot chat on the plot.                                                                        | False         |
+| concrete-harden         | Set to `false` to disable concrete powder forming to concrete with water.                                               | True          |
 | coral-dry               | Set to `true` to allow corals to dry within the plot.                                                                   | False         |
 | crop-grow               | Set to `false` to disable crop growing on the plot.                                                                     | True          |
 | copper-oxide            | Set to `true` to allow copper to oxide within the plot.                                                                 | False         |
