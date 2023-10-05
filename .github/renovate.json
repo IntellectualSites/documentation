@@ -11,16 +11,19 @@
       "matchStrings": ["TYPOS_VERSION=(?<currentValue>.*?)\n"],
       "depNameTemplate": "crate-ci/typos",
       "datasourceTemplate": "github-releases"
-    }
-  ],
-  "rebaseWhen": "conflicted",
-  "customManagers": [
+    },
     {
-      "customType": "regex",
-      "fileMatch": ["^api-documentation.md$"],
-      "matchStrings": ["com\\.intellectualsites\\.bom:bom-newest:(?<currentValue>.*?)\\\"", "<version>(?<currentValue>.*?)<\\/version>"],
-      "depName": "com.intellectualsites.bom:bom-newest",
+      "fileMatch": ["plotsquared/api/api-documentation.md"],
+      "matchStrings": ["implementation\\(platform\\(\"com.intellectualsites.bom:bom-newest:(?<currentValue>.*?)\\\""],
+      "depNameTemplate": "com.intellectualsites.bom:bom-newest",
+      "datasourceTemplate": "maven"
+    },
+    {
+      "fileMatch": ["plotsquared/api/api-documentation.md"],
+      "matchStrings": ["<version>(?<currentValue>.*?)<\/version>"],
+      "depNameTemplate": "com.intellectualsites.bom:bom-newest",
       "datasourceTemplate": "maven"
     }
-  ]
+  ],
+  "rebaseWhen": "conflicted"
 }
