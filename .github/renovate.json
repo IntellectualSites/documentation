@@ -23,6 +23,18 @@
       "matchStrings": ["<version>(?<currentValue>.*?)<\/version>"],
       "depNameTemplate": "com.intellectualsites.bom:bom-newest",
       "datasourceTemplate": "maven"
+    },
+    {
+      "fileMatch": ["fastasyncworldedit/api/api-usage.md"],
+      "matchStrings": ["implementation\\(platform\\(\"com.intellectualsites.bom:bom-newest:(?<currentValue>.*?)\\\""],
+      "depNameTemplate": "com.intellectualsites.bom:bom-newest",
+      "datasourceTemplate": "maven"
+    },
+    {
+      "fileMatch": ["fastasyncworldedit/api/api-usage.md"],
+      "matchStrings": ["<version>(?<currentValue>.*?)<\/version>"],
+      "depNameTemplate": "com.intellectualsites.bom:bom-newest",
+      "datasourceTemplate": "maven"
     }
   ],
   "rebaseWhen": "conflicted"
