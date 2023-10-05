@@ -11,6 +11,30 @@
       "matchStrings": ["TYPOS_VERSION=(?<currentValue>.*?)\n"],
       "depNameTemplate": "crate-ci/typos",
       "datasourceTemplate": "github-releases"
+    },
+    {
+      "fileMatch": ["plotsquared/api/api-documentation.md"],
+      "matchStrings": ["implementation\\(platform\\(\"com.intellectualsites.bom:bom-newest:(?<currentValue>.*?)\\\""],
+      "depNameTemplate": "com.intellectualsites.bom:bom-newest",
+      "datasourceTemplate": "maven"
+    },
+    {
+      "fileMatch": ["plotsquared/api/api-documentation.md"],
+      "matchStrings": ["<version>(?<currentValue>.*?)<\/version>"],
+      "depNameTemplate": "com.intellectualsites.bom:bom-newest",
+      "datasourceTemplate": "maven"
+    },
+    {
+      "fileMatch": ["fastasyncworldedit/api/api-usage.md"],
+      "matchStrings": ["implementation\\(platform\\(\"com.intellectualsites.bom:bom-newest:(?<currentValue>.*?)\\\""],
+      "depNameTemplate": "com.intellectualsites.bom:bom-newest",
+      "datasourceTemplate": "maven"
+    },
+    {
+      "fileMatch": ["fastasyncworldedit/api/api-usage.md"],
+      "matchStrings": ["<version>(?<currentValue>.*?)<\/version>"],
+      "depNameTemplate": "com.intellectualsites.bom:bom-newest",
+      "datasourceTemplate": "maven"
     }
   ],
   "rebaseWhen": "conflicted"
