@@ -1,4 +1,12 @@
-# Schematic on claim
+# Plot Schematic on Claim
+
+## Introduction
+
+With PlotSquared you can generate a predefined plot-schematic when a player gets a new plot (`/plot claim`, `/plot auto`, ...).
+
+{% hint style="tip" %}
+The plot-schematics only affect the plot itself. For instructions on how to set up road-schematics for the plotworld, see the article [Plotworld Road Schematic](../schematics/road-schematic.md).
+{% endhint %}
 
 ## Setup
 

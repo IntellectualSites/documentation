@@ -104,38 +104,11 @@ worlds:
 
 Replace `plotworld` with the name of your plotworld. ([Help-Page of bukkit](https://bukkit.gamepedia.com/Bukkit.yml#.2AOPTIONAL.2A_worlds))
 
-## Adding Road Schematic (optional)
+## Adding Plotworld Road Schematic (optional)
 
-Road schematics can be added after world generation. You are able to change the road schematic whenever you want, however, this will only affect newly generation regions and does not change previously generated regions. You can run `/plot regenallroads` in order to manually change already-generated roads.
+Customize the road between the plots with predefined schematics.
 
-First you want to build a road surrounding your plot. The road includes the walls, the plot border and the full intersection. Therefore you have to build over the intersections as well, we recommend going 3 or 4 blocks ahead.  +
-Advanced note: PlotSquared does only take two sides of the road into consideration when doing the road creation, because, you likely already figured, roads are squares too around the square plots. Mathematical wise you only need to know 1 side's dimension to construct a square, however, PlotSquared takes up to two sides into consideration allowing you up to two different patterns.
-
-{% hint style="info" %}
-Currently, you need a symmetrical border construction for the schematic. Otherwise you get construction mistakes.
-{% endhint %}
-
-Here is a link of the parts of a road schematic you have to create. The pink parts are just a recommendation, but the past has shown us that it's good to add them before creating the road schematic:
-
-![Road schematic](https://i.imgur.com/ISPEJPC.png)
-
-Once you have created the road, stand in the plot and execute the following command:
-
-`/plot createroadschematic`
-
-Road schematics are stored in plugins/PlotSquared/schematics/GEN_ROAD_SCHEMATIC/`worldname`. Once road schematic has been created it can be **copied** to a new `worldname` folder in this directory, providing the schematic for generating a new world.
-
-To test the schematic (recommended), stand in another plot that was not used to create the schematic. The following will regenerate the road for the plot you are standing in:
-
-`/plot debugroadregen plot`
-
-If all is well, you can begin regenerating the roads in the entire map. Open up your console and execute the following command (this may take a while and may cause lag spikes):
-
-`/plot regenallroads <world> [height]`
-
-The height option, if specified, changes the amount of air to paste above the schematic.
-
-**Another way:** you stop the server and delete the world-chunks. With the restart the new generated chunks follow your plotworld setup.
+**Instruction:** [Plotworld Road Schematic](../schematics/road-schematic.md)
 
 ## Adding Plot-Schematics (optional)
 
@@ -143,10 +116,10 @@ The height option, if specified, changes the amount of air to paste above the sc
 
 Allow to generate a plotworld with a custom schematic in all plots.
 
-**Instruction:** [Schematic generation](../schematics/schematic-generation.md)
+**Instruction:** [Plot Schematic on Generation](../schematics/schematic-generation.md)
 
 ### Plot Schematic on Claim
 
 The player get a custom plot schematic with a claim. If you wish, the player can define a plot-schematic with the claim-command.
 
-**Instruction:** [Schematic on claim](../schematics/schematic-on-claim.md)
+**Instruction:** [Plot Schematic on Claim](../schematics/schematic-on-claim.md)
