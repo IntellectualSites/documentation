@@ -14,7 +14,7 @@ The plot-schematics only affect the plot itself. For instructions on how to set 
 
 ## Setup
 
-In order to have a plot world generate with schematics do the following:
+In order to have a plotworld generate with schematics do the following:
 
 1. Create a plot schematic with `/plot schematic save`
 2. Move the created schematic from `/plugins/PlotSquared/schematics/` to `/plugins/PlotSquared/schematics/GEN_ROAD_SCHEMATIC/<world name>/` and rename it to `plot.schematic`/`plot.schem` (depending on the file extension of the schematic file you're moving)
