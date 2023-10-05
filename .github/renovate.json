@@ -13,5 +13,14 @@
       "datasourceTemplate": "github-releases"
     }
   ],
-  "rebaseWhen": "conflicted"
+  "rebaseWhen": "conflicted",
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["^api-documentation.md$"],
+      "matchStrings": ["com\\.intellectualsites\\.bom:bom-newest:(?<currentValue>.*?)\\\"", "<version>(?<currentValue>.*?)<\\/version>"],
+      "depName": "com.intellectualsites.bom:bom-newest",
+      "datasourceTemplate": "maven"
+    }
+  ]
 }
