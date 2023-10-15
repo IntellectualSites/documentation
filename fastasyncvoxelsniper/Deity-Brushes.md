@@ -1,4 +1,4 @@
-# Deity Brushes
+# Entity Brushes
 
 {% hint style="info" %}
 These brushes do not use Performers
