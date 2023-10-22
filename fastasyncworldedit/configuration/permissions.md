@@ -1,15 +1,6 @@
 # Permissions
 
-Table of Contents
-
-[🏠 Return to the index](../README.md)
-
-- [Admin permissions](#admin-permissions)
-- [User permissions](#user-permissions)
-- [Region permissions](#region-permissions)
-- [Extended WorldEdit permissions](#extended-worldedit-permissions)
-
-> [TIP] **Info:** For command related permissions, see [here](../basic-commands/main-commands-and-permissions.adoc).
+> **Info:** For command related permissions, see [here](../basic-commands/main-commands-and-permissions.md).
 
 ## Admin permissions
 
