@@ -1,5 +1,7 @@
 # Home
 
+![image](./images/FAVS-Logo_160px.webp "FastAsyncVoxelSniper Logo")
+
 ## About the plugin
 
 FastAsyncVoxelSniper is a fork of the famous, but abandoned, plugin called "VoxelSniper".
