@@ -1,6 +1,6 @@
 # Home
 
-![FastAsyncWorldEdit Logo](./images/FAWE-Logo_160px.svg)
+<figure><img src="https://github.com/IntellectualSites/Assets/blob/main/plugins/FastAsyncWorldEdit/FastAsyncWorldEdit.svg" alt="Scaled FastAsyncWorldEdit Logo" width="160px"><figcaption><p>FastAsyncWorldEdit Logo</p></figcaption></figure>
 
 ## About the plugin
 
