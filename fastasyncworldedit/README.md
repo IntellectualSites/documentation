@@ -1,6 +1,6 @@
 # Home
 
-![image](./images/FAWE-Logo_160px.svg "FastAsyncWorldEdit Logo")
+![FastAsyncWorldEdit Logo](./images/FAWE-Logo_160px.svg)
 
 ## About the plugin
 

@@ -1,6 +1,6 @@
 # Home
 
-![image](./images/FAVS-Logo_160px.webp "FastAsyncVoxelSniper Logo")
+![FastAsyncVoxelSniper Logo](./images/FAVS-Logo_160px.webp)
 
 ## About the plugin
 
