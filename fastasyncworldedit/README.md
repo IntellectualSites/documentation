@@ -1,5 +1,7 @@
 # Home
 
+![image](./images/FAWE-Logo_120px.png)
+
 ## About the plugin
 
 FastAsyncWorldEdit is a fork of WorldEdit that has huge speed and memory improvements and considerably more features.
