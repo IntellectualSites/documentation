@@ -1,6 +1,6 @@
 # Home
 
-<figure><img src="https://github.com/IntellectualSites/Assets/blob/main/plugins/FastAsyncWorldEdit/FastAsyncWorldEdit.svg" alt="Scaled FastAsyncWorldEdit Logo" width="160px"><figcaption><p>FastAsyncWorldEdit Logo</p></figcaption></figure>
+<figure><img src="https://github.com/IntellectualSites/documentation/assets/98754084/3a98df01-fa47-4373-a6ef-dcf06c3354fb" width="160px" alt="FastAsyncWorldEdit Logo" /></figure>
 
 ## About the plugin
 
