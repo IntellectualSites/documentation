@@ -1,6 +1,6 @@
 # Summary​
 
-[Why should you switch to PlotSquared?](./why-plotsquared.md)
+* [Why should you switch to PlotSquared?](./why-plotsquared.md)
 
 ## Installation
 
@@ -50,7 +50,7 @@
 * [Plot Analysis](./optimization/plot-analysis.md)
 * [World Reduction](./optimization/world-reduction.md)
 
-## Permission
+## Permissions
 
 * [Bypass Permissions](./permission/bypass-permissions.md)
 * [Permission Packs](./permission/permission-packs.md)
