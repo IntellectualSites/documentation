@@ -1,6 +1,8 @@
 # Home
 
-![image](images/PS-Logo_120px.png)
+<p style="text-align: center">
+    <img alt="PlotSquared Logo" src="images/ps-logo-minified.svg" width="120" height="120">
+</p>
 
 ## About the plugin
 
