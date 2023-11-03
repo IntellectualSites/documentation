@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.38"))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.40"))
     compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
 }
 ```
@@ -38,7 +38,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.38"))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.40"))
     compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
     compileOnly("com.intellectualsites.plotsquared:plotsquared-bukkit") { isTransitive = false }
 }
@@ -58,7 +58,7 @@ dependencies {
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
             <artifactId>bom-newest</artifactId>
-            <version>1.38</version>
+            <version>1.40</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -87,7 +87,7 @@ dependencies {
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
             <artifactId>bom-newest</artifactId>
-            <version>1.38</version>
+            <version>1.40</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
