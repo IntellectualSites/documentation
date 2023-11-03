@@ -1,5 +1,7 @@
 # Home
 
+<figure><img src="https://raw.githubusercontent.com/IntellectualSites/Assets/main/plugins/FastAsyncWorldEdit/FastAsyncWorldEdit.svg" width="160px" alt="FastAsyncWorldEdit Logo" /><figcaption>FastAsyncWorldEdit Logo</figcaption></figure>
+
 ## About the plugin
 
 FastAsyncWorldEdit is a fork of WorldEdit that has huge speed and memory improvements and considerably more features.
