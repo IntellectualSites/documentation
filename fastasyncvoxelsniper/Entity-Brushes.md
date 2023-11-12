@@ -5,7 +5,7 @@ These brushes do not use Performers
 {% endhint %}
 
 ## The Entity Brush
-**/b en [EntityType]**: The Entity Brush allowes a user to snipe-spawn single or groups (defined by the brush size variable) of  entities from a safe distance. (Item, XPOrb, Painting, Arrow, Snowball, Fireball, SmallFireball, ThrownEnderpearl, EyeOfEnderSignal, ThrownExpBottle, PrimedTnt, FallingSand, Minecart, Boat, Creeper, Skeleton, Spider, Giant, Zombie, Slime, Ghast, PigZombie, Enderman, CaveSpider, Silverfish, Blaze, LavaSlime, EnderDragon, WitherBoss, Bat, Witch, Pig, Sheep, Cow, Chicken, Squid, Wolf, MushroomCow, SnowMan, Ozelot, VillagerGolem, Villager, EnderCrystal). *Thanks to xmlns for use of his Mob Class from SpawnMob.*
+**/b en [EntityType]**: The Entity Brush allows a user to snipe-spawn single or groups (defined by the brush size variable) of  entities from a safe distance. (Item, XPOrb, Painting, Arrow, Snowball, Fireball, SmallFireball, ThrownEnderpearl, EyeOfEnderSignal, ThrownExpBottle, PrimedTnt, FallingSand, Minecart, Boat, Creeper, Skeleton, Spider, Giant, Zombie, Slime, Ghast, PigZombie, Enderman, CaveSpider, Silverfish, Blaze, LavaSlime, EnderDragon, WitherBoss, Bat, Witch, Pig, Sheep, Cow, Chicken, Squid, Wolf, MushroomCow, SnowMan, Ozelot, VillagerGolem, Villager, EnderCrystal). *Thanks to xmlns for use of his Mob Class from SpawnMob.*
 
 {% hint style="success" %}
 After entering "/b en Sheep" and "/b 5", clicking the sniper will spawn 5 sheep at the snipe-point.

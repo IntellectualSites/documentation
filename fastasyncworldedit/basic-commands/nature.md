@@ -21,7 +21,7 @@ The middle of the selection in the images below are marked by a yellow block.
 
 ![drain.png](https://i.imgur.com/wnjgiXJ.png)
 
-![drain_ressource.png](https://i.imgur.com/YTGLAqx.png)
+![drain_resource.png](https://i.imgur.com/YTGLAqx.png)
 
 ![drain-w.png](https://i.imgur.com/mf5arBW.png)
 
@@ -48,7 +48,7 @@ The middle of the selection in the images below are marked by a yellow block.
 
 ![fixwater-full.png](https://i.imgur.com/Krav8oA.png)
 
-![fixwater_ressource.png](https://i.imgur.com/FBuYNm4.png)
+![fixwater_resource.png](https://i.imgur.com/FBuYNm4.png)
 
 ## Fixlava
 
@@ -71,7 +71,7 @@ The middle of the selection in the images below are marked by a yellow block.
 
 ![fixlava-full.png](https://i.imgur.com/0zhsjLL.png)
 
-![fixlava_ressource.png](https://i.imgur.com/zmaFyy7.png)
+![fixlava_resource.png](https://i.imgur.com/zmaFyy7.png)
 
 ## Snow
 

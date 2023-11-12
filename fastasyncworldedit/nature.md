@@ -33,7 +33,7 @@ block.
 
 1.  ![drain.png](https://i.imgur.com/wnjgiXJ.png)
 
-2.  ![drain\_ressource.png](https://i.imgur.com/YTGLAqx.png)
+2.  ![drain\_resource.png](https://i.imgur.com/YTGLAqx.png)
 
 3.  ![drain-w.png](https://i.imgur.com/mf5arBW.png)
 
@@ -70,7 +70,7 @@ block.
 
 2.  ![fixwater-full.png](https://i.imgur.com/Krav8oA.png)
 
-3.  ![fixwater\_ressource.png](https://i.imgur.com/FBuYNm4.png)
+3.  ![fixwater\_resource.png](https://i.imgur.com/FBuYNm4.png)
 
 # Fixlava
 
@@ -103,7 +103,7 @@ block.
 
 2.  ![fixlava-full.png](https://i.imgur.com/0zhsjLL.png)
 
-3.  ![fixlava\_ressource.png](https://i.imgur.com/zmaFyy7.png)
+3.  ![fixlava\_resource.png](https://i.imgur.com/zmaFyy7.png)
 
 # Snow
 
