@@ -17,15 +17,19 @@ If you are looking for snapshots, add the repository of S01 OSS Sonatype (`https
 
 If you need to access the Bukkit module of PlotSquared, copy the example below.
 
+IMPORTANT: Please set your Gradle version to 17!
+
 ```kotlin
 repositories {
     mavenCentral()
-    maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
+    maven {
+        url 'https://repo.papermc.io/repository/maven-public/'
+    }
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.40"))
-    compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
+    implementation platform('com.intellectualsites.bom:bom-newest:1.40')
+    compileOnly 'com.intellectualsites.plotsquared:plotsquared-core'
 }
 ```
 
@@ -34,13 +38,15 @@ dependencies {
 ```kotlin
 repositories {
     mavenCentral()
-    maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
+    maven {
+        url 'https://repo.papermc.io/repository/maven-public/'
+    }
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.40"))
-    compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
-    compileOnly("com.intellectualsites.plotsquared:plotsquared-bukkit") { isTransitive = false }
+    implementation platform('com.intellectualsites.bom:bom-newest:1.40')
+    compileOnly 'com.intellectualsites.plotsquared:plotsquared-core'
+    compileOnly('com.intellectualsites.plotsquared:plotsquared-bukkit') { transitive = false }
 }
 ```
 
