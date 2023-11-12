@@ -5,7 +5,7 @@
 With this command you teleport you to a specific position.
 
 * You can manually define the position with the `[world,x,y,z]` option. Else, if undefined, the command will default the target block in your [crosshair](https://minecraft.gamepedia.com/File:HUD_example.png).
-* To prevent a stuck you will teleport upstairs of the next solid block in the vertical with two free blocks in the hight for a place to stay (picture 1).
+* To prevent a stuck you will teleport upstairs of the next solid block in the vertical with two free blocks in the height for a place to stay (picture 1).
 
 ### Usage
 `//jumpto [world,x,y,z]`

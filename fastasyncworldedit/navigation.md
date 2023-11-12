@@ -8,7 +8,7 @@ With this command you teleport you to a specific position.
     [crosshair](https://minecraft.gamepedia.com/File:HUD_example.png).
 
 -   To prevent a stuck you will teleport upstairs of the next solid
-    block in the vertical with two free blocks in the hight for a place
+    block in the vertical with two free blocks in the height for a place
     to stay (picture 1).
 
 ## Usage
