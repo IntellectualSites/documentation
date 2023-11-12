@@ -13,13 +13,14 @@ Gradle is the recommended when working with the PlotSquared API. Ensure the [too
 If you are looking for snapshots, add the repository of S01 OSS Sonatype (`https://s01.oss.sonatype.org/`) to the repositories' block.
 {% endhint %}
 
+IMPORTANT: Please set your Gradle version to 17!
+
 ### Gradle - PlotSquared Core
 
 If you need to access the Bukkit module of PlotSquared, copy the example below.
 
-IMPORTANT: Please set your Gradle version to 17!
-
-```kotlin
+#### Groovy:
+```groovy
 repositories {
     mavenCentral()
     maven {
@@ -33,9 +34,27 @@ dependencies {
 }
 ```
 
+#### Kotlin:
+```kotlin
+repositories {
+    mavenCentral()
+    maven {
+        url = uri("https://repo.papermc.io/repository/maven-public/")
+    }
+}
+
+dependencies {
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.40"))
+    compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
+}
+```
+
+<hr>
+
 ### Gradle - PlotSquared Core and Bukkit
 
-```kotlin
+#### Groovy:
+```groovy
 repositories {
     mavenCentral()
     maven {
@@ -47,6 +66,22 @@ dependencies {
     implementation platform('com.intellectualsites.bom:bom-newest:1.40')
     compileOnly 'com.intellectualsites.plotsquared:plotsquared-core'
     compileOnly('com.intellectualsites.plotsquared:plotsquared-bukkit') { transitive = false }
+}
+```
+
+#### Kotlin:
+```kotlin
+repositories {
+    mavenCentral()
+    maven {
+        url = uri("https://repo.papermc.io/repository/maven-public/")
+    }
+}
+
+dependencies {
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.40"))
+    compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
+    compileOnly("com.intellectualsites.plotsquared:plotsquared-bukkit") { isTransitive = false }
 }
 ```
 
