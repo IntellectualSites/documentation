@@ -1,12 +1,9 @@
 # Summary​
 
+## Getting Started
+
 * [Why should you switch to PlotSquared?](./why-plotsquared.md)
-
-## Installation
-
 * [Installation](./installation/installation.md)
-* [Migrating from an older release](./installation/migrating-from-an-older-major-release.md)
-* [Updating from 1.12 to 1.13](./installation/updating-from-1.12-to-1.13.md)
 
 ## Features
 
@@ -38,11 +35,6 @@
 * [Plot component presets](./customization/plot-component-presets.md)
 * [Plot components](./customization/plot-components.md)
 * [Single plot area](./customization/single-plot-area.md)
-
-## Old
-
-* [Older Changelog](./old/changelog-old.md)
-* [Spigot Changelog from v4 to v5](./old/spigot-changelog-v4----v5.md)
 
 ## Optimization
 
