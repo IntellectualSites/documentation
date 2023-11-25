@@ -180,6 +180,7 @@ snowball spectral_arrow shulker_bullet potion trident
 | device-interact         | Set to `true` to allow devices to be interacted with in the plot.                                                       | False         |
 | disable-physics         | Set to `true` to disable block physics in the plot.                                                                     | False         |
 | drop-protection         | Set to `true` to prevent dropped items from being picked up by non-members of the plot.                                 | False         |
+| edit-sign               | Set to `true` to allow players to edit signs in the plot or on the road.                                                | False         |
 | entity-change-block     | Set to `true` to allow entities to change blocks within the plot, if not covered by other flags.                        | False         |
 | explosion               | Set to `true` to allow explosions inside a plot.                                                                        | False         |
 | fly                     | Set to `true` to enable flight within the plot.                                                                         | False         |
