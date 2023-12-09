@@ -36,5 +36,6 @@
       "datasourceTemplate": "maven"
     }
   ],
-  "rebaseWhen": "conflicted"
+  "rebaseWhen": "conflicted",
+  "automerge": true
 }
