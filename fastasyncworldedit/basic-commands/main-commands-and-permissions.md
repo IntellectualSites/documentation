@@ -658,7 +658,7 @@ Flags:
 -a skips air blocks  
 -b include pasting biomes  
 -e include pasting entities  
--m sets a source mask so that excluded blocks become air
+-m only paste blocks matching this mask
 -n implies -s, does not paste the clipoard only the selection
 -o pastes at the original position  
 -s selects the region after pasting
