@@ -9,7 +9,7 @@ The documentation is written in markdown and is hosted on [gitbook](https://inte
 
 You can use GitHub's markdown preview to review your changes before submitting.
 
-This repository is separated in four folders representing the three plugins:
+This repository is separated in different folders representing the plugins we host:
 - [FastAsyncWorldEdit](fastasyncworldedit)
 - [FastAsyncVoxelSniper](fastasyncvoxelsniper)
 - [PlotSquared](plotsquared)
