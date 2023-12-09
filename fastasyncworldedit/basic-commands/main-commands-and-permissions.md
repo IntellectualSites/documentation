@@ -372,9 +372,9 @@ if they are within the same chunk.
 
 *Perm*: `worldedit.region.move`   
 *Desc*: Moves the contents of the selection.  
--s flag shifts the selection to the target location.  
--b also copies biomes  
--e ignores entities  
+-s moves the selection to the target location.  
+-b also move biomes  
+-e also move entities  
 -a ignores air  
 Optionally fills the old location with .
 
