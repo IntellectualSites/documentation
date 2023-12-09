@@ -5,6 +5,7 @@ From here, you can navigate to the documentation of:
 - [FastAsyncWorldEdit](https://intellectualsites.gitbook.io/fastasyncworldedit/)
 - [FastAsyncVoxelSniper](https://intellectualsites.gitbook.io/fastasyncvoxelsniper/)
 - [PlotSquared](https://intellectualsites.gitbook.io/plotsquared/)
+- [ClipboardConnect](https://intellectualsites.gitbook.io/clipboardconnect/)
 
 ## Contributing
 
