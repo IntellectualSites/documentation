@@ -375,7 +375,8 @@ if they are within the same chunk.
 -s moves the selection to the target location.  
 -b also move biomes  
 -e also move entities  
--a ignores air  
+-a ignores air
+-m set the include mask, non-matching blocks become air
 Optionally fills the old location with .
 
 #### //forest [type] [density]
