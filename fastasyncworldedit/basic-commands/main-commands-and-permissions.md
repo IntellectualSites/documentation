@@ -656,8 +656,10 @@ WARNING: Cutting and pasting entities cannot yet be undone!
 *Desc*: Pastes the clipboard's contents.  
 Flags:  
 -a skips air blocks  
--b skips pasting biomes  
--e skips pasting entities  
+-b include pasting biomes  
+-e include pasting entities  
+-m sets a source mask so that excluded blocks become air
+-n implies -s, does not paste the clipoard only the selection
 -o pastes at the original position  
 -s selects the region after pasting
 
