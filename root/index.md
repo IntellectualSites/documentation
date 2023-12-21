@@ -1,6 +1,16 @@
-# Documentation
+Welcome to the official documentation of **IntellectualSites**.
 
-From here, you can navigate to the documentation of:
+# About
+
+IntellectualSites is an open source organization that develops game modifications for Minecraft server.
+
+- [Discord](https://discord.gg/intellectualsites)
+- [GitHub](https://github.com/IntellectualSites)
+- [Resources on SpigotMC](https://www.spigotmc.org/resources/authors/79996)
+
+# Documentations
+
+From here, you can navigate to the project documentation of:
 
 - [FastAsyncWorldEdit](https://intellectualsites.gitbook.io/fastasyncworldedit/)
 - [FastAsyncVoxelSniper](https://intellectualsites.gitbook.io/fastasyncvoxelsniper/)
