@@ -29,11 +29,11 @@ worlds:
       # Uses the block bucket format:
       # ex: stone,grass_block
       filling: minecraft:stone
-      # Whether or not plots should be merged
+      # Whether plots should be merged
       auto_merge: false
       # Whether the plot should have a bedrock layer at the bottom
       bedrock: true
-      # Whether or not signs should be created at the corner of a plot
+      # Whether signs should be created at the corner of a plot
       create_signs: true
       # Uses the block bucket format:
       # ex: stone,grass_block
@@ -50,7 +50,7 @@ worlds:
       # Uses the block bucket format:
       # ex: stone,grass_block
       block: minecraft:stone_slab
-      # Whether or not blocks should be placed on top of the border
+      # Whether blocks should be placed on top of the border
       place_top_block: true
     misc_spawn_unowned: false
     # Configure the road
@@ -76,9 +76,9 @@ worlds:
       default: side
     # Schematic generating / auto pasting
     schematic:
-      # Whether or not the user can choose between a schematic when they claim a plot
+      # Whether the user can choose between a schematic when they claim a plot
       specify_on_claim: false
-      # Whether or not the schematic should be pasted on claim
+      # Whether the schematic should be pasted on claim
       on_claim: false
       # Define the schematic within the following format:
       # file:
@@ -87,7 +87,7 @@ worlds:
       schematics: []
     # Default plot chat mode (toggled with `/plot toggle chat`)
     chat:
-      # Whether or not plotchat will be on always
+      # Whether plotchat will be on always
       forced: false
       enabled: true
     # Command costs
@@ -99,7 +99,7 @@ worlds:
         merge: 100
         sell: 100
         claim: 100
-      # Whether or not the setting should be active
+      # Whether the setting should be active
       use: false
     world:
       # Max world generation height (Y)
@@ -118,15 +118,15 @@ worlds:
       border_size: 1
     event:
       spawn:
-        # Whether or not spawn eggs are enabled
+        # Whether spawn eggs are enabled
         egg: false
-        # Whether or not breeding is enabled
+        # Whether breeding is enabled
         breeding: false
-        # Whether or not custom events are enabled
+        # Whether custom events are enabled
         custom: true
-    # Whether or not natural mob spawning is enabled
+    # Whether natural mob spawning is enabled
     natural_mob_spawning: false
-    # Whether or not spawners are spawning mobs
+    # Whether spawners are spawning mobs
     mob_spawner_spawning: false
     # Global plot flags, see: https://intellectualsites.github.io/plotsquared-documentation/plot-flags
     flags: {}
