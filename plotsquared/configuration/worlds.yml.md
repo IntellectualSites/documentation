@@ -114,6 +114,8 @@ worlds:
       min_height: -63
       # World border expands dynamically (false = disabled)
       border: false
+      # plot offset for the world-border around the claimed plots
+      border_size: 1
     event:
       spawn:
         # Whether or not spawn eggs are enabled
