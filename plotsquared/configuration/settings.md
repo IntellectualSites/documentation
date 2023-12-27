@@ -1,4 +1,4 @@
-# settings.yml
+# General Settings
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# worlds.yml
+# World Configuration
 
 ## Introduction
 
