@@ -10,6 +10,8 @@ For the end user, PlotSquared is packed with a tonne of cool features. It allows
 
 Whilst we provide a whole load of unique features, the biggest focus is to provide a lag-free and smooth experience.
 
+![](images/Cover.png)
+
 * [Project Page on SpigotMC](https://www.spigotmc.org/resources/77506)
 * [Projekt on GitHub](https://github.com/IntellectualSites/PlotSquared)
 
