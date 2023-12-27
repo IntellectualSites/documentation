@@ -33,6 +33,8 @@ If a command or permission contains the `Secondary` description, it means that a
 You can check out our [permission-packs](permission/permission-packs.md) to avoid redundant permission assignments.
 {% endhint %}
 
+---
+
 ## Basics
 
 ### HELP
@@ -61,6 +63,8 @@ Confirm an action
 `plots.confirm` - Access to the command `/plot confirm`
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Confirm.java)
+
+---
 
 ## Info
 
@@ -171,6 +175,8 @@ _Secondary:_
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Caps.java)
 
+---
+
 ## Teleport
 
 ### HOME
@@ -264,6 +270,8 @@ Teleports you to the center of the plot.
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Middle.java)
 
+---
+
 ## Chat
 
 ### COMMENT
@@ -318,6 +326,8 @@ _Secondary:_
 * `plots.chat.color` - Access to color codes in plot chat
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Chat.java)
+
+---
 
 ## Claiming
 
@@ -391,6 +401,8 @@ _Secondary:_
 * `plots.admin.command.schematic` - Administrative access to schematic claims.
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Auto.java)
+
+---
 
 ## Settings
 
@@ -915,6 +927,8 @@ _Secondary:_
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Delete.java)
 
+---
+
 ## Schematic
 
 ### SAVE
@@ -1006,6 +1020,8 @@ _Secondary:_
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/SchematicCmd.java)
 
+---
+
 ## Rating
 
 ### LIKE
@@ -1068,6 +1084,8 @@ _Secondary:_
 * `plots.admin.command.rate` - Administrative override for ratings
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Rate.java)
+
+---
 
 ## Administration
 
@@ -1311,6 +1329,8 @@ _Secondary:_
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Cluster.java)
 
+---
+
 ## Debug
 
 ### DEBUGSAVETEST
@@ -1417,6 +1437,8 @@ _Secondary:_
 `plots.admin` - Access to the command `/plot debugexec`
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugExec.java)
+
+---
 
 ## Other permissions
 
