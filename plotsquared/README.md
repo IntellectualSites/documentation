@@ -1,6 +1,6 @@
 # Home
 
-![](images/PS-Logo_120px.png)
+<figure><img src="https://raw.githubusercontent.com/IntellectualSites/Assets/main/plugins/PlotSquared/PlotSquared.svg" width="160px" alt="PlotSquared Logo" /></figure>
 
 ## About the plugin
 
