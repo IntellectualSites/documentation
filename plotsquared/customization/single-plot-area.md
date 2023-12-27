@@ -1,9 +1,5 @@
 # Single Plot Area
 
-## Introduction
-
-![image](https://i.imgur.com/hqkMsci.png)
-
 This is a new feature added in PlotSquared v5.12.0, that allows you to create plots one by one inside of ordinary (not a plot world) worlds. The process is quite simple:
 
 ## Setup
