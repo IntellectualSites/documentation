@@ -39,28 +39,28 @@ You can check out our [permission-packs](permission/permission-packs.md) to avoi
 
 Get this help menu
 
-*Usage:*
+**Usage:**
 `/plot help [category|#]`
 
-*Aliases:*
+**Aliases:**
 `[ ? ]`
 
-*Permissions:*
+**Permissions:**
 `plots.use` - Access to the command `/plot help`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Help.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Help.java)
 
 ### CONFIRM
 
 Confirm an action
 
-*Usage:*
+**Usage:**
 `/plot confirm`
 
-*Permissions:*
+**Permissions:**
 `plots.confirm` - Access to the command `/plot confirm`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Confirm.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Confirm.java)
 
 ## Info
 
@@ -70,57 +70,57 @@ Display plot info
 
 With `-f` you get the administrative override to bypass the `hide-info` flag.
 
-*Usage:*
+**Usage:**
 
-Primary:
+_Primary:_
 
 * `/plot [[world;]X;Z] info [-f]`
 * `/plot info [[world;]X;Z] [-f]`
 
-Secondary:
+_Secondary:_
 
 * `/plot [[world;]X;Z] info [-f] <category: members, alias, biome, seen, denied, flags, id, size, trusted, owner, rating>`
 * `/plot info [[world;]X;Z] [-f] <category: members, alias, biome, seen, denied, flags, id, size, trusted, owner, rating>`
 
-*Aliases:*
+**Aliases:**
 `[ i ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.info` - Access to the command `/plot info`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.info.force` - Access to the command flag `-f`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Info.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Info.java)
 
 ### LIST
 
 List plots
 
-*Usage:*
+**Usage:**
 
-Primary:
+_Primary:_
 
 * `+/plot list <forsale | mine | shared | world | top | all | unowned | unknown | player | world | done |fuzzy <search...>> [#]+`
 
-Secondary:
+_Secondary:_
 
 * `+/plot list fuzzy <search...> [#]+`
 
-*Aliases:*
+**Aliases:**
 `[ l, find, search ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.list` - Access to the command `/plot list`
 
-Secondary:
+_Secondary:_
 
 * `plots.list.world.<arg>`
 * `plots.list.top` - Access to the command `/plot list top`
@@ -138,38 +138,38 @@ Secondary:
 * `plots.list.area` - Access to the command `/plot list area`
 * `plots.list.fuzzy` - Access to the command `/plot list fuzzy #`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/ListCmd.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/ListCmd.java)
 
 ### TARGET
 
 Target a plot with your compass
 
-*Usage:*
+**Usage:**
 `/plot target <<X;Z> | nearest>`
 
-*Permissions:*
+**Permissions:**
 `plots.target` - Access to the command `/plot target`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Target.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Target.java)
 
 ### CAPS
 
 Show plot mob and entity caps
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] caps`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.caps` - Access to the command `/plot caps`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.caps.other` - Administrative override to manage caps at other plots
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Caps.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Caps.java)
 
 ## Teleport
 
@@ -177,7 +177,7 @@ Secondary:
 
 Teleport to your plot(s).
 
-*Usage:*
+**Usage:**
 
 normal:
 
@@ -195,20 +195,20 @@ coordinates:
 * `/plot home <area/world> <X>;<Z>`
 * `/plot home <area/world>;<X>;<Z>`
 
-*Aliases:*
+**Aliases:**
 `[ h ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.home` - Access to the command `/plot home`
 
-Secondary:
+_Secondary:_
 
 * `plots.visit.owned` - Access to visit owned plots
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/command/HomeCommand.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/command/HomeCommand.java)
 
 ### Visit
 
@@ -230,39 +230,39 @@ coordinates:
 * `/plot visit <X>;<Z>`
 * `/plot visit <area/world>;<X>;<Z>`
 
-*Aliases:*
+**Aliases:**
 `[ v, tp, teleport, goto, warp ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.visit` - Access to the command `/plot visit`
 * `plots.visit.other` - Access to visit other people's plots
 
-Secondary:
+_Secondary:_
 
 * `plots.visit.unowned` - Access to visit unowned plots
 * `plots.visit.owned` - Acecss to visit owned plots
 * `plots.visit.shared` - Access to visit shared plots
 * `plots.admin.visit.untrusted` - Access to visit plots where the player is not trusted to
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Visit.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Visit.java)
 
 ### MIDDLE
 
 Teleports you to the center of the plot.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] middle`
 
-*Aliases:*
+**Aliases:**
 `[ center, centre ]`
 
-*Permissions:*
+**Permissions:**
 `plots.middle` - Access to the command `/plot middle`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Middle.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Middle.java)
 
 ## Chat
 
@@ -270,54 +270,54 @@ Teleports you to the center of the plot.
 
 Comment on a plot
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] comment <message-type: owner | public | report (= for staff)> <comment>`
 
-*Aliases:*
+**Aliases:**
 `[ msg ]`
 
-*Permissions:*
+**Permissions:**
 `plots.comment` - Access to the command `/plots comment`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Comment.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Comment.java)
 
 ### INBOX
 
 List the comments for a plot / delete a message or clear the list
 
-*Usage:*
+**Usage:**
 
-Primary:
+_Primary:_
 
 * `/plot [[world;]X;Z] inbox`
 
-Secondary:
+_Secondary:_
 
 * `/plot [[world;]X;Z] inbox <message-type: owner | public | report> [delete <index> | clear | page]`
 
-*Permissions:*
+**Permissions:**
 `plots.inbox` - Access to the command `/plots inbox`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Inbox.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Inbox.java)
 
 ### CHAT
 
 Toggle plot chat on or off
 
-*Usage:*
+**Usage:**
 `/plot chat`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.chat` - Access to the command `/plot chat`
 
-Secondary:
+_Secondary:_
 
 * `plots.chat.color` - Access to color codes in plot chat
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Chat.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Chat.java)
 
 ## Claiming
 
@@ -327,70 +327,70 @@ Buy the plot you are standing on.
 
 For this command the economy feature is to activate in the `worlds.yml` for this world. Additionally you can change the the prices for "merge", "sell" and "claim" at tis config part too.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] buy`
 
-*Permissions:*
+**Permissions:**
 `plots.buy` - Access to `/plot buy`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Buy.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Buy.java)
 
 ### CLAIM
 
 Claim the current plot you are standing on, if you're not activated the economy feature in the `worlds.yml` for this world.
 If you activated the "specify_on_claim" option in the worlds.yml you can define a plot-schematic.
 
-*Usage:*
+**Usage:**
 
-Primary:
+_Primary:_
 
 * `/plot [[world;]X;Z] claim`
 
-Secondary:
+_Secondary:_
 
 * `/plot [[world;]X;Z] claim <schematic>`
 
-*Aliases:*
+**Aliases:**
 `[ c ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.claim` - Access to `/plot claim`
 * `plots.plot.<max plot amount>` - Limit the amounts of plots a player can claim
 
-Secondary:
+_Secondary:_
 
 * `plots.claim.<schem>` - Dynamic permission associated with your schematic, if used.
 * `plots.admin.command.schematic` - Administrative access to schematic claims.
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Claim.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Claim.java)
 
 ### AUTO
 
 Claim the nearest plot in your world if you're not activated the economy feature in the `worlds.yml` for this world.
 
-*Usage:*
+**Usage:**
 `/plot auto [length, width]`
 
-*Aliases:*
+**Aliases:**
 `[ a ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.auto` - Access to the command `/plot auto`
 * `plots.plot.<max plot amount>` - Limit the amounts of plots a player can claim
 
-Secondary:
+_Secondary:_
 
 * `plots.claim.<schem>` - Dynamic permission associated with your schematic, if used.
 * `plots.auto.mega` - Access to the length and width arguments
 * `plots.admin.command.schematic` - Administrative access to schematic claims.
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Auto.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Auto.java)
 
 ## Settings
 
@@ -398,307 +398,307 @@ Secondary:
 
 Set the plot owner.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] setowner <player>`
 
-*Aliases:*
+**Aliases:**
 `[ owner, so, seto ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.admin.command.setowner`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Owner.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Owner.java)
 
 ### ADD
 
 With this command you "add him" to the whitelist of the plot. Allow a user to build in a plot while the plot owner is online.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] add <player | *>`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.add` - Access to the command `/plot add`
 * `plots.add.<amount>` - Specifying the amount of people the plot owner can add
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.add` - Administrative override
 * `plots.add.everyone` - Access to add everyone
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Add.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Add.java)
 
 ### TRUST
 
 With this command you "add him" to the whitelist of the plot. It gives the added user more permissions as the normal ADD command: it allow a user to build in a plot every time and use WorldEdit while the plot owner is offline.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] trust <player | *>`
 
-*Aliases:*
+**Aliases:**
 `[ t ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.trust` - Access to the command `/plot trust`
 * `plots.trust.<amount>` - Specifying the amount of people the plot owner can trust
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.trust` - Administrative override
 * `plots.trust.everyone` - Access to trust everyone
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Trust.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Trust.java)
 
 ### REMOVE
 
 Remove a player from a plot. This include the player whitelist (ADD, TRUST) and the blacklist (DENY) of the plot.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] remove <player | *>`
 
-*Aliases:*
+**Aliases:**
 `[ r, untrust, ut, undeny, ud, unban ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.remove` - Access to the command `/plot remove`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.remove` Administrative override
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Remove.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Remove.java)
 
 ### DENY
 
 Deny a user from entering a plot. With this command you "add him" to the blacklist of the plot.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] deny <player | *>`
 
-*Aliases:*
+**Aliases:**
 `[ d, ban ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.deny` - Access to the command `/plot deny`
 * `plots.deny.<amount>` - Specifying the amount of people the plot owner can deny
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.deny` - Administrative override
 * `plots.admin.entry.denied` - Administrative override to bypass plot deny
 * `plots.deny.everyone` - Access to deny everyone
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Deny.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Deny.java)
 
 ### GRANT
 
 Manage plot grants.
 
-*Usage:*
+**Usage:**
 `/plot grant <check | add> [player]`
 
-*Permissions:*
+**Permissions:**
 
 * `plots.grant` - Access to the command `/plot grant`
 * `plots.grant.add` - Access to the command `/plot grant add`
 * `plots.grant.check` - Access to the command `/plot grant check`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Grant.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Grant.java)
 
 ### KICK
 
 Kick a player from your plot.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] kick <player | *>`
 
-*Aliases:*
+**Aliases:**
 `[ k ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.kick` - Access to the command `/plot kick`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.kick` - Administrative override
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Kick.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Kick.java)
 
 ### MERGE
 
 Merge the plot you are standing on with another plot.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] merge <all | n | e | s | w> [removeroads]`
 
-*Aliases:*
+**Aliases:**
 `[ m ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.merge` - Access to the command `/plot claim`
 
-Secondary:
+_Secondary:_
 
 * `plots.merge.<amount>` - Limit the amount of plots a player can merge to a mega plot
 * `plots.admin.command.merge` - Administrative override
 * `plots.merge.other` - Access to merge the plot with other people
 * `plots.merge.keeproad` - Access to use the keeproad argument
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Merge.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Merge.java)
 
 ### UNLINK
 
 Unlink a mega-plot (merged plot)
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] unlink [createroads]`
 
-*Aliases:*
+**Aliases:**
 `[ u, unmerge ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.unlink` - Access to the command `/plot unlink`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.unlink` - Administrative override
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Unlink.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Unlink.java)
 
 ### SETHOME
 
 Set the plot-home you're standing on. The plothome is the position where the player will teleported if he use the `/plot home` or `/plot visit` command. With the argument `none` you reset the position.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] set home [none]`
 
-*Aliases:*
+**Aliases:**
 `[ sh, seth, sethome ]`
 
-*Permissions:*
+**Permissions:**
 
 * `plots.set.home` - Access to the command `/plot set home`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/SetHome.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/SetHome.java)
 
 ### ALIAS
 
 Set the plot name
 
-*Usage:*
+**Usage:**
 
 * `/plot [[world;]X;Z] alias set <alias>`
 * `/plot [[world;]X;Z] alias remove <alias>`
 
-*Aliases:*
+**Aliases:**
 `[ setalias, sa, name, rename, setname, seta, nameplot ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.alias.set` - Access to the command `/plot alias set`
 * `plots.alias.remove` - Access to the command `/plot alias remove`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.alias.set` - Administrative override to set an alias
 * `plots.admin.alias.remove` - Administrative override to remove an alias
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Alias.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Alias.java)
 
 ### SETDESCRIPTION
 
 Set the plot description
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] desc <description>`
 
-*Aliases:*
+**Aliases:**
 `[ setdescription, setdesc, setd, description ]`
 
-*Permissions:*
+**Permissions:**
 `plots.set.desc` - Access to the command `/plot set description`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Desc.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Desc.java)
 
 ### MUSIC
 
 Player music in a plot
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] music`
 
-*Permissions:*
+**Permissions:**
 `plots.music` - Access to the command `/plot music`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Music.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Music.java)
 
 ### SETBIOME
 
 List all possible biomes or change the plot biome. (You can change the biome with WorldEdit / FAWE too.) If you clear or delete the plot, you reset the biom setting too, so the default biome (changeable in the `worlds.yml`) will be used.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] biome [biome]`
 
-*Aliases:*
+**Aliases:**
 `[ biome, sb, setb, b ]`
 
-*Permissions:*
+**Permissions:**
 `plots.set.biome` - Access to the command `/plot set biome`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Biome.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Biome.java)
 
 ### SETFLAG
 
 Manage plot flags.
 
-*Usage:*
+**Usage:**
 
-Primary:
+_Primary:_
 
 * `/plot [[world;]X;Z] flag`
 
-Secondary:
+_Secondary:_
 
 * `/plot [[world;]X;Z] flag info <flag>`
 * `/plot [[world;]X;Z] flag set <flag> <value>`
 * `/plot [[world;]X;Z] flag add <flag> <values>`
 * `/plot [[world;]X;Z] flag remove <flag> [values]`
 
-*Aliases:*
+**Aliases:**
 `[ f, flag ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.flag` - Access to the command `/plot flag`
 
-Secondary:
+_Secondary:_
 
 * `plots.set.flag` - Access to the command `/plot set flag`
 * `plots.flag.remove` - Access to the command `/plot flag remove`
@@ -707,63 +707,63 @@ Secondary:
 * `plots.set.flag.<arg>` - Access to the command `/plot set flag <arg>`
 * `plots.flag.list` - Access to the command `/plot flag list`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/FlagCommand.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/FlagCommand.java)
 
 ### DONE
 
 Mark a plot as done
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] done`
 
-*Aliases:*
+**Aliases:**
 `[ submit ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.done` - Access to the command `/plot done`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.done` - Administrative override
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Done.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Done.java)
 
 ### CONTINUE
 
 Continue a plot that was previously marked as done
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] continue`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.continue` - Access to the command `/plot continue`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.continue` - Administrative override
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Continue.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Continue.java)
 
 ### TOGGLE
 
 Toggle per user settings
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] toggle <chat | chatspy | clear-confirmation | time | titles | worldedit>`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.use` - Access to the command `/plot toggle`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.chat` - Access to the command `/plot toggle chat-spy`
 * `plots.worldedit.bypass` - Access to the command `/plot wea`
@@ -774,146 +774,146 @@ Secondary:
 * `plots.toggle.debug` - Access to the command `/plots toggle debug`
 * `plots.admin.debug.other` - Administrative override to toggle the debugmode for other players
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Toggle.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Toggle.java)
 
 ### SET
 
 Set a plot value
 
-*Usage:*
+**Usage:**
 `+/plot [[world;]X;Z] set <biome | alias | home | floor | wall | all | air | main | middle | outline | border> <value...>+`
 
-*Aliases:*
+**Aliases:**
 `[ s ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.set` - Access to the command `/plot set`
 
-Secondary:
+_Secondary:_
 
 * `plots.set." + <component>`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Set.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Set.java)
 
 ### COPY
 
 Copy a plot.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] copy <X;Z>`
 
-*Aliases:*
+**Aliases:**
 `[ copypaste ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.copy` - Access to the command `/plot copy`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Copy.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Copy.java)
 
 ### MOVE
 
 Move a plot.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] move <X;Z>`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.move` - Access to the command `/plot move`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Move.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Move.java)
 
 ### SWAP
 
 Swap two plots.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] swap <X;Z>`
 
-*Aliases:*
+**Aliases:**
 `[ switch ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.swap` - Access to the command `/plot swap`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Swap.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Swap.java)
 
 ### BACKUP
 
 Manage plot backups
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] backup <save | list | load>`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.backup` - Access to the command `/plot backup`
 
-Secondary:
+_Secondary:_
 
 * `plots.backup.save` - Access to the command `/plot backup save`
 * `plots.backup.load` - Access to the command `/plot backup load`
 * `plots.backup.list` - Access to the command `/plot backup list`
 * `plots.admin.backup.other` - Administrative override to manage backups at other plots
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Backup.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Backup.java)
 
 ### CLEAR
 
 Clear the plot you stand on. It doesn't reset any plot settings or flag (with exception of the biome setting).
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] clear`
 
-*Aliases:*
+**Aliases:**
 `[ reset ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.clear` - Access to the command `/plot clear`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.clear` - Administrative override
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Clear.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Clear.java)
 
 ### DELETE
 
 Delete the plot you stand on.
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] delete`
 
-*Aliases:*
+**Aliases:**
 `[ dispose, del ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.delete` - Access to the command `/plot delete`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.delete` - Administrative override to delete plots.
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Delete.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Delete.java)
 
 ## Schematic
 
@@ -921,90 +921,90 @@ Secondary:
 
 Save your plot
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] save`
 
-*Permissions:*
-Primary:
+**Permissions:**
+_Primary:_
 
 * `plots.save` - Access to the command `/plot save`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.save` - Administrative override to save plots
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Save.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Save.java)
 
 ### LOAD
 
 List the plot snapshots (after: `/plot save`) or load a snapshot
 
-*Usage:*
+**Usage:**
 
 * `/plot [[world;]X;Z] load`
 * `/plot [[world;]X;Z] load <index>`
 
-*Aliases:*
+**Aliases:**
 `[ restore ]`
 
-*Permissions:*
-Primary:
+**Permissions:**
+_Primary:_
 
 * `plots.load` - Access to the command `/plot load`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.load` - Administrative override to load a plot.
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Load.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Load.java)
 
 ### DOWNLOAD
 
 Download your plot
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] download [schematic | world]`
 
-*Aliases:*
+**Aliases:**
 `[ download, dl ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.download` - Access to the command `/plot download`
 * `plots.download.world` - Access to the command `/plot download <world>`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.download` - Administrative override to download other plots
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Download.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Download.java)
 
 ### SCHEMATIC
 
 Schematic command
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] schematic <save | saveall | paste>`
 
-*Aliases:*
+**Aliases:**
 `[ sch, schem ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.schematic` - Access to the command `/plot schematic`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.schematic.paste` - Administrative override to paste schematics
 * `plots.admin.command.schematic.save` - Administrative override to save schematics
 * `plots.schematic.save` - Access to the command `/plot schematic save`
 * `plots.schematic.paste` - Access to the command `/plot schematic paste `
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/SchematicCmd.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/SchematicCmd.java)
 
 ## Rating
 
@@ -1012,62 +1012,62 @@ Secondary:
 
 Like a plot
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] like [next | purge]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.like` - Access to the command `/plot like`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.rate` - Administrative override for ratings
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Like.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Like.java)
 
 ### Dislike
 
 Dislike a plot
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] dislike [next | purge]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.dislike` - Access to the command `/plot like`
 
-Secondary:
+_Secondary:_
 
 * `plots.admin.command.rate` - Administrative override for ratings
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Disike.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Disike.java)
 
 ### RATE
 
 Rate the plot
 
-*Usage:*
+**Usage:**
 `/plot [[world;]X;Z] rate [# | next | purge]`
 
-*Aliases:*
+**Aliases:**
 `[ rt ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.rate` - Access to the command `/plot rate`
 
-Secondary:
+_Secondary:_
 
 * `plots.comment` - Access to the command `/plot comment`
 * `plots.admin.command.rate` - Administrative override for ratings
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Rate.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Rate.java)
 
 ## Administration
 
@@ -1075,74 +1075,74 @@ Secondary:
 
 Show plugin information
 
-*Usage:*
+**Usage:**
 `/plot plugin`
 
-*Aliases:*
+**Aliases:**
 `[ version ]`
 
-*Permissions:*
+**Permissions:**
 `plots.use` - Access to the command `/plot plugin`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/PluginCmd.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/PluginCmd.java)
 
 ### TEMPLATE
 
 Create or use a world template
 
-*Usage:*
+**Usage:**
 
-Primary:
+_Primary:_
 
 * `/plot template [import | export] <world> <template>`
 
-Secondary:
+_Secondary:_
 
 * `/plot template <import|export> <world> [template]`
 * `/plot template export <world>`
 * `/plot template import <world> <template>`
 
-*Permissions:*
+**Permissions:**
 `plots.admin` - Access to the command `/plot template`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Template.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Template.java)
 
 ### SETUP
 
 Setup wizard for plot worlds
 
-*Usage:*
+**Usage:**
 `/plot setup`
 
-*Aliases:*
+**Aliases:**
 `[ create ]`
 
-*Permissions:*
+**Permissions:**
 `plots.admin.command.setup`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Setup.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Setup.java)
 
 ### AREA
 
 Create a new PlotArea
 
-*Usage:*
+**Usage:**
 
-Primary:
+_Primary:_
 
 * `/plot area <create|info|list|tp|regen>`
 
-Secondary:
+_Secondary:_
 
 * `/plot visit [area]`
 * `/plot area info [area]`
 * `+/plot area create [world[:id]] [<modifier>=<value>]...+`
 * `/plot area list [#]`
 
-*Aliases:*
+**Aliases:**
 `[ world ]`
 
-*Permissions:*
+**Permissions:**
 
 * `plots.area` - Access to the command `/plot area`
 * `plots.area.list` - Access to the command `/plot area list`
@@ -1151,118 +1151,118 @@ Secondary:
 * `plots.area.tp` - Access to the command `/plot area tp`
 * `plots.area.regen` - Access to the command `/plot area regen`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Area.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Area.java)
 
 ### CREATEROADSCHEMATIC
 
 Add a road schematic to your world using the roads around your current plot
 
-*Usage:*
+**Usage:**
 `/plot createroadschematic`
 
-*Aliases:*
+**Aliases:**
 `[ crs ]`
 
-*Permissions:*
+**Permissions:**
 
 * `plots.createroadschematic` - Access to the command `/plot createroadschematic`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/CreateRoadSchematic.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/CreateRoadSchematic.java)
 
 ### REGENALLROADS
 
 Regenerate all roads in the map using the set road schematic
 
-*Usage:*
+**Usage:**
 `/plot regenallroads <world> [height]`
 
-*Aliases:*
+**Aliases:**
 `[ rgar ]`
 
-*Permissions:*
+**Permissions:**
 
 * `plots.regenallroads` - Access to the command `/plot regenallroads`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/RegenAllRoads.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/RegenAllRoads.java)
 
 ### PURGE
 
 Purge all plots for a world
 
-*Usage:*
+**Usage:**
 `/plot purge world:<world> area:<area> id:<id> owner:<owner> shared:<shared> unknown:[true|false] clear:[true|false]`
 
-*Permissions:*
+**Permissions:**
 
 * `plots.admin` - Access to the command `/plot purge`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Purge.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Purge.java)
 
 ### RELOAD
 
 Reload translations and world settings
 
-*Usage:*
+**Usage:**
 `/plot reload`
 
-*Aliases:*
+**Aliases:**
 `[ rl ]`
 
-*Permissions:*
+**Permissions:**
 `plots.admin.command.reload` - Access to the command `/plot reload`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Reload.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Reload.java)
 
 ### DATABASE
 
 Convert/Backup Storage
 
-*Usage:*
+**Usage:**
 `/plots database [area] <sqlite | mysql | import>`
 
-*Aliases:*
+**Aliases:**
 `[ convert ]`
 
-*Permissions:*
+**Permissions:**
 `plots.database` - Access to the command `/plot database`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/command/DatabaseCommand.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/command/DatabaseCommand.java)
 
 ### CONDENSE
 
 Condense a plotworld
 
-*Usage:*
+**Usage:**
 `/plot condense <area> <start | stop |info> [radius]`
 
-*Permissions:*
+**Permissions:**
 `plots.admin` - Access to the command `/plot condense`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Condense.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Condense.java)
 
 ### TRIM
 
 Delete unmodified portions of your plotworld
 
-*Usage:*
+**Usage:**
 `/plot trim <world> [regenerate]`
 
-*Permissions:*
+**Permissions:**
 `plots.admin` - Access to the command `/plot trim`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Trim.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Trim.java)
 
 ### CLUSTER
 
 Manage a plot cluster
 
-*Usage:*
+**Usage:**
 
-Primary:
+_Primary:_
 
 * `/plot cluster`
 
-Secondary:
+_Secondary:_
 
 * `/plot cluster resize <pos1> <pos2>`
 * `/plot cluster leave [name]`
@@ -1276,16 +1276,16 @@ Secondary:
 * `/plot cluster tp <name>`
 * `/plot cluster kick <player>`
 
-*Aliases:*
+**Aliases:**
 `[ clusters ]`
 
-*Permissions:*
+**Permissions:**
 
-Primary:
+_Primary:_
 
 * `plots.cluster` - Access to the command `/plot cluster`
 
-Secondary:
+_Secondary:_
 
 * `plots.cluster.delete.other` - Administrative override to delete other clusters
 * `plots.cluster.kick` - Access to the command `/plot cluster kick`
@@ -1309,7 +1309,7 @@ Secondary:
 * `plots.cluster.resize.shrink` - Access to the command `/plot cluster resize shrink`
 * `plots.cluster.sethome` - Access to the command `/plot cluster sethome`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Cluster.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Cluster.java)
 
 ## Debug
 
@@ -1317,91 +1317,91 @@ Secondary:
 
 This command will force the recreation of all plots in the DB
 
-*Usage:*
+**Usage:**
 `/plot debugsavetest`
 
-*Permissions:*
+**Permissions:**
 `plots.debugsavetest` - Access to the command `/plot debugsavetest`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugSaveTest.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugSaveTest.java)
 
 ### DEBUGLOADTEST
 
 This debug command will force the reload of all plots in the DB
 
-*Usage:*
+**Usage:**
 `/plot debugloadtest`
 
-*Permissions:*
+**Permissions:**
 `plots.debugloadtest` - Access to the command `/plot debugloadtest`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugLoadTest.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugLoadTest.java)
 
 ### DEBUGALLOWUNSAFE
 
 Allow unsafe actions until toggled off
 
-*Usage:*
+**Usage:**
 `/plot debugallowunsafe`
 
-*Aliases:*
+**Aliases:**
 `[ debugallowunsafe ]`
 
-*Permissions:*
+**Permissions:**
 `plots.debugallowunsafe` - Access to the command `/plot debugallowunsafe`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugAllowUnsafe.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugAllowUnsafe.java)
 
 ### DEBUG
 
 Show debug information or all language messages
 
-*Usage:*
+**Usage:**
 `/plot debug [msg]`
 
-*Permissions:*
+**Permissions:**
 `plots.admin` - Access to the command `/plot debug msg`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Debug.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Debug.java)
 
 ### DEBUGPASTE
 
 Upload settings.yml, worlds.yml, your latest.log and Multiverse's worlds.yml (if being used) to https://athion.net/ISPaster/paste
 
-*Usage:*
+**Usage:**
 `/plot debugpaste`
 
-*Aliases:*
+**Aliases:**
 `[ dp ]`
 
-*Permissions:*
+**Permissions:**
 `plots.debugpaste` - Access to the command `/plot debugpaste`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugPaste.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugPaste.java)
 
 ### DEBUGROADREGEN
 
 Regenerate all roads based on the road schematic. Insert "plot" to regen it from the plot height, input "height [height]" to regen from a custom height.
 
-*Usage:*
+**Usage:**
 `/plot debugroadregen <plot | region [height]>`
 
-*Permissions:*
+**Permissions:**
 `plots.debugroadregen` - Access to the command `/plot debugroadregen`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugRoadRegen.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugRoadRegen.java)
 
 ### DEBUGEXEC
 
 Multi-purpose debug command
 
-*Usage:*
+**Usage:**
 
-Primary:
+_Primary:_
 
 * `/plot debugexec`
 
-Secondary:
+_Secondary:_
 
 * `/plot debugexec remove-flag <flag>`
 * `/plot debugexec allcmd <condition> <command>`
@@ -1410,13 +1410,13 @@ Secondary:
 * `/plot debugexec addcmd <file>`
 * `/plot debugexec analyze <threshold>`
 
-*Aliases:*
+**Aliases:**
 `[ exec, $ ]`
 
-*Permissions:*
+**Permissions:**
 `plots.admin` - Access to the command `/plot debugexec`
 
-*Source Code:* [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugExec.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugExec.java)
 
 ## Other permissions
 
