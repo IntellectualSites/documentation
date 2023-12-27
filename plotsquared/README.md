@@ -13,7 +13,7 @@ Whilst we provide a whole load of unique features, the biggest focus is to provi
 ![](images/Cover.png)
 
 * [Project Page on SpigotMC](https://www.spigotmc.org/resources/77506)
-* [Projekt on GitHub](https://github.com/IntellectualSites/PlotSquared)
+* [Project on GitHub](https://github.com/IntellectualSites/PlotSquared)
 
 
 {% hint style="tip" %}
