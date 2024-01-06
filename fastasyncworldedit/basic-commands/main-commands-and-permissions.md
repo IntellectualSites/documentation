@@ -372,10 +372,11 @@ if they are within the same chunk.
 
 *Perm*: `worldedit.region.move`   
 *Desc*: Moves the contents of the selection.  
--s flag shifts the selection to the target location.  
--b also copies biomes  
--e ignores entities  
--a ignores air  
+-s moves the selection to the target location.  
+-b also move biomes  
+-e also move entities  
+-a ignores air
+-m set the include mask, non-matching blocks become air
 Optionally fills the old location with .
 
 #### //forest [type] [density]
@@ -656,8 +657,10 @@ WARNING: Cutting and pasting entities cannot yet be undone!
 *Desc*: Pastes the clipboard's contents.  
 Flags:  
 -a skips air blocks  
--b skips pasting biomes  
--e skips pasting entities  
+-b include pasting biomes  
+-e include pasting entities  
+-m only paste blocks matching this mask
+-n implies -s, does not paste the clipboard only the selection
 -o pastes at the original position  
 -s selects the region after pasting
 
