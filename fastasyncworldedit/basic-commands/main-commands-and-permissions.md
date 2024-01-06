@@ -660,7 +660,7 @@ Flags:
 -b include pasting biomes  
 -e include pasting entities  
 -m only paste blocks matching this mask
--n implies -s, does not paste the clipoard only the selection
+-n implies -s, does not paste the clipboard only the selection
 -o pastes at the original position  
 -s selects the region after pasting
 
