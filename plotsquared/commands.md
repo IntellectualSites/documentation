@@ -50,7 +50,7 @@ Get this help menu
 **Permissions:**
 `plots.use` - Access to the command `/plot help`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Help.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Help.java)
 
 ### CONFIRM
 
@@ -62,7 +62,7 @@ Confirm an action
 **Permissions:**
 `plots.confirm` - Access to the command `/plot confirm`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Confirm.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Confirm.java)
 
 ---
 
@@ -99,7 +99,7 @@ _Secondary:_
 
 * `plots.admin.info.force` - Access to the command flag `-f`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Info.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Info.java)
 
 ### LIST
 
@@ -142,7 +142,7 @@ _Secondary:_
 * `plots.list.area` - Access to the command `/plot list area`
 * `plots.list.fuzzy` - Access to the command `/plot list fuzzy #`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/ListCmd.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/ListCmd.java)
 
 ### TARGET
 
@@ -154,7 +154,7 @@ Target a plot with your compass
 **Permissions:**
 `plots.target` - Access to the command `/plot target`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Target.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Target.java)
 
 ### CAPS
 
@@ -173,7 +173,7 @@ _Secondary:_
 
 * `plots.admin.caps.other` - Administrative override to manage caps at other plots
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Caps.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Caps.java)
 
 ---
 
@@ -214,7 +214,7 @@ _Secondary:_
 
 * `plots.visit.owned` - Access to visit owned plots
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/command/HomeCommand.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/HomeCommand.java)
 
 ### Visit
 
@@ -253,7 +253,7 @@ _Secondary:_
 * `plots.visit.shared` - Access to visit shared plots
 * `plots.admin.visit.untrusted` - Access to visit plots where the player is not trusted to
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Visit.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Visit.java)
 
 ### MIDDLE
 
@@ -268,7 +268,7 @@ Teleports you to the center of the plot.
 **Permissions:**
 `plots.middle` - Access to the command `/plot middle`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Middle.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Middle.java)
 
 ---
 
@@ -287,7 +287,7 @@ Comment on a plot
 **Permissions:**
 `plots.comment` - Access to the command `/plots comment`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Comment.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Comment.java)
 
 ### INBOX
 
@@ -306,7 +306,7 @@ _Secondary:_
 **Permissions:**
 `plots.inbox` - Access to the command `/plots inbox`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Inbox.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Inbox.java)
 
 ### CHAT
 
@@ -325,7 +325,7 @@ _Secondary:_
 
 * `plots.chat.color` - Access to color codes in plot chat
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Chat.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Chat.java)
 
 ---
 
@@ -343,7 +343,7 @@ For this command the economy feature is to activate in the `worlds.yml` for this
 **Permissions:**
 `plots.buy` - Access to `/plot buy`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Buy.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Buy.java)
 
 ### CLAIM
 
@@ -375,7 +375,7 @@ _Secondary:_
 * `plots.claim.<schem>` - Dynamic permission associated with your schematic, if used.
 * `plots.admin.command.schematic` - Administrative access to schematic claims.
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Claim.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Claim.java)
 
 ### AUTO
 
@@ -400,7 +400,7 @@ _Secondary:_
 * `plots.auto.mega` - Access to the length and width arguments
 * `plots.admin.command.schematic` - Administrative access to schematic claims.
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Auto.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Auto.java)
 
 ---
 
@@ -422,7 +422,7 @@ _Primary:_
 
 * `plots.admin.command.setowner`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Owner.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Owner.java)
 
 ### ADD
 
@@ -443,7 +443,7 @@ _Secondary:_
 * `plots.admin.command.add` - Administrative override
 * `plots.add.everyone` - Access to add everyone
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Add.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Add.java)
 
 ### TRUST
 
@@ -467,7 +467,7 @@ _Secondary:_
 * `plots.admin.command.trust` - Administrative override
 * `plots.trust.everyone` - Access to trust everyone
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Trust.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Trust.java)
 
 ### REMOVE
 
@@ -489,7 +489,7 @@ _Secondary:_
 
 * `plots.admin.command.remove` Administrative override
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Remove.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Remove.java)
 
 ### DENY
 
@@ -514,7 +514,7 @@ _Secondary:_
 * `plots.admin.entry.denied` - Administrative override to bypass plot deny
 * `plots.deny.everyone` - Access to deny everyone
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Deny.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Deny.java)
 
 ### GRANT
 
@@ -529,7 +529,7 @@ Manage plot grants.
 * `plots.grant.add` - Access to the command `/plot grant add`
 * `plots.grant.check` - Access to the command `/plot grant check`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Grant.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Grant.java)
 
 ### KICK
 
@@ -551,7 +551,7 @@ _Secondary:_
 
 * `plots.admin.command.kick` - Administrative override
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Kick.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Kick.java)
 
 ### MERGE
 
@@ -576,7 +576,7 @@ _Secondary:_
 * `plots.merge.other` - Access to merge the plot with other people
 * `plots.merge.keeproad` - Access to use the keeproad argument
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Merge.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Merge.java)
 
 ### UNLINK
 
@@ -598,7 +598,7 @@ _Secondary:_
 
 * `plots.admin.command.unlink` - Administrative override
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Unlink.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Unlink.java)
 
 ### SETHOME
 
@@ -614,7 +614,7 @@ Set the plot-home you're standing on. The plothome is the position where the pla
 
 * `plots.set.home` - Access to the command `/plot set home`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/SetHome.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/SetHome.java)
 
 ### ALIAS
 
@@ -640,7 +640,7 @@ _Secondary:_
 * `plots.admin.alias.set` - Administrative override to set an alias
 * `plots.admin.alias.remove` - Administrative override to remove an alias
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Alias.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Alias.java)
 
 ### SETDESCRIPTION
 
@@ -655,7 +655,7 @@ Set the plot description
 **Permissions:**
 `plots.set.desc` - Access to the command `/plot set description`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Desc.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Desc.java)
 
 ### MUSIC
 
@@ -667,7 +667,7 @@ Player music in a plot
 **Permissions:**
 `plots.music` - Access to the command `/plot music`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Music.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Music.java)
 
 ### SETBIOME
 
@@ -682,7 +682,7 @@ List all possible biomes or change the plot biome. (You can change the biome wit
 **Permissions:**
 `plots.set.biome` - Access to the command `/plot set biome`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Biome.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Biome.java)
 
 ### SETFLAG
 
@@ -719,7 +719,7 @@ _Secondary:_
 * `plots.set.flag.<arg>` - Access to the command `/plot set flag <arg>`
 * `plots.flag.list` - Access to the command `/plot flag list`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/FlagCommand.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/FlagCommand.java)
 
 ### DONE
 
@@ -741,7 +741,7 @@ _Secondary:_
 
 * `plots.admin.command.done` - Administrative override
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Done.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Done.java)
 
 ### CONTINUE
 
@@ -760,7 +760,7 @@ _Secondary:_
 
 * `plots.admin.command.continue` - Administrative override
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Continue.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Continue.java)
 
 ### TOGGLE
 
@@ -786,7 +786,7 @@ _Secondary:_
 * `plots.toggle.debug` - Access to the command `/plots toggle debug`
 * `plots.admin.debug.other` - Administrative override to toggle the debugmode for other players
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Toggle.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Toggle.java)
 
 ### SET
 
@@ -808,7 +808,7 @@ _Secondary:_
 
 * `plots.set." + <component>`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Set.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Set.java)
 
 ### COPY
 
@@ -826,7 +826,7 @@ _Primary:_
 
 * `plots.copy` - Access to the command `/plot copy`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Copy.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Copy.java)
 
 ### MOVE
 
@@ -841,7 +841,7 @@ _Primary:_
 
 * `plots.move` - Access to the command `/plot move`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Move.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Move.java)
 
 ### SWAP
 
@@ -859,7 +859,7 @@ _Primary:_
 
 * `plots.swap` - Access to the command `/plot swap`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Swap.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Swap.java)
 
 ### BACKUP
 
@@ -881,7 +881,7 @@ _Secondary:_
 * `plots.backup.list` - Access to the command `/plot backup list`
 * `plots.admin.backup.other` - Administrative override to manage backups at other plots
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Backup.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Backup.java)
 
 ### CLEAR
 
@@ -903,7 +903,7 @@ _Secondary:_
 
 * `plots.admin.command.clear` - Administrative override
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Clear.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Clear.java)
 
 ### DELETE
 
@@ -925,7 +925,7 @@ _Secondary:_
 
 * `plots.admin.command.delete` - Administrative override to delete plots.
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Delete.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Delete.java)
 
 ---
 
@@ -947,7 +947,7 @@ _Secondary:_
 
 * `plots.admin.command.save` - Administrative override to save plots
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Save.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Save.java)
 
 ### LOAD
 
@@ -970,7 +970,7 @@ _Secondary:_
 
 * `plots.admin.command.load` - Administrative override to load a plot.
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Load.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Load.java)
 
 ### DOWNLOAD
 
@@ -993,7 +993,7 @@ _Secondary:_
 
 * `plots.admin.command.download` - Administrative override to download other plots
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Download.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Download.java)
 
 ### SCHEMATIC
 
@@ -1018,7 +1018,7 @@ _Secondary:_
 * `plots.schematic.save` - Access to the command `/plot schematic save`
 * `plots.schematic.paste` - Access to the command `/plot schematic paste `
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/SchematicCmd.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/SchematicCmd.java)
 
 ---
 
@@ -1041,7 +1041,7 @@ _Secondary:_
 
 * `plots.admin.command.rate` - Administrative override for ratings
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Like.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Like.java)
 
 ### Dislike
 
@@ -1060,7 +1060,7 @@ _Secondary:_
 
 * `plots.admin.command.rate` - Administrative override for ratings
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Disike.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Disike.java)
 
 ### RATE
 
@@ -1083,7 +1083,7 @@ _Secondary:_
 * `plots.comment` - Access to the command `/plot comment`
 * `plots.admin.command.rate` - Administrative override for ratings
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Rate.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Rate.java)
 
 ---
 
@@ -1102,7 +1102,7 @@ Show plugin information
 **Permissions:**
 `plots.use` - Access to the command `/plot plugin`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/PluginCmd.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/PluginCmd.java)
 
 ### TEMPLATE
 
@@ -1123,7 +1123,7 @@ _Secondary:_
 **Permissions:**
 `plots.admin` - Access to the command `/plot template`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Template.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Template.java)
 
 ### SETUP
 
@@ -1138,7 +1138,7 @@ Setup wizard for plot worlds
 **Permissions:**
 `plots.admin.command.setup`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Setup.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Setup.java)
 
 ### AREA
 
@@ -1169,7 +1169,7 @@ _Secondary:_
 * `plots.area.tp` - Access to the command `/plot area tp`
 * `plots.area.regen` - Access to the command `/plot area regen`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Area.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Area.java)
 
 ### CREATEROADSCHEMATIC
 
@@ -1185,7 +1185,7 @@ Add a road schematic to your world using the roads around your current plot
 
 * `plots.createroadschematic` - Access to the command `/plot createroadschematic`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/CreateRoadSchematic.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/CreateRoadSchematic.java)
 
 ### REGENALLROADS
 
@@ -1201,7 +1201,7 @@ Regenerate all roads in the map using the set road schematic
 
 * `plots.regenallroads` - Access to the command `/plot regenallroads`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/RegenAllRoads.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/RegenAllRoads.java)
 
 ### PURGE
 
@@ -1214,7 +1214,7 @@ Purge all plots for a world
 
 * `plots.admin` - Access to the command `/plot purge`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Purge.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Purge.java)
 
 ### RELOAD
 
@@ -1229,7 +1229,7 @@ Reload translations and world settings
 **Permissions:**
 `plots.admin.command.reload` - Access to the command `/plot reload`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Reload.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Reload.java)
 
 ### DATABASE
 
@@ -1244,7 +1244,7 @@ Convert/Backup Storage
 **Permissions:**
 `plots.database` - Access to the command `/plot database`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/command/DatabaseCommand.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/DatabaseCommand.java)
 
 ### CONDENSE
 
@@ -1256,7 +1256,7 @@ Condense a plotworld
 **Permissions:**
 `plots.admin` - Access to the command `/plot condense`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Condense.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Condense.java)
 
 ### TRIM
 
@@ -1268,7 +1268,7 @@ Delete unmodified portions of your plotworld
 **Permissions:**
 `plots.admin` - Access to the command `/plot trim`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Trim.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Trim.java)
 
 ### CLUSTER
 
@@ -1327,7 +1327,7 @@ _Secondary:_
 * `plots.cluster.resize.shrink` - Access to the command `/plot cluster resize shrink`
 * `plots.cluster.sethome` - Access to the command `/plot cluster sethome`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Cluster.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Cluster.java)
 
 ---
 
@@ -1343,7 +1343,7 @@ This command will force the recreation of all plots in the DB
 **Permissions:**
 `plots.debugsavetest` - Access to the command `/plot debugsavetest`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugSaveTest.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/DebugSaveTest.java)
 
 ### DEBUGLOADTEST
 
@@ -1355,7 +1355,7 @@ This debug command will force the reload of all plots in the DB
 **Permissions:**
 `plots.debugloadtest` - Access to the command `/plot debugloadtest`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugLoadTest.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/DebugLoadTest.java)
 
 ### DEBUGALLOWUNSAFE
 
@@ -1370,7 +1370,7 @@ Allow unsafe actions until toggled off
 **Permissions:**
 `plots.debugallowunsafe` - Access to the command `/plot debugallowunsafe`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugAllowUnsafe.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/DebugAllowUnsafe.java)
 
 ### DEBUG
 
@@ -1382,7 +1382,7 @@ Show debug information or all language messages
 **Permissions:**
 `plots.admin` - Access to the command `/plot debug msg`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/Debug.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Debug.java)
 
 ### DEBUGPASTE
 
@@ -1397,7 +1397,7 @@ Upload settings.yml, worlds.yml, your latest.log and Multiverse's worlds.yml (if
 **Permissions:**
 `plots.debugpaste` - Access to the command `/plot debugpaste`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugPaste.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/DebugPaste.java)
 
 ### DEBUGROADREGEN
 
@@ -1409,7 +1409,7 @@ Regenerate all roads based on the road schematic. Insert "plot" to regen it from
 **Permissions:**
 `plots.debugroadregen` - Access to the command `/plot debugroadregen`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugRoadRegen.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/DebugRoadRegen.java)
 
 ### DEBUGEXEC
 
@@ -1436,7 +1436,7 @@ _Secondary:_
 **Permissions:**
 `plots.admin` - Access to the command `/plot debugexec`
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/command/DebugExec.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/DebugExec.java)
 
 ---
 
