@@ -335,7 +335,7 @@ _Secondary:_
 
 Buy the plot you are standing on.
 
-For this command the economy feature is to activate in the `worlds.yml` for this world. Additionally you can change the the prices for "merge", "sell" and "claim" at tis config part too.
+For this command the economy feature is to activate in the `worlds.yml` for this world. Additionally, you can change the prices for "merge", "sell" and "claim" at this config part too.
 
 **Usage:**
 `/plot [[world;]X;Z] buy`
@@ -447,7 +447,7 @@ _Secondary:_
 
 ### TRUST
 
-With this command you "add him" to the whitelist of the plot. It gives the added user more permissions as the normal ADD command: it allow a user to build in a plot every time and use WorldEdit while the plot owner is offline.
+With this command you "add him" to the whitelist of the plot. It gives the added user more permissions as the normal ADD command: it allows a user to build in a plot every time and use WorldEdit while the plot owner is offline.
 
 **Usage:**
 `/plot [[world;]X;Z] trust <player | *>`
@@ -471,7 +471,7 @@ _Secondary:_
 
 ### REMOVE
 
-Remove a player from a plot. This include the player whitelist (ADD, TRUST) and the blacklist (DENY) of the plot.
+Remove a player from a plot. This includes the player whitelist (ADD, TRUST) and the blacklist (DENY) of the plot.
 
 **Usage:**
 `/plot [[world;]X;Z] remove <player | *>`
@@ -602,7 +602,7 @@ _Secondary:_
 
 ### SETHOME
 
-Set the plot-home you're standing on. The plothome is the position where the player will teleported if he use the `/plot home` or `/plot visit` command. With the argument `none` you reset the position.
+Set the plot-home you're standing on. The plothome is the position where the player will teleport if he uses the `/plot home` or `/plot visit` command. With the argument `none` you reset the position.
 
 **Usage:**
 `/plot [[world;]X;Z] set home [none]`
@@ -1060,7 +1060,7 @@ _Secondary:_
 
 * `plots.admin.command.rate` - Administrative override for ratings
 
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Disike.java)
+**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Dislike.java)
 
 ### RATE
 
