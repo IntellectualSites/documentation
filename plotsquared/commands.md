@@ -308,25 +308,6 @@ _Secondary:_
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Inbox.java)
 
-### CHAT
-
-Toggle plot chat on or off
-
-**Usage:**
-`/plot chat`
-
-**Permissions:**
-
-_Primary:_
-
-* `plots.chat` - Access to the command `/plot chat`
-
-_Secondary:_
-
-* `plots.chat.color` - Access to color codes in plot chat
-
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Chat.java)
-
 ---
 
 ## Claiming
@@ -930,24 +911,6 @@ _Secondary:_
 ---
 
 ## Schematic
-
-### SAVE
-
-Save your plot
-
-**Usage:**
-`/plot [[world;]X;Z] save`
-
-**Permissions:**
-_Primary:_
-
-* `plots.save` - Access to the command `/plot save`
-
-_Secondary:_
-
-* `plots.admin.command.save` - Administrative override to save plots
-
-**Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Save.java)
 
 ### LOAD
 
