@@ -51,6 +51,6 @@ This is a powerful system as it allows you to use the power of [BlockBuckets](..
 
 ## Disallowed blocks
 
-Version v5.11.0 introduced a new safety measure to prevent unsafe blocks from being used in plot components. This was a feature in early version 4 releases, but was removed in favour of the WorldEdit block blacklist. The settings file (settings.yml) now contains a list of blacklisted blocks ([these](../configuration/settings.yml.md) by default). To override the
+Version v5.11.0 introduced a new safety measure to prevent unsafe blocks from being used in plot components. This was a feature in early version 4 releases, but was removed in favour of the WorldEdit block blacklist. The settings file (settings.yml) now contains a list of blacklisted blocks ([these](../configuration/settings.md) by default). To override the
 blacklist, give yourself the permission node `plots.admin.unsafe`.
 

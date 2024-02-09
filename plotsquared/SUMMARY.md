@@ -25,9 +25,9 @@
 
 ## Configuration
 
-* [`Settings`](./configuration/settings.yml.md)
-* [`Storage`](./configuration/storage.yml.md)
-* [`Worlds`](./configuration/worlds.yml.md)
+* [General Settings](./configuration/settings.md)
+* [Storage Configuration](./configuration/storage.md)
+* [World Configuration](./configuration/worlds.md)
 
 ## Customization
 
