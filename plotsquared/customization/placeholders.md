@@ -74,6 +74,6 @@ _Available placeholders in 6.0.0 onwards:_
 
 ## External placeholders
 
-### [PlaceholderAPI placeholders](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)
+- [PlaceholderAPI placeholders](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)
 
-### [MVdWPlaceholderAPI placeholders](https://www.spigotmc.org/wiki/mvdw-placeholders)
+- [MVdWPlaceholderAPI placeholders](https://www.spigotmc.org/wiki/mvdw-placeholders)

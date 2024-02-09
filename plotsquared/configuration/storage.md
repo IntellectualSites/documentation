@@ -1,4 +1,4 @@
-# storage.yml
+# Storage Configuration
 
 ## Introduction
 
