@@ -2,7 +2,7 @@
 
 In some cases you want to exclude regions because you don't want to edit them, 
 for example when the unwanted part is inside another wanted part.
-In this example we use the [wesui plugin of kennytv](https://www.spigotmc.org/resources/worldeditsui-visualize-your-selection.60726/) (is optional, but can help to understand each step) to visualize the selections.
+In this example we use the [WorldEditSUI plugin](https://www.spigotmc.org/resources/worldeditsui-visualize-your-selection.60726/) (is optional, but can help to understand each step) to visualize the selections.
 
 {% hint style="info" %} This example is a cuboid selection with a y height of 1 on a plot, you can use different selection types, heights and also you can use it on a normal world {% endhint %}
 
