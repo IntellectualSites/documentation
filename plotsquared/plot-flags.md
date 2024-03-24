@@ -223,6 +223,7 @@ snowball spectral_arrow shulker_bullet potion trident
 | soil-dry                | Set to `true` to allow soil to dry within the plot.                                                                     | False         |
 | tamed-attack            | Set to `true` to allow guests to attack tamed animals in the plot.                                                      | False         |
 | tamed-interact          | Set to `true` to allow guests to interact with tamed animals in the plot.                                               | False         |
+| tile-drop               | Set to `false` to prevent blocks from dropping items in the plot.                                                       | True          |
 | untrusted-visit         | Set to `false` to disallow untrusted players from visiting the plot.                                                    | True          |
 | vehicle-break           | Set to `true` to allow guests to break vehicles in the plot.                                                            | False         |
 | vehicle-place           | Set to `true` to allow guests to place vehicles in the plot.                                                            | False         |
