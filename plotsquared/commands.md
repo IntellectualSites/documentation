@@ -251,7 +251,7 @@ _Primary:_
 _Secondary:_
 
 * `plots.visit.unowned` - Access to visit unowned plots
-* `plots.visit.owned` - Acecss to visit owned plots
+* `plots.visit.owned` - Access to visit owned plots
 * `plots.visit.shared` - Access to visit shared plots
 * `plots.admin.visit.untrusted` - Access to visit plots where the player is not trusted to
 
