@@ -220,7 +220,7 @@ _Secondary:_
 
 Use this command to go to the plot of a specific player.
 
-If no **plot number** is specified, you will be taken to the player's 1st (= oldest) plot. With the plot nummer you can cycle forwards and backwards by entering numerical values. The 1st plot therefore also corresponds to plot number "1". With the keyword "last" (or "n") you get to the latest (= newest) plot of the player. This corresponds to the plot number "-1".
+If no **plot number** is specified, you will be taken to the player's first (= oldest) plot. With the plot nummer you can cycle forwards and backwards by entering numerical values. The first plot therefore also corresponds to plot number "1". With the keyword "last" (or "n") you get to the latest (= newest) plot of the player. This corresponds to the plot number "-1".
 
 normal:
 
