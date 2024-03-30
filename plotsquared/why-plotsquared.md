@@ -29,7 +29,7 @@
 ## Safety
 
 * Distinction between different [membership tiers](plot-membership-tiers.md)
-* Per plot use / interact flags for different materials and some other restrictions via [plot flags](plot-flags)
+* Per plot use / interact flags for different materials and some other restrictions via [plot flags](plot-flags.md)
 * You have a reliable [WorldEdit](https://dev.bukkit.org/projects/worldedit) / [FastAsyncWorldEdit](https://www.spigotmc.org/resources/13932) restriction
 * With using of FAWE, you have a reliable [FastAsyncVoxelSniper](https://github.com/IntellectualSites/fastasyncvoxelsniper) restriction too
 * Chunk and WorldEdit processor to prevent lag, crashes and data corruption
@@ -41,7 +41,7 @@
 * Add amazing roads schematics and plot schematics to existing worlds
 * All messages are customizable with [MiniMessage](https://docs.advntr.dev/minimessage/format.html) support
 * Titles (entry notifications)
-* Per plot time / weather / music and more via [plot flags](plot-flags)
+* Per plot time / weather / music and more via [plot flags](plot-flags.md)
 
 ## Features
 
