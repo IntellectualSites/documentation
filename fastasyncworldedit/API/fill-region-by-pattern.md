@@ -12,7 +12,7 @@ Given are 3 things:
 **This code is Fawe specific and can not be used in WorldEdit in this way**
 {% endhint %}
 ```java
-public void setCheckerBoardArea(World world, BlockVector3 position1, BlockVector3 position 2) {
+public void setChessArea(World world, BlockVector3 position1, BlockVector3 position2) {
     // Here we must first adapt the world as in the WorldEdit example or translate it into the WorldEdit specialized object.
     World faweWorld = BukkitAdapter.adapt(world);
 

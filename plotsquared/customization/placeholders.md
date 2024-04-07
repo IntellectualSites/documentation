@@ -73,6 +73,7 @@ _Available placeholders in 6.0.0 onwards:_
 | `%plotsquared_currentplot_localflag_<flag>%`     | Display the value of the flag set on current plot                                                                   |
 | `%plotsquared_currentplot_flag_<flag>%`          | Display the value of the flag set on current plot or if it's not set: display the inherited flag value (worlds.yml) |
 | `%plotsquared_currentplot_creationdate%`         | Display the creation date of the plot                                                                               |
+| `%plotsquared_total_grants%`                     | Display the total amount of plot grants                                                                             |
 
 ## External placeholders
 

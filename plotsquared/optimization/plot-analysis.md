@@ -51,7 +51,11 @@ If you only want to clear plots based on the number of changes, set all the metr
 *What is a column?*
 A column is the entire vertical space for a block. e.g. If you are standing on a block, the column is that block and everything directly above and below it. Each column can contain at most 256 blocks (as it's 256 blocks tall).
 
-If you want for instance to clear any plot that had less than 7 blocks changed per column, you would do the following `+(note that 7 -> 700 for the threshold and is the same for each calibration parameter)+`:
+If you want for instance to clear any plot that had less than 7 blocks changed per column, you would do the following:
+
+{% hint style="info" %}
+**Note** that 7 -> 700 for the threshold and is the same for each calibration parameter
+{% endhint %}
 
 ```yaml
 clear:
