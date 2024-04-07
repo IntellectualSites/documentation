@@ -875,7 +875,7 @@ Commands for moving the player around
 #### /ceil [clearance] [-f] [-g]
 
 *Perm*: `worldedit.navigation.ceiling`  
-*Desc*: Go to the celing
+*Desc*: Go to the ceiling
 
 #### /descend [# of floors]
 

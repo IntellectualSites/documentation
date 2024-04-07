@@ -218,14 +218,16 @@ _Secondary:_
 
 ### Visit
 
-Visit someones plot.
+Use this command to go to the plot of a specific player.
+
+If no **plot number** is specified, you will be taken to the player's first (= oldest) plot. With the plot nummer you can cycle forwards and backwards by entering numerical values. The first plot therefore also corresponds to plot number "1". With the keyword "last" (or "n") you get to the latest (= newest) plot of the player. This corresponds to the plot number "-1".
 
 normal:
 
 * `/plot visit <player>`
-* `/plot visit <player> <#>`
+* `/plot visit <player> <plot number|negative plot number|'last' or 'n'>`
 * `/plot visit <player> <area/world>`
-* `/plot visit <player> <area/world> <#>`
+* `/plot visit <player> <area/world> <plot number|negative plot number|'last' or 'n'>`
 
 alias:
 
@@ -249,7 +251,7 @@ _Primary:_
 _Secondary:_
 
 * `plots.visit.unowned` - Access to visit unowned plots
-* `plots.visit.owned` - Acecss to visit owned plots
+* `plots.visit.owned` - Access to visit owned plots
 * `plots.visit.shared` - Access to visit shared plots
 * `plots.admin.visit.untrusted` - Access to visit plots where the player is not trusted to
 
