@@ -3,16 +3,16 @@
 ## Foreword
 First of all, patterns usually come from the core part of WorldEdit or FAWE. You can find all existing patterns [here](https://intellectualsites.github.io/fastasyncworldedit-javadocs/worldedit-core/com/sk89q/worldedit/function/pattern/Pattern.html)
 
-## Chess Pattern example
+## Checkerboard Pattern example
 Given are 3 things:
 - Position1: X=300, y=-64, z=300
 - Position2: X=600, y=128, z=600
 
 {% hint style="danger" %}
-**This code is Fawe specific and can not used in WorldEdit in this way**
+**This code is Fawe specific and can not be used in WorldEdit in this way**
 {% endhint %}
 ```java
-public void setChessArea(World world, BlockVector3 position1, BlockVector3 position 2) {
+public void setCheckerBoardArea(World world, BlockVector3 position1, BlockVector3 position 2) {
     // Here we must first adapt the world as in the WorldEdit example or translate it into the WorldEdit specialized object.
     World faweWorld = BukkitAdapter.adapt(world);
 
@@ -35,7 +35,7 @@ public void call() {
     BlockVector3 position1 = BlockVector3.at(300, -64, 300);
     BlockVector3 position2 = BlockVector3.at(600, 128, 600);
     World bukkitWorld = Bukkit.getWorld("world");
-    setChessArea(bukkitWorld, position1, position2);
+    setCheckerBoardArea(bukkitWorld, position1, position2);
 }
 ```
 
@@ -50,6 +50,9 @@ Given are 3 things:
 - Position2: X=600, y=128, z=600
 - BiomeType: Badlands
 
+{% hint style="danger" %}
+**This code is Fawe specific and can not be used in WorldEdit in this way**
+{% endhint %}
 ```java
 public void setBiomeArea(World world, BlockVector3 position1, BlockVector3 position 2) {
     // Here we must first adapt the world as in the WorldEdit example or translate it into the WorldEdit specialized object.
@@ -77,9 +80,8 @@ public void call() {
     setBiomeArea(bukkitWorld, position1, position2);
 }
 ```
-_This code is still Fawe unspecific and can also be used in WorldEdit in this way_
 
-### Let's set blocks async with FAWE
+## Let's set blocks async with FAWE
 
 Now we run the code Async to let Fawe manage server resources:
 ```java
