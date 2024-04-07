@@ -1,5 +1,5 @@
-name: Check typos in PR
-on: [ pull_request ]
+name: Check for typos
+on: [ push, pull_request ]
 jobs:
   build_pr:
     if: github.repository_owner == 'IntellectualSites'
