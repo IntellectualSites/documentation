@@ -24,8 +24,7 @@ Other third party plugins may not be listed:
 
 -   [GriefPrevention](https://www.spigotmc.org/resources/griefprevention.1884/)
 
--   [PlotSquared
-    v6](https://www.spigotmc.org/resources/plotsquared-v6.77506/)
+-   [PlotSquared](https://www.spigotmc.org/resources/77506/)
 
 -   [Towny](https://www.spigotmc.org/resources/towny-advanced.72694/)
 

@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.41"))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.43"))
     compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
 }
 ```
@@ -38,7 +38,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.41"))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.43"))
     compileOnly("com.intellectualsites.plotsquared:plotsquared-core")
     compileOnly("com.intellectualsites.plotsquared:plotsquared-bukkit") { isTransitive = false }
 }
@@ -58,7 +58,7 @@ dependencies {
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
             <artifactId>bom-newest</artifactId>
-            <version>1.41</version>
+            <version>1.43</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -87,7 +87,7 @@ dependencies {
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
             <artifactId>bom-newest</artifactId>
-            <version>1.41</version>
+            <version>1.43</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -116,12 +116,12 @@ dependencies {
 
 ### Useful classes for PlotSquared
 
-* [PlotAPI](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/PlotAPI.java)
-* [PlotPlayer](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/player/PlotPlayer.java)
-* [FlagContainer](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/flag/FlagContainer.java)
-* [SchematicHandler](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/util/SchematicHandler.java)
-* [ChunkManager](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/util/ChunkManager.java)
-* [UUIDPipeline](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/uuid/UUIDPipeline.java)
+* [PlotAPI](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/PlotAPI.java)
+* [PlotPlayer](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/player/PlotPlayer.java)
+* [FlagContainer](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/plot/flag/FlagContainer.java)
+* [SchematicHandler](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/util/SchematicHandler.java)
+* [ChunkManager](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/util/ChunkManager.java)
+* [UUIDPipeline](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/uuid/UUIDPipeline.java)
 
 ## Tutorials
 
@@ -139,23 +139,23 @@ If you have made a tutorial, or an addon for PlotSquared, and want us to link it
 
 A plot area is any area that PlotSquared will manage/handle. If this is an infinite plot world, the entire world is considered to be a plot area. If you use plot clusters, then only part of the world will be a plot area, and anything outside this area will not be handled by PlotSquared.
 
-See: [PlotAreaManager.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/world/PlotAreaManager.java)`#getPlotAreaByString(...)`
+See: [PlotAreaManager.java](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/plot/world/PlotAreaManager.java)`#getPlotAreaByString(...)`
 
 ### Clusters
 
 Clusters can be created within existing plot areas, or they can be created in a previously non-plot world, which will in turn create it's own plot area.
 
-See: [PlotCluster.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/PlotCluster.java)
-See: [PlotSquared.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/PlotSquared.java)
+See: [PlotCluster.java](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/plot/PlotCluster.java)
+See: [PlotSquared.java](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/PlotSquared.java)
 
 ### Road
 
 A road is what separates each plot, and includes the wall around each plot. Attempting to get a plot at this location will return null.
 
-See: [Location.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/location/Location.java)`#isPlotRoad(...)`
+See: [Location.java](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/location/Location.java)`#isPlotRoad(...)`
 
 ### Plot
 
 A plot can be claimed or unclaimed. Getting a plot at a location where one isn't claimed will return a new unowned plot object.
 
-See: [PlotArea.java](https://github.com/IntellectualSites/PlotSquared/blob/v6/Core/src/main/java/com/plotsquared/core/plot/PlotArea.java)`#getPlots(...)`
+See: [PlotArea.java](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/plot/PlotArea.java)`#getPlots(...)`

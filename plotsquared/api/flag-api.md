@@ -96,7 +96,7 @@ The merge method allows you to merge two different flag instances, which allows 
 
 As the values are immutable, it is possible (and encouraged) to re-use flag instances.
 
-For examples, see: https://github.com/IntellectualSites/PlotSquared/tree/v6/Core/src/main/java/com/plotsquared/core/plot/flag/implementations
+For examples, see: https://github.com/IntellectualSites/PlotSquared/tree/main/Core/src/main/java/com/plotsquared/core/plot/flag/implementations
 
 ## Registering a flag
 

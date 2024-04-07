@@ -183,6 +183,7 @@ snowball spectral_arrow shulker_bullet potion trident
 | edit-sign               | Set to `true` to allow players to edit signs in the plot or on the road.                                                | False         |
 | entity-change-block     | Set to `true` to allow entities to change blocks within the plot, if not covered by other flags.                        | False         |
 | explosion               | Set to `true` to allow explosions inside a plot.                                                                        | False         |
+| fishing                 | Set to `true` to allow guests to use a fishing rod in the plot.                                                         | False         |
 | fly                     | Set to `true` to enable flight within the plot.                                                                         | False         |
 | forcefield              | Set to `true` to enable member forcefield in the plot.                                                                  | False         |
 | grass-grow              | Set to `false` to disable grass to grow within the plot.                                                                | True          |
@@ -222,6 +223,7 @@ snowball spectral_arrow shulker_bullet potion trident
 | soil-dry                | Set to `true` to allow soil to dry within the plot.                                                                     | False         |
 | tamed-attack            | Set to `true` to allow guests to attack tamed animals in the plot.                                                      | False         |
 | tamed-interact          | Set to `true` to allow guests to interact with tamed animals in the plot.                                               | False         |
+| tile-drop               | Set to `false` to prevent blocks from dropping items in the plot.                                                       | True          |
 | untrusted-visit         | Set to `false` to disallow untrusted players from visiting the plot.                                                    | True          |
 | vehicle-break           | Set to `true` to allow guests to break vehicles in the plot.                                                            | False         |
 | vehicle-place           | Set to `true` to allow guests to place vehicles in the plot.                                                            | False         |
