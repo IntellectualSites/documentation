@@ -30,7 +30,7 @@ If a command or permission contains the `Secondary` description, it means that a
 {% endhint %}
 
 {% hint style="info" %}
-You can check out our [permission-packs](permission/permission-packs.md) to avoid redundant permission assignments.
+You can check out our [permission packs](permission/permission-packs.md) to avoid redundant permission assignments.
 {% endhint %}
 
 ---
