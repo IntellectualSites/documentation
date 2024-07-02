@@ -9,7 +9,7 @@ Block buckets allow you to specify however many blocks you want, for every compo
 
 ## Formatting
 
-Blocks can be in the format `namespace:block[property1=value1,property2=value2]` (The properties and namespace are optional, and `grass_block` will resolve to `minecraft:grass_block[snowy=false]`. [More info](https://minecraft.wiki/w/Block_states))
+Blocks can be in the format `namespace:block[property1=value1,property2=value2]` (The properties and namespace are optional, and `grass_block` will resolve to `minecraft:grass_block[snowy=false]`. More info can be found [here](https://minecraft.wiki/w/Block_states).)
 
 Complex patterns are also accepted:
 
@@ -18,4 +18,4 @@ Complex patterns are also accepted:
 
 ## Disallowed Blocks
 
-To restrict what blocks are allowed for the patterns, configure the `disallowed-blocks` list in `plugins/WorldEdit/config.yml`, or `plugins/FastAsyncWorldEdit/worldedit-config.yml`
+To restrict what blocks are allowed for the patterns, configure the `disallowed-blocks` list in `plugins/WorldEdit/config.yml`, or `plugins/FastAsyncWorldEdit/worldedit-config.yml`.
