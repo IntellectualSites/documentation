@@ -796,6 +796,7 @@ _Secondary:_
 ### COPY
 
 Copy a plot.
+The plot that was specified after the command will be replaced with the plot you are in or have specified before the command.
 
 **Usage:**
 `/plot [[world;]X;Z] copy <X;Z>`
@@ -814,6 +815,7 @@ _Primary:_
 ### MOVE
 
 Move a plot.
+The plot that was specified after the command will be replaced with the plot you are in or have specified before the command. After replacing the plot, the plot that you are in or have specified before the command will be removed.
 
 **Usage:**
 `/plot [[world;]X;Z] move <X;Z>`
@@ -829,6 +831,7 @@ _Primary:_
 ### SWAP
 
 Swap two plots.
+The plot that was specified after the command will be swapped with the plot you are in or have specified before the command.
 
 **Usage:**
 `/plot [[world;]X;Z] swap <X;Z>`
