@@ -796,6 +796,7 @@ _Secondary:_
 ### COPY
 
 Copy a plot.
+The plot that was specified after the command will be replaced with the plot you are in or have specified before the command.
 
 **Usage:**
 `/plot [[world;]X;Z] copy <X;Z>`
@@ -809,11 +810,16 @@ _Primary:_
 
 * `plots.copy` - Access to the command `/plot copy`
 
+_Secondary:_
+
+* `plots.admin` - Allows overriding plots that you don't own.
+
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Copy.java)
 
 ### MOVE
 
 Move a plot.
+The plot that was specified after the command will be replaced with the plot you are in or have specified before the command. After replacing the plot, the plot that you are in or have specified before the command will be removed.
 
 **Usage:**
 `/plot [[world;]X;Z] move <X;Z>`
@@ -824,11 +830,16 @@ _Primary:_
 
 * `plots.move` - Access to the command `/plot move`
 
+_Secondary:_
+
+* `plots.admin` - Allows overriding plots that you don't own.
+
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Move.java)
 
 ### SWAP
 
 Swap two plots.
+The plot that was specified after the command will be swapped with the plot you are in or have specified before the command.
 
 **Usage:**
 `/plot [[world;]X;Z] swap <X;Z>`
@@ -841,6 +852,10 @@ Swap two plots.
 _Primary:_
 
 * `plots.swap` - Access to the command `/plot swap`
+
+_Secondary:_
+
+* `plots.admin` - Allows overriding plots that you don't own.
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Swap.java)
 
