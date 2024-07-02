@@ -810,10 +810,6 @@ _Primary:_
 
 * `plots.copy` - Access to the command `/plot copy`
 
-_Secondary:_
-
-* `plots.admin` - Allows overriding plots that you don't own.
-
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Copy.java)
 
 ### MOVE
@@ -829,10 +825,6 @@ The plot that was specified after the command will be replaced with the plot you
 _Primary:_
 
 * `plots.move` - Access to the command `/plot move`
-
-_Secondary:_
-
-* `plots.admin` - Allows overriding plots that you don't own.
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Move.java)
 
@@ -852,10 +844,6 @@ The plot that was specified after the command will be swapped with the plot you 
 _Primary:_
 
 * `plots.swap` - Access to the command `/plot swap`
-
-_Secondary:_
-
-* `plots.admin` - Allows overriding plots that you don't own.
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Swap.java)
 
