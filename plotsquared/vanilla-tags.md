@@ -1,6 +1,6 @@
 # Vanilla Tags
 
-## What are "Tags?"
+## What are "Tags"?
 
 Tags are part of Vanilla Minecraft itself. For example, vanilla block tags are used for various block properties, vanilla item tags are used for various item properties, vanilla advancement files are used for various advancements, vanilla recipe files are used for various recipes, and vanilla entity type tags are used for various mob properties.
 
