@@ -1185,7 +1185,7 @@ Video: https://www.youtube.com/watch?v=RPZIaTbqoZw
 - Your selection will be expanded to the specified size around each point  
 - Placeholders: \{x}, \{y}, \{z}, \{world}, \{size}
 
-#### /brush populateschematic \<mask> \<file|folder|url> [radius=30] [points=5] [-r]
+#### /brush populateschematic \<file|folder|url> [mask] [radius=30] [points=5] [-r]
 
 *Perm*: `worldedit.brush.populateschematic`   
 *Desc*: Chooses the scatter schematic brush.  
