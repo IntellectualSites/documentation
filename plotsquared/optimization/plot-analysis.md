@@ -54,7 +54,7 @@ A column is the entire vertical space for a block. e.g. If you are standing on a
 If you want for instance to clear any plot that had less than 7 blocks changed per column, you would do the following:
 
 {% hint style="info" %}
-**Note** that 7 -> 700 for the threshold and is the same for each calibration parameter
+Note, that 7 ≙ 700 for the threshold and is the same for each calibration parameter.
 {% endhint %}
 
 ```yaml
