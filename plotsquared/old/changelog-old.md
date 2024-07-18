@@ -8,7 +8,7 @@ Direct links to versions:
 
 ## v4 to v5:
 
-* [Click here](spigot-changelog-v4----v5.md)
+* [Click here](spigot-changelog-v4-and-v5.md)
 
 ## V5:
 

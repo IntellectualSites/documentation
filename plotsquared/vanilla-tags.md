@@ -8,4 +8,4 @@ We decided to use these tags in our new flag system, this way you can easily set
 
 Tags are used in flags that accept block types, but are prefixed with `#`. As an example, the command `/plot flag set use #signs` will add the sign category to the `use` flag. This is equivalent to adding every sign type to the flag.
 
-A complete list of tags and the items contained in them, can be found in the [official wiki](https://minecraft.gamepedia.com/Tag#List_of_tags).
+A complete list of tags and the items contained in them, can be found in the [official wiki](https://minecraft.wiki/w/Tag#List_of_tags).

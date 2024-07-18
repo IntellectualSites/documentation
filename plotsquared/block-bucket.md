@@ -9,7 +9,7 @@ Block buckets allow you to specify however many blocks you want, for every compo
 
 ## Formatting
 
-Blocks can be in the format `namespace:block[property1=value1,property2=value2]` (The properties and namespace are optional, and `grass_block` will resolve to `minecraft:grass_block[snowy=false]`. [More info](https://minecraft.gamepedia.com/Block_states))
+Blocks can be in the format `namespace:block[property1=value1,property2=value2]` (The properties and namespace are optional, and `grass_block` will resolve to `minecraft:grass_block[snowy=false]`. [More info](https://minecraft.wiki/w/Block_states))
 
 Complex patterns are also accepted:
 

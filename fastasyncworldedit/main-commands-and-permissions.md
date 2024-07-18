@@ -371,10 +371,11 @@ if they are within the same chunk.
 
 *Perm*: `worldedit.region.move`   
 *Desc*: Moves the contents of the selection.  
--s flag shifts the selection to the target location.  
--b also copies biomes  
--e ignores entities  
--a ignores air  
+-s moves the selection to the target location.  
+-b also move biomes  
+-e also move entities  
+-a ignores air
+-m set the include mask, non-matching blocks become air
 Optionally fills the old location with .
 
 #### //forest [type] [density]
@@ -655,8 +656,10 @@ WARNING: Cutting and pasting entities cannot yet be undone!
 *Desc*: Pastes the clipboard's contents.  
 Flags:  
 -a skips air blocks  
--b skips pasting biomes  
--e skips pasting entities  
+-b include pasting biomes  
+-e include pasting entities  
+-m only paste blocks matching this mask
+-n implies -s, does not paste the clipboard only the selection
 -o pastes at the original position  
 -s selects the region after pasting
 
@@ -871,7 +874,7 @@ Commands for moving the player around
 #### /ceil [clearance] [-f] [-g]
 
 *Perm*: `worldedit.navigation.ceiling`  
-*Desc*: Go to the celing
+*Desc*: Go to the ceiling
 
 #### /descend [# of floors]
 
@@ -1181,7 +1184,7 @@ Video: https://www.youtube.com/watch?v=RPZIaTbqoZw
 - Your selection will be expanded to the specified size around each point  
 - Placeholders: \{x}, \{y}, \{z}, \{world}, \{size}
 
-#### /brush populateschematic \<mask> \<file|folder|url> [radius=30] [points=5] [-r]
+#### /brush populateschematic \<file|folder|url> [mask] [radius=30] [points=5] [-r]
 
 *Perm*: `worldedit.brush.populateschematic`   
 *Desc*: Chooses the scatter schematic brush.  

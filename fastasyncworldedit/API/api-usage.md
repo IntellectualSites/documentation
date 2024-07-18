@@ -9,13 +9,12 @@ The WorldEdit documentation widely applies to FAWE too, you can find it here: [h
 We suggest that FAWE operations are completed asynchronously. Using FAWE API from the main thread is likely to block the main thread if FAWE is used correctly. `Operations#complete` (and the other `Operations` methods) are blocking, as is `EditSession#close` so anything you want to happen after an edit, place after closing the EditSession with close(), try-with-resources, etc. Always ensure EditSessions are closed before doing anything else, and that you do not reuse EditSessions else changes may not necessarily be flushed to the world.
 
 {% hint style="info" %}
-The API requires using Java 17 at development time. Make sure to point your toolchain to Java 17.
+The API requires using Java 21 at development time. Make sure to point your toolchain to Java 21.
 {% endhint %}
 
 If you are looking for snapshots, add the repository of S01 OSS Sonatype to the repositories' block.
 
 ### Gradle - FAWE Core
-
 
 ```kt
 repositories {
@@ -24,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.39")) // Ref: https://github.com/IntellectualSites/bom 
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.47")) // Ref: https://github.com/IntellectualSites/bom 
     compileOnly("com.fastasyncworldedit:FastAsyncWorldEdit-Core")
 }
 ```
@@ -38,7 +37,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.39")) // Ref: https://github.com/IntellectualSites/bom 
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.47")) // Ref: https://github.com/IntellectualSites/bom 
     compileOnly("com.fastasyncworldedit:FastAsyncWorldEdit-Core")
     compileOnly("com.fastasyncworldedit:FastAsyncWorldEdit-Bukkit") { isTransitive = false }
 }
@@ -58,7 +57,7 @@ dependencies {
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
             <artifactId>bom-newest</artifactId> <!--  Ref: https://github.com/IntellectualSites/bom -->
-            <version>1.39</version>
+            <version>1.47</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -86,7 +85,7 @@ dependencies {
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
             <artifactId>bom-newest</artifactId> <!--  Ref: https://github.com/IntellectualSites/bom -->
-            <version>1.39</version>
+            <version>1.47</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
