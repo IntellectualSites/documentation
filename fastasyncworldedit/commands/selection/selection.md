@@ -120,7 +120,7 @@ This command changes your selection type to the `cuboid` selection type and sele
 
 **Usage:**
 
-`//chunk [-cs] [coordindates]`
+`//chunk [-cs] [coordinates]`
 
 - Without arguments, the chunk you are currently located in will be selected.
 - The target chunk can be explicitly defined by either passing a block’s `x`, `y` and `z` coordinate.

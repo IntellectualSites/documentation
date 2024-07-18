@@ -1,7 +1,7 @@
 # Schematic Commands
 
 FAWE allows you to copy built content and save it as a separate files so that it can be transferred to other computers 
-/ worlds / servers or provided as a download on other external web platforms. The default file format ist the "Schematic-Format" 
+/ worlds / servers or provided as a download on other external web platforms. The default file format is the "Schematic-Format" 
 (".schem") by WorldEdit and FAWE.
 
 ## Schematic
