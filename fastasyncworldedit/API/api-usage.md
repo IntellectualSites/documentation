@@ -35,6 +35,7 @@ dependencies {
 repositories {
     mavenCentral()
     maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
+    maven { url = uri("https://maven.enginehub.org/repo/") }
 }
 
 dependencies {
@@ -51,6 +52,7 @@ dependencies {
     <repository>
         <id>papermc</id>
         <url>https://repo.papermc.io/repository/maven-public/</url>
+        <url>https://maven.enginehub.org/repo/</url>
     </repository>
 </repositories>
 <dependencyManagement>
@@ -79,6 +81,7 @@ dependencies {
     <repository>
         <id>papermc</id>
         <url>https://repo.papermc.io/repository/maven-public/</url>
+        <url>https://maven.enginehub.org/repo/</url>
     </repository>
 </repositories>
 <dependencyManagement>
