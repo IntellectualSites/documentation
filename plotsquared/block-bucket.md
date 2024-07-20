@@ -13,7 +13,7 @@ Blocks can be in the format `namespace:block[property1=value1,property2=value2]`
 
 Complex patterns are also accepted:
 
-* [FAWE Patterns](/fastasyncworldedit/patterns.md) (If you have FAWE installed)
+* [FAWE Patterns](/fastasyncworldedit/advanced-features/patterns.md) (If you have FAWE installed)
 * [WorldEdit Patterns](https://worldedit.enginehub.org/en/latest/usage/general/patterns/)
 
 ## Disallowed Blocks

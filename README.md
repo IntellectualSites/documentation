@@ -1,4 +1,5 @@
-# documentation
+# Home
+
 A collection of documentation sources for our plugins hosted on [gitbook](https://intellectualsites.gitbook.io/).
 
 ## Contributing
