@@ -624,7 +624,7 @@ _Secondary:_
 
 Set the plot home.
 
-The plot home is the location where the player will teleport if he uses the `/plot home` or `/plot visit` command. With the argument `none` you reset the position to the default postion of this plot world.
+The plot home is the location where the player will teleport if he uses the `/plot home` or `/plot visit` command. With the argument `none` you reset the position to the default home location of this plot world.
 
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
