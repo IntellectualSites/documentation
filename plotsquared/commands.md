@@ -9,7 +9,7 @@ As alternative or short-command you can use the following aliases:
 
 ## Command Overview
 
-PlotSquared have an amount of commands for different uses. At here you find the complete command list with her syntax and permissions.
+PlotSquared has a lot of commands for different purposes. At here you find the complete command list with her syntax and permissions.
 
 command-categories:
 
@@ -39,7 +39,7 @@ You can check out our [permission-packs](permission/permission-packs.md) to avoi
 
 ### HELP
 
-Get this help menu
+Get this help menu of PlotSquared.
 
 **Usage:**
 `/plot help [category|#]`
@@ -54,7 +54,7 @@ Get this help menu
 
 ### CONFIRM
 
-Confirm an action
+This is used to confirm your last command input when PlotSquared asks you for it. This is a security measure to prevent unintended or careless execution of some commands.
 
 **Usage:**
 `/plot confirm`
@@ -70,7 +70,9 @@ Confirm an action
 
 ### INFO
 
-Display plot info
+Display the plot info.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 With `-f` you get the administrative override to bypass the `hide-info` flag.
 
@@ -103,7 +105,9 @@ _Secondary:_
 
 ### LIST
 
-List plots
+Display a list of the existing plots on the server.
+
+This output can be specified / filtered with further arguments.
 
 **Usage:**
 
@@ -146,7 +150,7 @@ _Secondary:_
 
 ### TARGET
 
-Target a plot with your compass
+Target a plot with your compass.
 
 **Usage:**
 `/plot target <<X;Z> | nearest>`
@@ -158,7 +162,9 @@ Target a plot with your compass
 
 ### CAPS
 
-Show plot mob and entity caps
+Show plot mob and entity caps.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] caps`
@@ -181,7 +187,7 @@ _Secondary:_
 
 ### HOME
 
-Teleport to your plot(s).
+Teleport to your own plot(s).
 
 **Usage:**
 
@@ -259,7 +265,9 @@ _Secondary:_
 
 ### MIDDLE
 
-Teleports you to the center of the plot.
+Teleport you to the center of the plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] middle`
@@ -278,7 +286,9 @@ Teleports you to the center of the plot.
 
 ### COMMENT
 
-Comment on a plot
+Comment on a plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] comment <message-type: owner | public | report (= for staff)> <comment>`
@@ -293,7 +303,9 @@ Comment on a plot
 
 ### INBOX
 
-List the comments for a plot / delete a message or clear the list
+List the comments for a plot / delete a message or clear the comment list.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 
@@ -316,7 +328,9 @@ _Secondary:_
 
 ### BUY
 
-Buy the plot you are standing on.
+Buy the plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 For this command the economy feature is to activate in the `worlds.yml` for this world. Additionally, you can change the prices for "merge", "sell" and "claim" at this config part too.
 
@@ -330,8 +344,11 @@ For this command the economy feature is to activate in the `worlds.yml` for this
 
 ### CLAIM
 
-Claim the current plot you are standing on, if you're not activated the economy feature in the `worlds.yml` for this world.
-If you activated the "specify_on_claim" option in the worlds.yml you can define a plot-schematic.
+Claim the current plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
+
+If you're not activated the economy feature in the `worlds.yml` for this world. If you activated the "specify_on_claim" option in the `worlds.yml` you can define a plot-schematic.
 
 **Usage:**
 
@@ -393,6 +410,8 @@ _Secondary:_
 
 Set the plot owner.
 
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
+
 **Usage:**
 `/plot [[world;]X;Z] setowner <player>`
 
@@ -409,7 +428,11 @@ _Primary:_
 
 ### ADD
 
-With this command you "add him" to the whitelist of the plot. Allow a user to build in a plot while the plot owner is online.
+Add one or more players to the plot.
+
+"Added" players can build on the plot if the plot owner is online (see [Plot Membership Tiers](plot-membership-tiers.md)).
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] add <player | *>`
@@ -430,7 +453,11 @@ _Secondary:_
 
 ### TRUST
 
-With this command you "add him" to the whitelist of the plot. It gives the added user more permissions as the normal ADD command: it allows a user to build in a plot every time and use WorldEdit while the plot owner is offline.
+Add one or more players to the plot.
+
+"Trusted" players gives the added user more permissions as the normal [/plot add](#add) command: Trusted users can build on the plot every time and use WorldEdit (see [Plot Membership Tiers](plot-membership-tiers.md)).
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] trust <player | *>`
@@ -454,7 +481,9 @@ _Secondary:_
 
 ### REMOVE
 
-Remove a player from a plot. This includes the player whitelist (ADD, TRUST) and the blacklist (DENY) of the plot.
+Remove a player from a plot. This includes "whitelisted" player ([ADD](#add), [TRUST](#trust)) and "blacklisted" players ([DENY](#deny)) of the plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] remove <player | *>`
@@ -476,7 +505,9 @@ _Secondary:_
 
 ### DENY
 
-Deny a user from entering a plot. With this command you "add him" to the blacklist of the plot.
+Deny a user from entering a plot. With this command, you add him to the "blacklist" of the plot (see [Plot Membership Tiers](plot-membership-tiers.md)).
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] deny <player | *>`
@@ -518,6 +549,8 @@ Manage plot grants.
 
 Kick a player from your plot.
 
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
+
 **Usage:**
 `/plot [[world;]X;Z] kick <player | *>`
 
@@ -538,7 +571,9 @@ _Secondary:_
 
 ### MERGE
 
-Merge the plot you are standing on with another plot.
+Merge the plot with another plot(s).
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] merge <all | n | e | s | w> [removeroads]`
@@ -563,7 +598,9 @@ _Secondary:_
 
 ### UNLINK
 
-Unlink a mega-plot (merged plot)
+Unlink a mega-plot (merged plot).
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] unlink [createroads]`
@@ -585,7 +622,11 @@ _Secondary:_
 
 ### SETHOME
 
-Set the plot-home you're standing on. The plothome is the position where the player will teleport if he uses the `/plot home` or `/plot visit` command. With the argument `none` you reset the position.
+Set the plot home.
+
+The plot home is the location where the player will teleport if he uses the `/plot home` or `/plot visit` command. With the argument `none` you reset the position to the default postion of this plot world.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] set home [none]`
@@ -601,7 +642,9 @@ Set the plot-home you're standing on. The plothome is the position where the pla
 
 ### ALIAS
 
-Set the plot name
+Set the "plot name".
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 
@@ -627,7 +670,9 @@ _Secondary:_
 
 ### SETDESCRIPTION
 
-Set the plot description
+Set the plot description.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] desc <description>`
@@ -642,7 +687,9 @@ Set the plot description
 
 ### MUSIC
 
-Player music in a plot
+Player music in a plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] music`
@@ -655,6 +702,8 @@ Player music in a plot
 ### SETBIOME
 
 List all possible biomes or change the plot biome. (You can change the biome with WorldEdit / FAWE too.) If you clear or delete the plot, you reset the biom setting too, so the default biome (changeable in the `worlds.yml`) will be used.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] biome [biome]`
@@ -669,7 +718,9 @@ List all possible biomes or change the plot biome. (You can change the biome wit
 
 ### SETFLAG
 
-Manage plot flags.
+Manage the flags of a plot (see [Plot Flags](plot-flags.md)).
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 
@@ -706,7 +757,9 @@ _Secondary:_
 
 ### DONE
 
-Mark a plot as done
+Mark a plot as "done".
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] done`
@@ -728,7 +781,9 @@ _Secondary:_
 
 ### CONTINUE
 
-Continue a plot that was previously marked as done
+Continue a plot that was previously marked as "done".
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] continue`
@@ -747,7 +802,9 @@ _Secondary:_
 
 ### TOGGLE
 
-Toggle per user settings
+Toggle per user settings.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] toggle <chat | chatspy | clear-confirmation | time | titles | worldedit>`
@@ -773,10 +830,12 @@ _Secondary:_
 
 ### SET
 
-Set a plot value
+Set a plot value.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
-`+/plot [[world;]X;Z] set <biome | alias | home | floor | wall | all | air | main | middle | outline | border> <value...>+`
+`/plot [[world;]X;Z] set <biome | alias | home | floor | wall | all | air | main | middle | outline | border> <value...>+`
 
 **Aliases:**
 `[ s ]`
@@ -797,6 +856,10 @@ _Secondary:_
 
 Copy a plot.
 
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located. It represents the original plot for the copy action.
+
+The second plot location argument defines the target plot into which the copy is pasted.
+
 **Usage:**
 `/plot [[world;]X;Z] copy <X;Z>`
 
@@ -815,6 +878,10 @@ _Primary:_
 
 Move a plot.
 
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located. It represents the original plot for the move action.
+
+The second plot location argument defines the target plot to which the original plot is moved. (After the move, the original plot is reset.)
+
 **Usage:**
 `/plot [[world;]X;Z] move <X;Z>`
 
@@ -829,6 +896,10 @@ _Primary:_
 ### SWAP
 
 Swap two plots.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
+
+The second plot location argument defines the other plot for the swap action.
 
 **Usage:**
 `/plot [[world;]X;Z] swap <X;Z>`
@@ -846,7 +917,9 @@ _Primary:_
 
 ### BACKUP
 
-Manage plot backups
+Manage plot backups.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] backup <save | list | load>`
@@ -870,6 +943,8 @@ _Secondary:_
 
 Clear the plot you stand on. It doesn't reset any plot settings or flag (with exception of the biome setting).
 
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
+
 **Usage:**
 `/plot [[world;]X;Z] clear`
 
@@ -891,6 +966,8 @@ _Secondary:_
 ### DELETE
 
 Delete the plot you stand on.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] delete`
@@ -916,7 +993,9 @@ _Secondary:_
 
 ### LOAD
 
-List the plot snapshots (after: `/plot save`) or load a snapshot
+List the plot snapshots (after: `/plot save`) or load a snapshot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 
@@ -939,7 +1018,9 @@ _Secondary:_
 
 ### DOWNLOAD
 
-Download your plot
+Download your plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] download [schematic | world]`
@@ -962,7 +1043,9 @@ _Secondary:_
 
 ### SCHEMATIC
 
-Schematic command
+Use and manage the plot schematics.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] schematic <save | saveall | paste>`
@@ -991,7 +1074,9 @@ _Secondary:_
 
 ### LIKE
 
-Like a plot
+Like a plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] like [next | purge]`
@@ -1010,7 +1095,9 @@ _Secondary:_
 
 ### Dislike
 
-Dislike a plot
+Dislike a plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] dislike [next | purge]`
@@ -1029,7 +1116,9 @@ _Secondary:_
 
 ### RATE
 
-Rate the plot
+Rate the plot.
+
+The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
 `/plot [[world;]X;Z] rate [# | next | purge]`
@@ -1056,7 +1145,7 @@ _Secondary:_
 
 ### PLUGIN
 
-Show plugin information
+Show plugin information.
 
 **Usage:**
 `/plot plugin`
@@ -1071,7 +1160,7 @@ Show plugin information
 
 ### TEMPLATE
 
-Create or use a world template
+Create or use a world template.
 
 **Usage:**
 
@@ -1092,7 +1181,7 @@ _Secondary:_
 
 ### SETUP
 
-Setup wizard for plot worlds
+Setup wizard for plot worlds.
 
 **Usage:**
 `/plot setup`
@@ -1107,7 +1196,7 @@ Setup wizard for plot worlds
 
 ### AREA
 
-Create a new PlotArea
+Create a new Plot-Area.
 
 **Usage:**
 
@@ -1138,7 +1227,7 @@ _Secondary:_
 
 ### CREATEROADSCHEMATIC
 
-Add a road schematic to your world using the roads around your current plot
+Add a road schematic to your world using the roads around your current plot.
 
 **Usage:**
 `/plot createroadschematic`
@@ -1154,7 +1243,7 @@ Add a road schematic to your world using the roads around your current plot
 
 ### REGENALLROADS
 
-Regenerate all roads in the map using the set road schematic
+Regenerate all roads in the map using the set road schematic.
 
 **Usage:**
 `/plot regenallroads <world> [height]`
@@ -1170,7 +1259,7 @@ Regenerate all roads in the map using the set road schematic
 
 ### PURGE
 
-Purge all plots for a world
+Purge all plots for a world.
 
 **Usage:**
 `/plot purge world:<world> area:<area> id:<id> owner:<owner> shared:<shared> unknown:[true|false] clear:[true|false]`
@@ -1183,7 +1272,7 @@ Purge all plots for a world
 
 ### RELOAD
 
-Reload translations and world settings
+Reload translations and world settings.
 
 **Usage:**
 `/plot reload`
@@ -1198,7 +1287,7 @@ Reload translations and world settings
 
 ### DATABASE
 
-Convert/Backup Storage
+Convert/Backup Storage.
 
 **Usage:**
 `/plots database [area] <sqlite | mysql | import>`
@@ -1213,7 +1302,7 @@ Convert/Backup Storage
 
 ### CONDENSE
 
-Condense a plotworld
+Condense a plot world.
 
 **Usage:**
 `/plot condense <area> <start | stop |info> [radius]`
@@ -1225,7 +1314,7 @@ Condense a plotworld
 
 ### TRIM
 
-Delete unmodified portions of your plotworld
+Delete unmodified portions of your plot world.
 
 **Usage:**
 `/plot trim <world> [regenerate]`
@@ -1237,7 +1326,7 @@ Delete unmodified portions of your plotworld
 
 ### CLUSTER
 
-Manage a plot cluster
+Manage a plot cluster.
 
 **Usage:**
 
@@ -1300,7 +1389,7 @@ _Secondary:_
 
 ### DEBUGSAVETEST
 
-This command will force the recreation of all plots in the DB
+This command will force the recreation of all plots in the database.
 
 **Usage:**
 `/plot debugsavetest`
@@ -1312,7 +1401,7 @@ This command will force the recreation of all plots in the DB
 
 ### DEBUGLOADTEST
 
-This debug command will force the reload of all plots in the DB
+This debug command will force the reload of all plots in the database.
 
 **Usage:**
 `/plot debugloadtest`
@@ -1324,7 +1413,7 @@ This debug command will force the reload of all plots in the DB
 
 ### DEBUGALLOWUNSAFE
 
-Allow unsafe actions until toggled off
+Allow unsafe actions until toggled off.
 
 **Usage:**
 `/plot debugallowunsafe`
@@ -1339,7 +1428,7 @@ Allow unsafe actions until toggled off
 
 ### DEBUG
 
-Show debug information or all language messages
+Show debug information or all language messages.
 
 **Usage:**
 `/plot debug [msg]`
@@ -1351,7 +1440,7 @@ Show debug information or all language messages
 
 ### DEBUGPASTE
 
-Upload settings.yml, worlds.yml, your latest.log and Multiverse's worlds.yml (if being used) to https://athion.net/ISPaster/paste
+Upload a set of files for debugging and bug-reports with the `settings.yml`, the `worlds.yml`, your `latest.log` and Multiverse's `worlds.yml` (if being used) to `https://athion.net/ISPaster/paste`.
 
 **Usage:**
 `/plot debugpaste`
@@ -1378,7 +1467,7 @@ Regenerate all roads based on the road schematic. Insert "plot" to regen it from
 
 ### DEBUGEXEC
 
-Multi-purpose debug command
+Use multipurpose debug commands.
 
 **Usage:**
 
