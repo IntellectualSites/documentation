@@ -52,6 +52,9 @@ dependencies {
     <repository>
         <id>papermc</id>
         <url>https://repo.papermc.io/repository/maven-public/</url>
+    </repository>
+    <repository>
+        <id>enginehub</id>
         <url>https://maven.enginehub.org/repo/</url>
     </repository>
 </repositories>
@@ -81,6 +84,9 @@ dependencies {
     <repository>
         <id>papermc</id>
         <url>https://repo.papermc.io/repository/maven-public/</url>
+    </repository>
+    <repository>
+        <id>enginehub</id>
         <url>https://maven.enginehub.org/repo/</url>
     </repository>
 </repositories>
