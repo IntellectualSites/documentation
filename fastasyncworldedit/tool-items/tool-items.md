@@ -36,3 +36,16 @@ position(s) (aka "pos2").
 The FAWE tool items can be obtained e.g. via the normal creative inventory or with the `//wand [-n]` command (see [Wand](../commands/selection/selection.md#wand)).
 
 ![Wooden-Axe](images/wooden_axe.png)
+
+
+## Far Wand
+
+Positions are defined same as the Wand Tool item but with infinite range and a possible other item.
+
+Take a tool in main hand. Left-clicking a block with this farwand-item defines the primary position (aka "pos1") and right click defines the secondary
+position(s) (aka "pos2").
+
+The farwand tool items can be obtained e.g. via the command `/tool farwand` or `/farwand` with a tool in hand.
+
+**Permission:**
+- `worldedit.tool.farwand`
