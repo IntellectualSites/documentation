@@ -244,7 +244,7 @@ snowball spectral_arrow shulker_bullet potion trident
 | deny-teleport | Deny a certain group from teleporting to the plot. Available groups: members, nonmembers, trusted, nontrusted, nonowners | None          |
 | liquid-flow   | Set to `false` to disable liquid flowing.                                                                                | None          |
 | titles        | Set to `true` to allow the plot title when someone enters the plot.                                                      | None          |
-| weather       | Specifies the simulated weather inside the plot. This hasn’t an effet of weather dependent game mechanics.               | None          |
+| weather       | Specifies the simulated weather inside the plot. This has no effect of weather-dependent game mechanics.                 | None          |
 
 ### Integer
 
