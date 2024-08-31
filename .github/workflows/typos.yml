@@ -1,14 +1,15 @@
 name: Check for typos
-on: [ pull_request ]
+on: [pull_request]
+
 jobs:
-  build_pr:
-    if: github.repository_owner == 'IntellectualSites'
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ ubuntu-latest ]
+  run:
+    name: Spell Check with Typos
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout Actions Repository
         uses: actions/checkout@v4
-      - name: Check typos
-        run: make typos
+
+      - name: Use custom config file
+        uses: crate-ci/typos@master
+        with:
+          config: ./.typos.toml
