@@ -5,7 +5,7 @@ This was added in version 2.10. UUID conversion allows you to switch between dif
 
 ### Offline - Mode
 
-Will use the same UUID as an offline-mode server. The UUID will be based on the playername (case-sensitive).
+Will use the same UUID as an offline-mode server. The UUID will be based on the player name (case-sensitive).
 
 ### Lower - Mode
 
@@ -25,7 +25,7 @@ If you use a proxy server (e.g. BungeeCord or Waterfall) follow this documentati
 
 ## Usage
 
-A command is required to be executed in order to convert.
+A command is required to be executed in order to convert between methods of UUID storage.
 
 {% hint style="danger" %}
 You are strongly advised to backup your database before a conversion. Plots may be lost if something goes wrong!
