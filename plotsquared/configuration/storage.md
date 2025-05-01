@@ -28,7 +28,7 @@ mysql:
   user: "root"
   password: "password"
   database: "plot_db"
-  # Set additional properties: https://goo.gl/wngtN8
+  # Set additional properties: https://dev.mysql.com/doc/connector-j/en/connector-j-reference-configuration-properties.html
   properties:
     - "useSSL=false"
 ```
