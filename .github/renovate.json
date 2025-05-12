@@ -1,37 +1,62 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
     ":semanticCommitsDisabled"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
-      "fileMatch": ["tools/check-typos.sh"],
-      "matchStrings": ["TYPOS_VERSION=(?<currentValue>.*?)\n"],
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/tools/check-typos.sh/"
+      ],
+      "matchStrings": [
+        "TYPOS_VERSION=(?<currentValue>.*?)\n"
+      ],
       "depNameTemplate": "crate-ci/typos",
       "datasourceTemplate": "github-releases"
     },
     {
-      "fileMatch": ["plotsquared/api/api-documentation.md"],
-      "matchStrings": ["implementation\\(platform\\(\"com.intellectualsites.bom:bom-newest:(?<currentValue>.*?)\\\""],
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/plotsquared/api/api-documentation.md/"
+      ],
+      "matchStrings": [
+        "implementation\\(platform\\(\"com.intellectualsites.bom:bom-newest:(?<currentValue>.*?)\\\""
+      ],
       "depNameTemplate": "com.intellectualsites.bom:bom-newest",
       "datasourceTemplate": "maven"
     },
     {
-      "fileMatch": ["plotsquared/api/api-documentation.md"],
-      "matchStrings": ["<version>(?<currentValue>.*?)<\/version>"],
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/plotsquared/api/api-documentation.md/"
+      ],
+      "matchStrings": [
+        "<version>(?<currentValue>.*?)</version>"
+      ],
       "depNameTemplate": "com.intellectualsites.bom:bom-newest",
       "datasourceTemplate": "maven"
     },
     {
-      "fileMatch": ["fastasyncworldedit/API/api-usage.md"],
-      "matchStrings": ["implementation\\(platform\\(\"com.intellectualsites.bom:bom-newest:(?<currentValue>.*?)\\\""],
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/fastasyncworldedit/API/api-usage.md/"
+      ],
+      "matchStrings": [
+        "implementation\\(platform\\(\"com.intellectualsites.bom:bom-newest:(?<currentValue>.*?)\\\""
+      ],
       "depNameTemplate": "com.intellectualsites.bom:bom-newest",
       "datasourceTemplate": "maven"
     },
     {
-      "fileMatch": ["fastasyncworldedit/API/api-usage.md"],
-      "matchStrings": ["<version>(?<currentValue>.*?)<\/version>"],
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/fastasyncworldedit/API/api-usage.md/"
+      ],
+      "matchStrings": [
+        "<version>(?<currentValue>.*?)</version>"
+      ],
       "depNameTemplate": "com.intellectualsites.bom:bom-newest",
       "datasourceTemplate": "maven"
     }
