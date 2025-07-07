@@ -56,12 +56,6 @@ Restriction-Permissions if the Plugin [Towny Advanced](https://www.spigotmc.org/
 - `fawe.towny.member`
 - `fawe.towny.*`
 
-### PlotMe
-
-Restriction-Permissions if the Plugin [PlotMe](https://www.spigotmc.org/resources/2131) is used. (Outdated plugin! Should not have been used for years.)
-
-- `fawe.plotme`
-
 ## Extended WorldEdit permissions
 
 - `worldedit.schematic.load.other` (allow loading of schematics in the main schematics folder via `../` when per-player-schematics are enabled)
