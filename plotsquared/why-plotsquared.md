@@ -31,7 +31,7 @@
 * Distinction between different [membership tiers](plot-membership-tiers.md)
 * Per plot use / interact flags for different materials and some other restrictions via [plot flags](plot-flags.md)
 * Reliable [WorldEdit](https://dev.bukkit.org/projects/worldedit) / [FastAsyncWorldEdit](https://www.spigotmc.org/resources/13932) restrictions
-* Realiable [FastAsyncVoxelSniper](https://github.com/IntellectualSites/fastasyncvoxelsniper) restrictions also apply when using FAWE
+* Reliable [FastAsyncVoxelSniper](https://github.com/IntellectualSites/fastasyncvoxelsniper) restrictions also apply when using FAWE
 * Chunk and WorldEdit processor to prevent lag, crashes and data corruption
 * Many permissions
 * Lots of redundancies. e.g. Backup your database with `/plot database`, or if you lose both, you can still recover based on plot sign information
