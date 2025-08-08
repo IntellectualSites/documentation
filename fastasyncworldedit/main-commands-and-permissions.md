@@ -1177,7 +1177,7 @@ The -a flag Will apply auto view based rotation on paste
 Note: Works well with the clipboard scroll action  
 Video: https://www.youtube.com/watch?v=RPZIaTbqoZw
 
-#### +/brush command \<radius> [cmd1;cmd2...]+
+#### /brush command \<radius> [cmd1;cmd2...]
 
 *Perm*: `worldedit.brush.command`   
 *Desc*: Run the commands at the clicked position.  
