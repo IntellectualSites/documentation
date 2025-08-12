@@ -18,4 +18,4 @@ Complex patterns are also accepted:
 
 ## Disallowed Blocks
 
-To restrict what blocks are allowed for the patterns, configure the `disallowed-blocks` list in `plugins/WorldEdit/config.yml`, or `plugins/FastAsyncWorldEdit/worldedit-config.yml`
+To restrict what blocks are allowed for the patterns, configure the `disallowed-blocks` list in `plugins/WorldEdit/config.yml`, or `plugins/FastAsyncWorldEdit/worldedit-config.yml`.
