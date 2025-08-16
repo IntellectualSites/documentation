@@ -7,6 +7,7 @@
 * Works with offline-mode servers
 * Is considered a world generator and is therefore supported by most world management tools, such as [MultiverseCore](https://www.spigotmc.org/resources/390)
 * [Community Translations](https://intellectualsites.crowdin.com/plotsquared)
+* [Translation Download](https://github.com/IntellectualSites/Translations/tree/main/PlotSquared)
 * fast [Discord](https://discord.gg/intellectualsites) support
 * Very popular for the players
 
