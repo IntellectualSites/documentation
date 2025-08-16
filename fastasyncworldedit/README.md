@@ -15,3 +15,4 @@ If you use other plugins which depend on WorldEdit, simply having FAWE installed
 * [Discord](https://discord.gg/intellectualsites)
 * [Issues & Feature](https://github.com/IntellectualSites/FastAsyncWorldEdit/issues)
 * [Translations](https://intellectualsites.crowdin.com/fastasyncworldedit)
+* [Download Translations](https://github.com/IntellectualSites/Translations/tree/main/FastAsyncWorldEdit)
