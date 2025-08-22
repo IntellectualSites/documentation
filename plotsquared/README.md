@@ -25,3 +25,4 @@ Learn more about the [advantages of PlotSquared](why-plotsquared.md).
 * [Discord](https://discord.gg/intellectualsites)
 * [Issues & Feature](https://github.com/IntellectualSites/PlotSquared/issues)
 * [Translations](https://intellectualsites.crowdin.com/plotsquared)
+* [Download Translations](https://github.com/IntellectualSites/Translations/tree/main/PlotSquared)

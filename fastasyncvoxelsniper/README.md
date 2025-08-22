@@ -13,3 +13,4 @@ FAVS adds support for newer versions of Spigot and Paper keeping available all f
 * [Discord](https://discord.gg/intellectualsites)
 * [Issues & Feature](https://github.com/IntellectualSites/FastAsyncVoxelSniper/issues)
 * [Translations](https://intellectualsites.crowdin.com/FastAsyncVoxelSniper/)
+* [Download Translations](https://github.com/IntellectualSites/Translations/tree/main/FastAsyncVoxelSniper)
