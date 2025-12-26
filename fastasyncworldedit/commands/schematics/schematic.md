@@ -19,7 +19,7 @@ This command lists your schematics and schematic folders.
 
 **Usage:** `//schematic list [-dn] [-p <page>] [-f <formatName>] [filter or directory]`
 
-- You can sort the schematic list by the date of creation: With the `-n` flag the list starts with the newest schematic, while with `-d` the list beginns with the oldest.
+- You can sort the schematic list by the date of creation: With the `-n` flag the list starts with the newest schematic, while with `-d` the list begins with the oldest.
 - With the optional `-p` flag and a side number you switch between the list side.
 - With `-f` you filter your results with the target schematic file format.
 - A search string (the `filter`) can be used to search for special files or folders based of the name (including the file extension). The filter is case-insensitive. Alternative, you can list all contents of the target folder by specify a `directory` (e.g. `//schematic list Houses/`).
