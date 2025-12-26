@@ -7,7 +7,7 @@
 FastAsyncWorldEdit is a fork of WorldEdit that has huge speed and memory improvements and considerably more features.
 If you use other plugins which depend on WorldEdit, simply having FAWE installed will boost their performance.
 
-* [Project Page on SpigotMC](https://www.spigotmc.org/resources/13932)
+* [Project Page on Modrinth](https://modrinth.com/plugin/fastasyncworldedit)
 * [Project on GitHub](https://github.com/IntellectualSites/FastAsyncWorldEdit)
 
 ## Other Links

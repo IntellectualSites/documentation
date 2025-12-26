@@ -31,7 +31,7 @@
 
 * Distinction between different [membership tiers](plot-membership-tiers.md)
 * Per plot use / interact flags for different materials and some other restrictions via [plot flags](plot-flags.md)
-* Reliable [WorldEdit](https://dev.bukkit.org/projects/worldedit) / [FastAsyncWorldEdit](https://www.spigotmc.org/resources/13932) restrictions
+* Reliable [WorldEdit](https://dev.bukkit.org/projects/worldedit) / [FastAsyncWorldEdit](https://modrinth.com/plugin/fastasyncworldedit) restrictions
 * Reliable [FastAsyncVoxelSniper](https://github.com/IntellectualSites/fastasyncvoxelsniper) restrictions also apply when using FAWE
 * Chunk and WorldEdit processor to prevent lag, crashes and data corruption
 * Many permissions
@@ -56,7 +56,7 @@
 * And much more...
 
 ## Official plugins and plugin support
-* Plot-Regions on Dynmap with [Plot2Dynmap](https://www.spigotmc.org/resources/1292)
-* Plot-Holograms as alternative to the plot-signs with [HoloPlots](https://www.spigotmc.org/resources/4880)
-* Hide a specific plot with [PlotHider](https://www.spigotmc.org/resources/20701)
+* Plot-Regions on Dynmap with [Plot2Dynmap](https://modrinth.com/plugin/plot2dynmap)
+* Plot-Holograms as alternative to the plot-signs with [HoloPlots](https://modrinth.com/plugin/holoplots)
+* Hide a specific plot with [PlotHider](https://modrinth.com/plugin/plothider)
 * New Placeholders for [PlaceholderAPI](https://www.spigotmc.org/resources/6245)

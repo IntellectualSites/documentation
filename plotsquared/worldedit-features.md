@@ -1,7 +1,7 @@
 # WorldEdit & FAWE features
 
 {% hint style="info" %}
-If you want to make other aspects of WorldEdit async as well, you could consider installing [FasAsyncWorldEdit](https://www.spigotmc.org/resources/13932). All permissions to allow FAWE in plots, you can find [here](/fastasyncworldedit/basic-commands/main-commands-and-permissions.md).
+If you want to make other aspects of WorldEdit async as well, you could consider installing [FasAsyncWorldEdit](https://modrinth.com/plugin/fastasyncworldedit). All permissions to allow FAWE in plots, you can find [here](/fastasyncworldedit/basic-commands/main-commands-and-permissions.md).
 {% endhint %}
 
 PlotSquared offers several options related to WorldEdit. By default, it will do the following if you don't have the bypass permission:

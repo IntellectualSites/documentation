@@ -6,7 +6,7 @@ IntellectualSites is an open source organization that develops game modification
 
 - [Discord](https://discord.gg/intellectualsites)
 - [GitHub](https://github.com/IntellectualSites)
-- [Resources on SpigotMC](https://www.spigotmc.org/resources/authors/79996)
+- [Resources on Modrinth](https://modrinth.com/organization/intellectualsites)
 
 # Documentations
 

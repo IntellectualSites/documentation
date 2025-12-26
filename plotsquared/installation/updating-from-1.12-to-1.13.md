@@ -16,4 +16,4 @@ change allows you to use multiple block types in every plot component.
 
 ### Dependencies
 
-PlotSquared now depends on [WorldEdit](https://dev.bukkit.org/projects/worldedit/files) or [FastAsyncWorldEdit](https://www.spigotmc.org/resources/fast-async-worldedit.13932), so you will need to have that installed on the server in order to use PlotSquared.
+PlotSquared now depends on [WorldEdit](https://dev.bukkit.org/projects/worldedit/files) or [FastAsyncWorldEdit](https://modrinth.com/plugin/fastasyncworldedit), so you will need to have that installed on the server in order to use PlotSquared.

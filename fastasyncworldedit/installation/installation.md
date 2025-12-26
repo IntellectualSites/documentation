@@ -2,7 +2,7 @@
 
 ## Initial Setup
 
-1. [Download the plugin](https://www.spigotmc.org/resources/13932)
+1. [Download the plugin](https://modrinth.com/plugin/fastasyncworldedit)
 2. Put "FastAsyncWorldEdit.jar" into your `plugins` folder
 3. Reboot the server and FAWE will generate all necessary files.
 
