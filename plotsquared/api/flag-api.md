@@ -104,7 +104,9 @@ All flags must be registered in the `GlobalFlagContainer`, or else they will not
 Each flag will be applied to every plot, so it is necessary to pick appropriate default flag values.
 
 To register a flag, use:
-`com.plotsquared.plot.flags.GlobalFlagContainer().getInstance().addFlag(flagInstance)`
+`com.plotsquared.plot.flags.GlobalFlagContainer.getInstance().addFlag(flagInstance)`
+
+`GlobalFlagContainer` instance will be initialized after the plugin is enabled, calling `GlobalFlagContainer.getInstance()` before enable will always return null.
 
 ## Adding a flag to a plot
 
