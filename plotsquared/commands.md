@@ -1460,7 +1460,7 @@ Upload a set of files for debugging and bug-reports with the `settings.yml`, the
 
 ### DEBUGROADREGEN
 
-Regenerate all roads based on the road schematic. Insert "plot" to regen it from the plot height, or input "region" with a custom height.
+Regenerate all roads based on the road schematic. Insert "plot" to regenerate it from the plot height, or input "region" with a custom height.
 
 **Usage:**
 `/plot debugroadregen <plot | region [height]>`
