@@ -762,7 +762,7 @@ _Secondary:_
 
 ### DONE
 
-Mark a plot as "done". This means that event the plot owner and plot members can no longer build on the plot. This is useful, for example, in building competitions with a fixed deadline.
+Mark a plot as "done". This means that even the plot owner and plot members can no longer build on the plot. This is useful, for example, in building competitions with a fixed deadline.
 
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
