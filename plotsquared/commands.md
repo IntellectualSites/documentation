@@ -532,7 +532,7 @@ _Secondary:_
 
 ### GRANT
 
-Manage plot grants.
+Manage plot grants. A plot grand is like a "coupon" for players for new plots. When a player has reached the plot limit (`plots.plot.<max plot amount>`) they can claim / bye more plots if he still has plot grants available. Plot grants expire upon use: Deleting the plot does not recover the redeemed grant.
 
 **Usage:**
 `/plot grant <check | add> [player]`
@@ -542,6 +542,7 @@ Manage plot grants.
 * `plots.grant` - Access to the command `/plot grant`
 * `plots.grant.check` - Access to the command `/plot grant check`
 * `plots.grant.add` - Access to the command `/plot grant add`
+* `plots.plot.<max plot amount>` - Limit the amounts of plots a player can claim
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Grant.java)
 
