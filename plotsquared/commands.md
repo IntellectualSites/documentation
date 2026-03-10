@@ -786,7 +786,7 @@ _Secondary:_
 
 ### CONTINUE
 
-This removes a previously set "done" marker, so that the players can continue building on the plot.
+This removes a previously set "done" marker so that the players can continue building on the plot.
 
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
