@@ -113,11 +113,11 @@ This output can be specified / filtered with further arguments.
 
 _Primary:_
 
-* `+/plot list <forsale | mine | shared | world | top | all | unowned | unknown | player | world | done |fuzzy <search...>> [#]+`
+* `/plot list <forsale | mine | shared | world | top | all | unowned | unknown | player | world | done | expired | area | fuzzy <search...>> [#]`
 
 _Secondary:_
 
-* `+/plot list fuzzy <search...> [#]+`
+* `/plot list fuzzy <search...> [#]`
 
 **Aliases:**
 `[ l, find, search ]`
@@ -131,18 +131,18 @@ _Primary:_
 _Secondary:_
 
 * `plots.list.world.<arg>`
-* `plots.list.top` - Access to the command `/plot list top`
-* `plots.list.mine` - Access to the command `/plot list mine`
-* `plots.list.world` - Access to the command `/plot list world`
-* `plots.list.done` - Access to the command `/plot list done`
-* `plots.list.all` - Access to the command `/plot list all`
-* `plots.list.shared` - Access to the command `/plot list shared`
-* `plots.list.expired` - Access to the command `/plot list expired`
-* `plots.list.unowned` - Access to the command `/plot list unowned`
-* `plots.list.world.<world>"` - Access to the command `/plot list world <world>`
-* `plots.list.player` - Access to the command `/plot list player <player>`
 * `plots.list.forsale` - Access to the command `/plot list forsale`
+* `plots.list.mine` - Access to the command `/plot list mine`
+* `plots.list.shared` - Access to the command `/plot list shared`
+* `plots.list.world` - Access to the command `/plot list world`
+* `plots.list.top` - Access to the command `/plot list top`
+* `plots.list.all` - Access to the command `/plot list all`
+* `plots.list.unowned` - Access to the command `/plot list unowned`
 * `plots.list.unknown` - Access to the command `/plot list unknown`
+* `plots.list.player` - Access to the command `/plot list player <player>`
+* `plots.list.world.<world>` - Access to the command `/plot list world <world>`
+* `plots.list.done` - Access to the command `/plot list done`
+* `plots.list.expired` - Access to the command `/plot list expired`
 * `plots.list.area` - Access to the command `/plot list area`
 * `plots.list.fuzzy` - Access to the command `/plot list fuzzy #`
 
@@ -231,9 +231,9 @@ If no **plot number** is specified, you will be taken to the player's first (= o
 normal:
 
 * `/plot visit <player>`
-* `/plot visit <player> <plot number|negative plot number|'last' or 'n'>`
+* `/plot visit <player> <plot number | negative plot number | 'last' or 'n'>`
 * `/plot visit <player> <area/world>`
-* `/plot visit <player> <area/world> <plot number|negative plot number|'last' or 'n'>`
+* `/plot visit <player> <area/world> <plot number | negative plot number | 'last' or 'n'>`
 
 alias:
 
@@ -447,7 +447,7 @@ _Primary:_
 _Secondary:_
 
 * `plots.admin.command.add` - Administrative override
-* `plots.add.everyone` - Access to add everyone
+* `plots.add.everyone` - Access to add everyone via `*`
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Add.java)
 
@@ -475,7 +475,7 @@ _Primary:_
 _Secondary:_
 
 * `plots.admin.command.trust` - Administrative override
-* `plots.trust.everyone` - Access to trust everyone
+* `plots.trust.everyone` - Access to trust everyone via `*`
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Trust.java)
 
@@ -526,7 +526,7 @@ _Secondary:_
 
 * `plots.admin.command.deny` - Administrative override
 * `plots.admin.entry.denied` - Administrative override to bypass plot deny
-* `plots.deny.everyone` - Access to deny everyone
+* `plots.deny.everyone` - Access to deny everyone via `*`
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Deny.java)
 
@@ -540,8 +540,8 @@ Manage plot grants.
 **Permissions:**
 
 * `plots.grant` - Access to the command `/plot grant`
-* `plots.grant.add` - Access to the command `/plot grant add`
 * `plots.grant.check` - Access to the command `/plot grant check`
+* `plots.grant.add` - Access to the command `/plot grant add`
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Grant.java)
 
@@ -575,6 +575,8 @@ Merge the plot with another plot(s).
 
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
+By default `removeroads` is set to `true`. This argument removes the plot road located in the merged plot group (recommended).
+
 **Usage:**
 `/plot [[world;]X;Z] merge <all | n | e | s | w> [removeroads]`
 
@@ -590,17 +592,19 @@ _Primary:_
 _Secondary:_
 
 * `plots.merge.<amount>` - Limit the amount of plots a player can merge to a mega plot
-* `plots.admin.command.merge` - Administrative override
 * `plots.merge.other` - Access to merge the plot with other people
 * `plots.merge.keeproad` - Access to use the keeproad argument
+* `plots.admin.command.merge` - Administrative override
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Merge.java)
 
 ### UNLINK
 
-Unlink a mega-plot (merged plot).
+Unlink a merged plot.
 
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
+
+By default `createroads` is set to `true`. This argument regenerates the plot road between the plots from the previous merge.
 
 **Usage:**
 `/plot [[world;]X;Z] unlink [createroads]`
@@ -687,7 +691,7 @@ The first plot location argument is optional. Alternatively, it refers to the pl
 
 ### MUSIC
 
-Player music in a plot.
+Play music in a plot.
 
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
@@ -747,17 +751,17 @@ _Primary:_
 _Secondary:_
 
 * `plots.set.flag` - Access to the command `/plot set flag`
-* `plots.flag.remove` - Access to the command `/plot flag remove`
-* `plots.flag.add` - Access to the command `/plot flag add`
-* `plots.set.flag.other` - Access to set flag on other people's plots
 * `plots.set.flag.<arg>` - Access to the command `/plot set flag <arg>`
+* `plots.set.flag.other` - Access to set flag on other people's plots
+* `plots.flag.add` - Access to the command `/plot flag add`
+* `plots.flag.remove` - Access to the command `/plot flag remove`
 * `plots.flag.list` - Access to the command `/plot flag list`
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/FlagCommand.java)
 
 ### DONE
 
-Mark a plot as "done".
+Mark a plot as "done". This means that event the plot owner and plot members can no longer build on the plot. This is useful, for example, in building competitions with a fixed deadline.
 
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
@@ -781,7 +785,7 @@ _Secondary:_
 
 ### CONTINUE
 
-Continue a plot that was previously marked as "done".
+This removes a previously set "done" marker, so that the players can continue building on the plot.
 
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
@@ -817,13 +821,13 @@ _Primary:_
 
 _Secondary:_
 
+* `plots.toggle.chat` - Access to the command `/plot toggle chat`
 * `plots.admin.command.chat` - Access to the command `/plot toggle chat-spy`
-* `plots.worldedit.bypass` - Access to the command `/plot wea`
-* `plots.toggle.chat` - Access to the command `/plot chat`
 * `plots.admin.command.autoclear` - Access to the command `/plot toggle clear-confirmation`
-* `plots.toggle.titles` - Access to the command `/plot toggle titles`
 * `plots.toggle.time` - Access to the command `/plots toggle time`
+* `plots.toggle.titles` - Access to the command `/plot toggle titles`
 * `plots.toggle.debug` - Access to the command `/plots toggle debug`
+* `plots.worldedit.bypass` - Access to the command `/plot wea`
 * `plots.admin.debug.other` - Administrative override to toggle the debugmode for other players
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Toggle.java)
@@ -835,7 +839,7 @@ Set a plot value.
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
 **Usage:**
-`/plot [[world;]X;Z] set <biome | alias | home | floor | wall | all | air | main | middle | outline | border> <value...>+`
+`/plot [[world;]X;Z] set <biome | alias | home | floor | wall | all | air | main | middle | outline | border> <value...>`
 
 **Aliases:**
 `[ s ]`
@@ -848,7 +852,7 @@ _Primary:_
 
 _Secondary:_
 
-* `plots.set." + <component>`
+* `plots.set. + <component>`
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Set.java)
 
@@ -933,15 +937,15 @@ _Primary:_
 _Secondary:_
 
 * `plots.backup.save` - Access to the command `/plot backup save`
-* `plots.backup.load` - Access to the command `/plot backup load`
 * `plots.backup.list` - Access to the command `/plot backup list`
+* `plots.backup.load` - Access to the command `/plot backup load`
 * `plots.admin.backup.other` - Administrative override to manage backups at other plots
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Backup.java)
 
 ### CLEAR
 
-Clear the plot you stand on. It doesn't reset any plot settings or flag (with exception of the biome setting).
+Clear the plot you stand on. It doesn't reset any plot settings or flag (except the biome setting).
 
 The first plot location argument is optional. Alternatively, it refers to the plot on which the user is currently located.
 
@@ -1006,6 +1010,7 @@ The first plot location argument is optional. Alternatively, it refers to the pl
 `[ restore ]`
 
 **Permissions:**
+
 _Primary:_
 
 * `plots.load` - Access to the command `/plot load`
@@ -1134,7 +1139,6 @@ _Primary:_
 
 _Secondary:_
 
-* `plots.comment` - Access to the command `/plot comment`
 * `plots.admin.command.rate` - Administrative override for ratings
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Rate.java)
@@ -1170,7 +1174,7 @@ _Primary:_
 
 _Secondary:_
 
-* `/plot template <import|export> <world> [template]`
+* `/plot template <import | export> <world> [template]`
 * `/plot template export <world>`
 * `/plot template import <world> <template>`
 
@@ -1202,13 +1206,13 @@ Create a new Plot-Area.
 
 _Primary:_
 
-* `/plot area <create|info|list|tp|regen>`
+* `/plot area <create | info | list | tp | regen>`
 
 _Secondary:_
 
 * `/plot visit [area]`
+* `/plot area create [world[:id]] [<modifier>=<value>]...`
 * `/plot area info [area]`
-* `+/plot area create [world[:id]] [<modifier>=<value>]...+`
 * `/plot area list [#]`
 
 **Aliases:**
@@ -1217,9 +1221,9 @@ _Secondary:_
 **Permissions:**
 
 * `plots.area` - Access to the command `/plot area`
-* `plots.area.list` - Access to the command `/plot area list`
-* `plots.area.info` - Access to the command `/plot area info`
 * `plots.area.create` - Access to the command `/plot area create`
+* `plots.area.info` - Access to the command `/plot area info`
+* `plots.area.list` - Access to the command `/plot area list`
 * `plots.area.tp` - Access to the command `/plot area tp`
 * `plots.area.regen` - Access to the command `/plot area regen`
 
@@ -1287,7 +1291,7 @@ Reload translations and world settings.
 
 ### DATABASE
 
-Convert/Backup Storage.
+Convert or backup storage.
 
 **Usage:**
 `/plots database [area] <sqlite | mysql | import>`
@@ -1305,7 +1309,7 @@ Convert/Backup Storage.
 Condense a plot world.
 
 **Usage:**
-`/plot condense <area> <start | stop |info> [radius]`
+`/plot condense <area> <start | stop | info> [radius]`
 
 **Permissions:**
 `plots.admin` - Access to the command `/plot condense`
@@ -1336,17 +1340,17 @@ _Primary:_
 
 _Secondary:_
 
-* `/plot cluster resize <pos1> <pos2>`
-* `/plot cluster leave [name]`
+* `/plot cluster list`
 * `/plot cluster info [name]`
 * `/plot cluster create <name> <id-bot> <id-top>`
 * `/plot cluster delete [name]`
-* `/plot cluster list`
+* `/plot cluster resize <pos1> <pos2>`
 * `/plot cluster invite <player>`
-* `/plot cluster sethome`
+* `/plot cluster kick <player>`
+* `/plot cluster leave [name]`
 * `/plot cluster helpers <add|remove> <player>`
 * `/plot cluster tp <name>`
-* `/plot cluster kick <player>`
+* `/plot cluster sethome`
 
 **Aliases:**
 `[ clusters ]`
@@ -1359,27 +1363,27 @@ _Primary:_
 
 _Secondary:_
 
+* `plots.cluster.<#>` - Limit the amount of clusters a player can have
+* `plots.cluster.list` - Access to the command `/plot cluster list`
+* `plots.cluster.info` - Access to the command `/plot cluster info`
+* `plots.cluster.create` - Access to the command `/plot cluster create`
+* `plots.cluster.create.other` - Administrative override to create other clusters
+* `plots.cluster.delete` - Access to the command `/plot cluster delete`
 * `plots.cluster.delete.other` - Administrative override to delete other clusters
+* `plots.cluster.resize` - Access to the command `/plot cluster resize`
+* `plots.cluster.resize.expand` - Access to the command `/plot cluster expand`
+* `plots.cluster.resize.shrink` - Access to the command `/plot cluster resize shrink`
+* `plots.cluster.resize.other` - Administrative override to resize other clusters
+* `plots.cluster.invite` - Access to the command `/plot cluster invite`
+* `plots.cluster.invite.other` - Access to the command `/plot cluster invite`
 * `plots.cluster.kick` - Access to the command `/plot cluster kick`
+* `plots.cluster.kick.other` - Administrative override to kick players from other clusters
 * `plots.cluster.leave` - Access to the command `/plot cluster leave`
 * `plots.cluster.helpers` - Access to the command `/plot cluster helpers`
-* `plots.cluster.create` - Access to the command `/plot cluster create`
-* `plots.cluster.resize` - Access to the command `/plot cluster resize`
-* `plots.cluster.invite.other` - Access to the command `/plot cluster invite`
-* `plots.cluster.invite` - Access to the command `/plot cluster invite`
 * `plots.cluster.tp` - Access to the command `/plot cluster tp`
-* `plots.cluster.<#>` - Limit the amount of clusters a player can have
-* `plots.cluster.resize.expand` - Access to the command `/plot cluster expand`
-* `plots.cluster.info` - Access to the command `/plot cluster info`
-* `plots.cluster.sethome.other` - Administrative override to sethome for other clusters
-* `plots.cluster.resize.other` - Administrative override to resize other clusters
 * `plots.cluster.tp.other` - Administrative override to teleport to other clusters
-* `plots.cluster.kick.other` - Administrative override to kick players from other clusters
-* `plots.cluster.create.other` - Administrative override to create other clusters
-* `plots.cluster.list` - Access to the command `/plot cluster list`
-* `plots.cluster.delete` - Access to the command `/plot cluster delete`
-* `plots.cluster.resize.shrink` - Access to the command `/plot cluster resize shrink`
 * `plots.cluster.sethome` - Access to the command `/plot cluster sethome`
+* `plots.cluster.sethome.other` - Administrative override to set plot home for other clusters
 
 **Source Code:** [here](https://github.com/IntellectualSites/PlotSquared/blob/main/Core/src/main/java/com/plotsquared/core/command/Cluster.java)
 
@@ -1455,7 +1459,7 @@ Upload a set of files for debugging and bug-reports with the `settings.yml`, the
 
 ### DEBUGROADREGEN
 
-Regenerate all roads based on the road schematic. Insert "plot" to regen it from the plot height, input "height [height]" to regen from a custom height.
+Regenerate all roads based on the road schematic. Insert "plot" to regen it from the plot height, or input "region" with a custom height.
 
 **Usage:**
 `/plot debugroadregen <plot | region [height]>`
