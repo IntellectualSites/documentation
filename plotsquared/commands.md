@@ -532,7 +532,7 @@ _Secondary:_
 
 ### GRANT
 
-Manage plot grants. A plot grand is like a "coupon" for players for new plots. When a player has reached the plot limit (`plots.plot.<max plot amount>`) they can claim / bye more plots if he still has plot grants available. Plot grants expire upon use: Deleting the plot does not recover the redeemed grant.
+Manage plot grants. A plot grant is like a "coupon" for players for new plots. When a player has reached the plot limit (`plots.plot.<max plot amount>`) they can claim or buy more plots if they have plot grants available. Plot grants expire upon use. Deleting the plot does not recover the redeemed grant.
 
 **Usage:**
 `/plot grant <check | add> [player]`
