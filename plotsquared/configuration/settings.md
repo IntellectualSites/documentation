@@ -110,7 +110,8 @@ enabled-components:
   # Enable per user locale
   per-user-locale: false
   # The default locale. Before changing the language, make sure you downloaded the appropriate file and put it in the 'lang' folder.
-  # You can find additional translations here: https://intellectualsites.crowdin.com/plotsquared
+  # You can find additional translations here: https://intellectualsites.crowdin.com/plotsquared and download here
+  # https://github.com/IntellectualSites/Translations/tree/main/PlotSquared
   default-locale: "en"
   # Use UUID cache to complete usernames
   extended-username-completion: true

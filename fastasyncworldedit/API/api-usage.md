@@ -19,11 +19,12 @@ If you are looking for snapshots, add the repository of S01 OSS Sonatype to the 
 ```kt
 repositories {
     mavenCentral()
-    maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
+    maven("https://repo.papermc.io/repository/maven-public/")
+    maven("https://maven.enginehub.org/repo/")
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.46")) // Ref: https://github.com/IntellectualSites/bom 
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.55")) // Ref: https://github.com/IntellectualSites/bom 
     compileOnly("com.fastasyncworldedit:FastAsyncWorldEdit-Core")
 }
 ```
@@ -33,11 +34,12 @@ dependencies {
 ```kt
 repositories {
     mavenCentral()
-    maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
+    maven("https://repo.papermc.io/repository/maven-public/")
+    maven("https://maven.enginehub.org/repo/")
 }
 
 dependencies {
-    implementation(platform("com.intellectualsites.bom:bom-newest:1.46")) // Ref: https://github.com/IntellectualSites/bom 
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.55")) // Ref: https://github.com/IntellectualSites/bom 
     compileOnly("com.fastasyncworldedit:FastAsyncWorldEdit-Core")
     compileOnly("com.fastasyncworldedit:FastAsyncWorldEdit-Bukkit") { isTransitive = false }
 }
@@ -51,13 +53,17 @@ dependencies {
         <id>papermc</id>
         <url>https://repo.papermc.io/repository/maven-public/</url>
     </repository>
+    <repository>
+        <id>enginehub</id>
+        <url>https://maven.enginehub.org/repo/</url>
+    </repository>
 </repositories>
 <dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
             <artifactId>bom-newest</artifactId> <!--  Ref: https://github.com/IntellectualSites/bom -->
-            <version>1.46</version>
+            <version>1.55</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -79,13 +85,17 @@ dependencies {
         <id>papermc</id>
         <url>https://repo.papermc.io/repository/maven-public/</url>
     </repository>
+    <repository>
+        <id>enginehub</id>
+        <url>https://maven.enginehub.org/repo/</url>
+    </repository>
 </repositories>
 <dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>com.intellectualsites.bom</groupId>
             <artifactId>bom-newest</artifactId> <!--  Ref: https://github.com/IntellectualSites/bom -->
-            <version>1.46</version>
+            <version>1.55</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>

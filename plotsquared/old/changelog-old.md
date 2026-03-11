@@ -425,7 +425,7 @@ If you are using FAWE, update your FAWE build from here: https://ci.athion.net/j
 
 * Added support for 1.16.3
 You will need to update Fawe or WorldEdit when updating.
-You can get the latest Fawe build here: https://www.spigotmc.org/resources/13932/update?update=360354
+You can get the latest Fawe build here: https://modrinth.com/plugin/fastasyncworldedit
 You can get the latest WorldEdit build here: https://builds.enginehub.org/job/worldedit?branch=master
 * Added pigstep music disc to `/plot music`
 
@@ -452,7 +452,7 @@ You can get the latest WorldEdit build here: https://builds.enginehub.org/job/wo
 *Additions*:
 
 * 1.16.4 support has been added
- You will need to update [FAWE](https://www.spigotmc.org/resources/fast-async-worldedit.13932/) or [WorldEdit](https://dev.bukkit.org/projects/worldedit/files/3100517) as well, depending on what you use.
+ You will need to update [FAWE](https://modrinth.com/plugin/fastasyncworldedit/) or [WorldEdit](https://dev.bukkit.org/projects/worldedit/files/3100517) as well, depending on what you use.
 
 ## v5.13.9
 

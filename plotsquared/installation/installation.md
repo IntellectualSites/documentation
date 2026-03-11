@@ -4,7 +4,7 @@
 
 1. [Download the plugin](https://www.spigotmc.org/resources/77506)
 2. Put "PlotSquared-Bukkit-7.x.jar" into your `plugins` folder
-3. If you don't have it installed already, [WorldEdit 7.2.x or higher](https://dev.bukkit.org/projects/worldedit/files) or [FAWE](https://www.spigotmc.org/resources/13932) is required.
+3. If you don't have it installed already, [WorldEdit 7.2.x or higher](https://dev.bukkit.org/projects/worldedit/files) or [FAWE](https://modrinth.com/plugin/fastasyncworldedit) is required.
 4. If you are updating from a previous major release, such as v3, v4 or v5, read [this](migrating-from-an-older-major-release.md) page first.
 5. Reboot the server and PlotSquared will generate all necessary files.
 
