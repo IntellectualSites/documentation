@@ -9,13 +9,13 @@
 * [Community Translations](https://intellectualsites.crowdin.com/plotsquared)
 * [Translation Download](https://github.com/IntellectualSites/Translations/tree/main/PlotSquared)
 * Fast [Discord](https://discord.gg/intellectualsites) support
-* Very popular for the players
+* Very popular among players
 
 ## Speed
 
 * Plots are cleared asynchronously and are therefore particularly high-performance
 * Auto-plotting doesn't lag or crash the server
-* Much faster chunk generation, plot moving, swapping + everything
+* Much faster chunk generation, plot moving, swapping, etc.
 * Supports huge plot sizes (e.g. 1024x1024 of custom terrain)
 * Works with hundreds of thousands of plots
 
@@ -60,3 +60,4 @@
 * Plot-Holograms as alternative to the plot-signs with [HoloPlots](https://modrinth.com/plugin/holoplots)
 * Hide a specific plot with [PlotHider](https://modrinth.com/plugin/plothider)
 * New Placeholders for [PlaceholderAPI](https://www.spigotmc.org/resources/6245)
+
