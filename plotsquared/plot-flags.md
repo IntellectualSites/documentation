@@ -29,7 +29,7 @@ worlds:
 
 _`<world>` indicates the name of that plotworld._
 
-You can use [Vanilla block tags](vanilla-tags.md) too.
+You can use [vanilla block tags](vanilla-tags.md) too.
 
 The same works for road flags.
 
@@ -59,7 +59,7 @@ A list of blocks, supporting both legacy numerical IDs and new string IDs e.g.
 * `7,3` for bedrock and dirt
 * `35:14,35:15` for red and black wool
 
-These flags also support [vanilla-tags](vanilla-tags.md), like:
+These flags also support [vanilla tags](vanilla-tags.md), like:
 
 * `#signs` for all sign types
 * `#buttons` for all button types

@@ -5,7 +5,7 @@
 PlotSquared v5.11.0 introduced a new plot backup system. This allows you to create backups of your plots, which can be restored at a later point.
 
 {% hint style="danger" %}
-The system does (currently) not work for merged plots.
+The system does not (currently) work for merged plots.
 {% endhint %}
 
 By default, the system will also create backups of the plot when certain potentially destructive actions are performed. These currently include:
