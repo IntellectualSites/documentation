@@ -28,7 +28,6 @@ Restriction-Permissions if the Plugin [WorldGuard](https://dev.bukkit.org/projec
 
 - `fawe.worldguard` - Allow WorldGuard region owners (`/rg addowner ...`) to use WorldEdit.
 - `fawe.worldguard.member` - Allow WorldGuard region members (`/rg addmember ...`) to use WorldEdit.
-- `fawe.worldguardextraflags` - If you've installed [WorldGuard Extra Flags](https://www.spigotmc.org/resources/4823) this permission is also used.
 
 ### PlotSquared
 
