@@ -18,7 +18,7 @@
 
 ## API
 
-* [API Usage](./API/api-usage.md)
+* [API Usage](./API/get-started)
 
 ## Customization
 
