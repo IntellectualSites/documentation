@@ -1,4 +1,4 @@
-# API Usage
+# Get Started
 
 ## Maven & Gradle Examples
 
